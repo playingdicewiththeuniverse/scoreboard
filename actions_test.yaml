@@ -17,5 +17,16 @@ jobs:
 
       - name: Run Python script to write a file
         run: |
-          python -u script.py # Execute your Python script
-        # The -u flag ensures unbuffered output, so print statements appear correctly
+          python -u script.py # Execute your Python script # The -u flag ensures unbuffered output, so print statements appear correctly
+
+      - name: Configure Git for commit
+        run: |
+          git config user.name "github-actions[bot]" # Official bot user
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      
+      - name: Commit and push the new file
+        run: |
+          git add output.txt # Stage the specific file
+          git commit -m "Add generated output.txt file"
+          git push
+        # This will push the changes to the branch that triggered the workflow
