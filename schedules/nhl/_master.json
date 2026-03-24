@@ -15655,15 +15655,15 @@
     "game_id": "20260323-NYR-OTT",
     "game_time_utc": "2026-03-23 19:30:00+00:00",
     "game_date": "2026-03-23",
-    "final": "",
+    "final": "Final",
     "home_id": "NYR",
     "home_name": "New York Rangers",
-    "home_score": "",
-    "home_outcome": "upcoming",
+    "home_score": 1,
+    "home_outcome": "loss",
     "away_id": "OTT",
     "away_name": "Ottawa Senators",
-    "away_score": "",
-    "away_outcome": "upcoming"
+    "away_score": 2,
+    "away_outcome": "win"
   },
   {
     "game_id": "20260324-BOS-TOR",
