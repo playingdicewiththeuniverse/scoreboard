@@ -35,7 +35,7 @@
   "games": [
     {
       "game_id": "20260318-CGY-STL",
-      "game_time_utc": "2026-03-19 04:30:00+00:00",
+      "game_time_utc": "2026-03-18 21:30:00+00:00",
       "game_date": "2026-03-18",
       "final": "Final/SO",
       "outcome": "loss",
@@ -48,7 +48,7 @@
     },
     {
       "game_id": "20260321-VAN-STL",
-      "game_time_utc": "2026-03-22 02:00:00+00:00",
+      "game_time_utc": "2026-03-21 19:00:00+00:00",
       "game_date": "2026-03-21",
       "final": "Final",
       "outcome": "win",
@@ -61,7 +61,7 @@
     },
     {
       "game_id": "20260324-STL-WSH",
-      "game_time_utc": "2026-03-25 03:00:00+00:00",
+      "game_time_utc": "2026-03-24 20:00:00+00:00",
       "game_date": "2026-03-24",
       "final": "Final",
       "outcome": "win",
@@ -74,7 +74,7 @@
     },
     {
       "game_id": "20260326-STL-SJS",
-      "game_time_utc": "2026-03-27 03:00:00+00:00",
+      "game_time_utc": "2026-03-26 20:00:00+00:00",
       "game_date": "2026-03-26",
       "final": "",
       "outcome": "upcoming",
@@ -87,7 +87,7 @@
     },
     {
       "game_id": "20260328-STL-TOR",
-      "game_time_utc": "2026-03-29 02:00:00+00:00",
+      "game_time_utc": "2026-03-28 19:00:00+00:00",
       "game_date": "2026-03-28",
       "final": "",
       "outcome": "upcoming",
@@ -100,7 +100,7 @@
     },
     {
       "game_id": "20260330-SJS-STL",
-      "game_time_utc": "2026-03-31 05:00:00+00:00",
+      "game_time_utc": "2026-03-30 22:00:00+00:00",
       "game_date": "2026-03-30",
       "final": "",
       "outcome": "upcoming",
@@ -113,7 +113,7 @@
     },
     {
       "game_id": "20260401-LAK-STL",
-      "game_time_utc": "2026-04-02 04:00:00+00:00",
+      "game_time_utc": "2026-04-01 21:00:00+00:00",
       "game_date": "2026-04-01",
       "final": "",
       "outcome": "upcoming",
@@ -718,7 +718,7 @@
           "gd": -27
         },
         "rnk": {
-          "lg": 22,
+          "lg": 23,
           "cf": 9,
           "dv": 4,
           "wc": 3

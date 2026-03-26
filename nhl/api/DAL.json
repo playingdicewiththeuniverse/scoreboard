@@ -35,7 +35,7 @@
   "games": [
     {
       "game_id": "20260321-MIN-DAL",
-      "game_time_utc": "2026-03-21 23:00:00+00:00",
+      "game_time_utc": "2026-03-21 16:00:00+00:00",
       "game_date": "2026-03-21",
       "final": "Final/OT",
       "outcome": "loss",
@@ -48,7 +48,7 @@
     },
     {
       "game_id": "20260322-DAL-VGK",
-      "game_time_utc": "2026-03-23 02:00:00+00:00",
+      "game_time_utc": "2026-03-22 19:00:00+00:00",
       "game_date": "2026-03-22",
       "final": "Final",
       "outcome": "loss",
@@ -61,7 +61,7 @@
     },
     {
       "game_id": "20260324-DAL-NJD",
-      "game_time_utc": "2026-03-25 03:00:00+00:00",
+      "game_time_utc": "2026-03-24 20:00:00+00:00",
       "game_date": "2026-03-24",
       "final": "Final",
       "outcome": "loss",
@@ -74,7 +74,7 @@
     },
     {
       "game_id": "20260326-NYI-DAL",
-      "game_time_utc": "2026-03-27 02:00:00+00:00",
+      "game_time_utc": "2026-03-26 19:00:00+00:00",
       "game_date": "2026-03-26",
       "final": "",
       "outcome": "upcoming",
@@ -87,7 +87,7 @@
     },
     {
       "game_id": "20260328-PIT-DAL",
-      "game_time_utc": "2026-03-29 00:00:00+00:00",
+      "game_time_utc": "2026-03-28 17:00:00+00:00",
       "game_date": "2026-03-28",
       "final": "",
       "outcome": "upcoming",
@@ -100,7 +100,7 @@
     },
     {
       "game_id": "20260329-PHI-DAL",
-      "game_time_utc": "2026-03-30 02:00:00+00:00",
+      "game_time_utc": "2026-03-29 19:00:00+00:00",
       "game_date": "2026-03-29",
       "final": "",
       "outcome": "upcoming",
@@ -113,7 +113,7 @@
     },
     {
       "game_id": "20260331-BOS-DAL",
-      "game_time_utc": "2026-04-01 02:00:00+00:00",
+      "game_time_utc": "2026-03-31 19:00:00+00:00",
       "game_date": "2026-03-31",
       "final": "",
       "outcome": "upcoming",
@@ -718,7 +718,7 @@
           "gd": -27
         },
         "rnk": {
-          "lg": 22,
+          "lg": 23,
           "cf": 9,
           "dv": 4,
           "wc": 3
