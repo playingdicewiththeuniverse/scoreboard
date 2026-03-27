@@ -1,8 +1,8 @@
 name: NHL Live Score Update
 
 on:
-  schedule:
-    - cron: '* * * * *'
+  # schedule:
+    # - cron: '* * * * *'
   workflow_dispatch:
 
 jobs:
