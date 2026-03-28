@@ -45,7 +45,7 @@
       ],
       "opponent_id": "NYI",
       "opponent_name": "New York Islanders",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260324-PHI-CBJ",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "PHI",
       "opponent_name": "Philadelphia Flyers",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260326-MTL-CBJ",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "MTL",
       "opponent_name": "Montreal Canadiens",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260328-CBJ-SJS",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "SJS",
       "opponent_name": "San Jose Sharks",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260329-CBJ-BOS",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "BOS",
       "opponent_name": "Boston Bruins",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260331-CBJ-CAR",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "CAR",
       "opponent_name": "Carolina Hurricanes",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260402-CAR-CBJ",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "CAR",
       "opponent_name": "Carolina Hurricanes",
-      "location": "away"
+      "location": "Away"
     }
   ],
   "standings": {

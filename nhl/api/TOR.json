@@ -45,7 +45,7 @@
       ],
       "opponent_id": "OTT",
       "opponent_name": "Ottawa Senators",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260324-BOS-TOR",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "BOS",
       "opponent_name": "Boston Bruins",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260325-TOR-NYR",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "NYR",
       "opponent_name": "New York Rangers",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260328-STL-TOR",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "STL",
       "opponent_name": "St. Louis Blues",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260330-ANA-TOR",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "ANA",
       "opponent_name": "Anaheim Ducks",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260402-SJS-TOR",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "SJS",
       "opponent_name": "San Jose Sharks",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260404-LAK-TOR",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "LAK",
       "opponent_name": "Los Angeles Kings",
-      "location": "away"
+      "location": "Away"
     }
   ],
   "standings": {

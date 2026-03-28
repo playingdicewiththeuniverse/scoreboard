@@ -45,7 +45,7 @@
       ],
       "opponent_id": "TBL",
       "opponent_name": "Tampa Bay Lightning",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260324-UTA-EDM",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "UTA",
       "opponent_name": "Utah Mammoth",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260326-VGK-EDM",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "VGK",
       "opponent_name": "Vegas Golden Knights",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260328-EDM-ANA",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "ANA",
       "opponent_name": "Anaheim Ducks",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260331-EDM-SEA",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "SEA",
       "opponent_name": "Seattle Kraken",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260402-EDM-CHI",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "CHI",
       "opponent_name": "Chicago Blackhawks",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260404-EDM-VGK",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "VGK",
       "opponent_name": "Vegas Golden Knights",
-      "location": "home"
+      "location": "Home"
     }
   ],
   "standings": {

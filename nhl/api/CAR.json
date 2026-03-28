@@ -45,7 +45,7 @@
       ],
       "opponent_id": "TOR",
       "opponent_name": "Toronto Maple Leafs",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260322-PIT-CAR",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "PIT",
       "opponent_name": "Pittsburgh Penguins",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260324-MTL-CAR",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "MTL",
       "opponent_name": "Montreal Canadiens",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260328-CAR-NJD",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "NJD",
       "opponent_name": "New Jersey Devils",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260329-CAR-MTL",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "MTL",
       "opponent_name": "Montreal Canadiens",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260331-CBJ-CAR",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "CBJ",
       "opponent_name": "Columbus Blue Jackets",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260402-CAR-CBJ",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "CBJ",
       "opponent_name": "Columbus Blue Jackets",
-      "location": "home"
+      "location": "Home"
     }
   ],
   "standings": {

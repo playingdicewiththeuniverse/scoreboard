@@ -45,7 +45,7 @@
       ],
       "opponent_id": "COL",
       "opponent_name": "Colorado Avalanche",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260324-STL-WSH",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "STL",
       "opponent_name": "St. Louis Blues",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260326-UTA-WSH",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "UTA",
       "opponent_name": "Utah Mammoth",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260328-VGK-WSH",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "VGK",
       "opponent_name": "Vegas Golden Knights",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260331-WSH-PHI",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "PHI",
       "opponent_name": "Philadelphia Flyers",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260402-NJD-WSH",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "NJD",
       "opponent_name": "New Jersey Devils",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260404-WSH-BUF",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "BUF",
       "opponent_name": "Buffalo Sabres",
-      "location": "home"
+      "location": "Home"
     }
   ],
   "standings": {

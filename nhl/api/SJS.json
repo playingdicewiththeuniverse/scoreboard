@@ -45,7 +45,7 @@
       ],
       "opponent_id": "PHI",
       "opponent_name": "Philadelphia Flyers",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260324-NSH-SJS",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "NSH",
       "opponent_name": "Nashville Predators",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260326-STL-SJS",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "STL",
       "opponent_name": "St. Louis Blues",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260328-CBJ-SJS",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "CBJ",
       "opponent_name": "Columbus Blue Jackets",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260330-SJS-STL",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "STL",
       "opponent_name": "St. Louis Blues",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260401-SJS-ANA",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "ANA",
       "opponent_name": "Anaheim Ducks",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260402-SJS-TOR",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "TOR",
       "opponent_name": "Toronto Maple Leafs",
-      "location": "home"
+      "location": "Home"
     }
   ],
   "standings": {

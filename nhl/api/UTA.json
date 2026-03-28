@@ -45,7 +45,7 @@
       ],
       "opponent_id": "LAK",
       "opponent_name": "Los Angeles Kings",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260324-UTA-EDM",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "EDM",
       "opponent_name": "Edmonton Oilers",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260326-UTA-WSH",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "WSH",
       "opponent_name": "Washington Capitals",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260328-LAK-UTA",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "LAK",
       "opponent_name": "Los Angeles Kings",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260402-SEA-UTA",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "SEA",
       "opponent_name": "Seattle Kraken",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260404-VAN-UTA",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "VAN",
       "opponent_name": "Vancouver Canucks",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260407-UTA-EDM",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "EDM",
       "opponent_name": "Edmonton Oilers",
-      "location": "home"
+      "location": "Home"
     }
   ],
   "standings": {

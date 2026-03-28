@@ -45,7 +45,7 @@
       ],
       "opponent_id": "VAN",
       "opponent_name": "Vancouver Canucks",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260324-STL-WSH",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "WSH",
       "opponent_name": "Washington Capitals",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260326-STL-SJS",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "SJS",
       "opponent_name": "San Jose Sharks",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260328-STL-TOR",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "TOR",
       "opponent_name": "Toronto Maple Leafs",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260330-SJS-STL",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "SJS",
       "opponent_name": "San Jose Sharks",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260401-LAK-STL",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "LAK",
       "opponent_name": "Los Angeles Kings",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260403-ANA-STL",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "ANA",
       "opponent_name": "Anaheim Ducks",
-      "location": "away"
+      "location": "Away"
     }
   ],
   "standings": {

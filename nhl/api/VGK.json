@@ -45,7 +45,7 @@
       ],
       "opponent_id": "DAL",
       "opponent_name": "Dallas Stars",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260324-WPG-VGK",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "WPG",
       "opponent_name": "Winnipeg Jets",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260326-VGK-EDM",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "EDM",
       "opponent_name": "Edmonton Oilers",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260328-VGK-WSH",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "WSH",
       "opponent_name": "Washington Capitals",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260330-VGK-VAN",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "VAN",
       "opponent_name": "Vancouver Canucks",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260402-VGK-CGY",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "CGY",
       "opponent_name": "Calgary Flames",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260404-EDM-VGK",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "EDM",
       "opponent_name": "Edmonton Oilers",
-      "location": "away"
+      "location": "Away"
     }
   ],
   "standings": {

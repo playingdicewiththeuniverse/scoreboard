@@ -45,7 +45,7 @@
       ],
       "opponent_id": "CHI",
       "opponent_name": "Chicago Blackhawks",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260324-NSH-SJS",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "SJS",
       "opponent_name": "San Jose Sharks",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260326-NSH-NJD",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "NJD",
       "opponent_name": "New Jersey Devils",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260328-NSH-MTL",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "MTL",
       "opponent_name": "Montreal Canadiens",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260329-TBL-NSH",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "TBL",
       "opponent_name": "Tampa Bay Lightning",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260402-LAK-NSH",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "LAK",
       "opponent_name": "Los Angeles Kings",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260404-SJS-NSH",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "SJS",
       "opponent_name": "San Jose Sharks",
-      "location": "away"
+      "location": "Away"
     }
   ],
   "standings": {

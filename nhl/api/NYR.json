@@ -45,7 +45,7 @@
       ],
       "opponent_id": "WPG",
       "opponent_name": "Winnipeg Jets",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260323-NYR-OTT",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "OTT",
       "opponent_name": "Ottawa Senators",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260325-TOR-NYR",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "TOR",
       "opponent_name": "Toronto Maple Leafs",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260327-NYR-CHI",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "CHI",
       "opponent_name": "Chicago Blackhawks",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260329-NYR-FLA",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "FLA",
       "opponent_name": "Florida Panthers",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260331-NYR-NJD",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "NJD",
       "opponent_name": "New Jersey Devils",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260402-NYR-MTL",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "MTL",
       "opponent_name": "Montreal Canadiens",
-      "location": "home"
+      "location": "Home"
     }
   ],
   "standings": {

@@ -45,7 +45,7 @@
       ],
       "opponent_id": "NYR",
       "opponent_name": "New York Rangers",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260324-DET-OTT",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "DET",
       "opponent_name": "Detroit Red Wings",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260326-OTT-PIT",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "PIT",
       "opponent_name": "Pittsburgh Penguins",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260328-TBL-OTT",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "TBL",
       "opponent_name": "Tampa Bay Lightning",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260331-FLA-OTT",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "FLA",
       "opponent_name": "Florida Panthers",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260402-OTT-BUF",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "BUF",
       "opponent_name": "Buffalo Sabres",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260404-OTT-MIN",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "MIN",
       "opponent_name": "Minnesota Wild",
-      "location": "home"
+      "location": "Home"
     }
   ],
   "standings": {

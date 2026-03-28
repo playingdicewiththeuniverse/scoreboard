@@ -45,7 +45,7 @@
       ],
       "opponent_id": "UTA",
       "opponent_name": "Utah Mammoth",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260324-CGY-LAK",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "CGY",
       "opponent_name": "Calgary Flames",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260326-VAN-LAK",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "VAN",
       "opponent_name": "Vancouver Canucks",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260328-LAK-UTA",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "UTA",
       "opponent_name": "Utah Mammoth",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260401-LAK-STL",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "STL",
       "opponent_name": "St. Louis Blues",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260402-LAK-NSH",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "NSH",
       "opponent_name": "Nashville Predators",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260404-LAK-TOR",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "TOR",
       "opponent_name": "Toronto Maple Leafs",
-      "location": "home"
+      "location": "Home"
     }
   ],
   "standings": {

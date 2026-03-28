@@ -45,7 +45,7 @@
       ],
       "opponent_id": "MTL",
       "opponent_name": "Montreal Canadiens",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260321-DET-BOS",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "BOS",
       "opponent_name": "Boston Bruins",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260324-DET-OTT",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "OTT",
       "opponent_name": "Ottawa Senators",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260327-BUF-DET",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "BUF",
       "opponent_name": "Buffalo Sabres",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260328-DET-PHI",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "PHI",
       "opponent_name": "Philadelphia Flyers",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260331-PIT-DET",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "PIT",
       "opponent_name": "Pittsburgh Penguins",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260402-PHI-DET",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "PHI",
       "opponent_name": "Philadelphia Flyers",
-      "location": "away"
+      "location": "Away"
     }
   ],
   "standings": {

@@ -45,7 +45,7 @@
       ],
       "opponent_id": "LAK",
       "opponent_name": "Los Angeles Kings",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260322-ANA-BUF",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "ANA",
       "opponent_name": "Anaheim Ducks",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260325-BUF-BOS",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "BOS",
       "opponent_name": "Boston Bruins",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260327-BUF-DET",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "DET",
       "opponent_name": "Detroit Red Wings",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260328-BUF-SEA",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "SEA",
       "opponent_name": "Seattle Kraken",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260331-BUF-NYI",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "NYI",
       "opponent_name": "New York Islanders",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260402-OTT-BUF",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "OTT",
       "opponent_name": "Ottawa Senators",
-      "location": "away"
+      "location": "Away"
     }
   ],
   "standings": {

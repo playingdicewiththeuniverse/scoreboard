@@ -45,7 +45,7 @@
       ],
       "opponent_id": "NYR",
       "opponent_name": "New York Rangers",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260324-WPG-VGK",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "VGK",
       "opponent_name": "Vegas Golden Knights",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260326-WPG-COL",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "COL",
       "opponent_name": "Colorado Avalanche",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260328-COL-WPG",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "COL",
       "opponent_name": "Colorado Avalanche",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260331-CHI-WPG",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "CHI",
       "opponent_name": "Chicago Blackhawks",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260402-DAL-WPG",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "DAL",
       "opponent_name": "Dallas Stars",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260404-CBJ-WPG",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "CBJ",
       "opponent_name": "Columbus Blue Jackets",
-      "location": "away"
+      "location": "Away"
     }
   ],
   "standings": {

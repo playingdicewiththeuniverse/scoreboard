@@ -45,7 +45,7 @@
       ],
       "opponent_id": "VGK",
       "opponent_name": "Vegas Golden Knights",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260324-DAL-NJD",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "NJD",
       "opponent_name": "New Jersey Devils",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260326-NYI-DAL",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "NYI",
       "opponent_name": "New York Islanders",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260328-PIT-DAL",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "PIT",
       "opponent_name": "Pittsburgh Penguins",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260329-PHI-DAL",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "PHI",
       "opponent_name": "Philadelphia Flyers",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260331-BOS-DAL",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "BOS",
       "opponent_name": "Boston Bruins",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260402-DAL-WPG",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "WPG",
       "opponent_name": "Winnipeg Jets",
-      "location": "home"
+      "location": "Home"
     }
   ],
   "standings": {

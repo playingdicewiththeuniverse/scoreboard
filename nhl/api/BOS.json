@@ -45,7 +45,7 @@
       ],
       "opponent_id": "DET",
       "opponent_name": "Detroit Red Wings",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260324-BOS-TOR",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "TOR",
       "opponent_name": "Toronto Maple Leafs",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260325-BUF-BOS",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "BUF",
       "opponent_name": "Buffalo Sabres",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260328-BOS-MIN",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "MIN",
       "opponent_name": "Minnesota Wild",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260329-CBJ-BOS",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "CBJ",
       "opponent_name": "Columbus Blue Jackets",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260331-BOS-DAL",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "DAL",
       "opponent_name": "Dallas Stars",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260402-FLA-BOS",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "FLA",
       "opponent_name": "Florida Panthers",
-      "location": "away"
+      "location": "Away"
     }
   ],
   "standings": {

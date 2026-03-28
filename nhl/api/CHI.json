@@ -45,7 +45,7 @@
       ],
       "opponent_id": "NSH",
       "opponent_name": "Nashville Predators",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260324-NYI-CHI",
@@ -59,7 +59,7 @@
       ],
       "opponent_id": "NYI",
       "opponent_name": "New York Islanders",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260326-PHI-CHI",
@@ -73,7 +73,7 @@
       ],
       "opponent_id": "PHI",
       "opponent_name": "Philadelphia Flyers",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260327-NYR-CHI",
@@ -87,7 +87,7 @@
       ],
       "opponent_id": "NYR",
       "opponent_name": "New York Rangers",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260329-NJD-CHI",
@@ -101,7 +101,7 @@
       ],
       "opponent_id": "NJD",
       "opponent_name": "New Jersey Devils",
-      "location": "away"
+      "location": "Away"
     },
     {
       "game_id": "20260331-CHI-WPG",
@@ -115,7 +115,7 @@
       ],
       "opponent_id": "WPG",
       "opponent_name": "Winnipeg Jets",
-      "location": "home"
+      "location": "Home"
     },
     {
       "game_id": "20260402-EDM-CHI",
@@ -129,7 +129,7 @@
       ],
       "opponent_id": "EDM",
       "opponent_name": "Edmonton Oilers",
-      "location": "away"
+      "location": "Away"
     }
   ],
   "standings": {
