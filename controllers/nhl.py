@@ -285,6 +285,7 @@ def generate_team_json():
           }
         }
       }
+      break
 
     with open( NEXT_GAME_PATH.format(team_id), 'w+') as f:
       json.dump(next_game, f, indent=2)      

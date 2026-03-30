@@ -1,17 +1,17 @@
 {
-  "game_time_utc": "2026-04-17 01:00:00+00:00",
+  "game_time_utc": "2026-03-31 02:00:00+00:00",
   "home_team": {
-    "id": "EDM",
-    "city": "Edmonton",
-    "nick": "Oilers",
-    "full": "Edmonton Oilers",
+    "id": "VGK",
+    "city": "Vegas",
+    "nick": "Golden Knights",
+    "full": "Vegas Golden Knights",
     "record": {
       "gp": 74,
-      "w": 37,
-      "l": 28,
-      "otl": 9,
-      "pts": 83,
-      "pct": 0.56081
+      "w": 32,
+      "l": 26,
+      "otl": 16,
+      "pts": 80,
+      "pct": 0.54054
     }
   },
   "away_team": {

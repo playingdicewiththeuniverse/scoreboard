@@ -1,17 +1,17 @@
 {
-  "game_time_utc": "2026-04-14 23:00:00+00:00",
+  "game_time_utc": "2026-03-30 23:00:00+00:00",
   "home_team": {
-    "id": "CAR",
-    "city": "Carolina",
-    "nick": "Hurricanes",
-    "full": "Carolina Hurricanes",
+    "id": "PIT",
+    "city": "Pittsburgh",
+    "nick": "Penguins",
+    "full": "Pittsburgh Penguins",
     "record": {
       "gp": 73,
-      "w": 46,
+      "w": 36,
       "l": 21,
-      "otl": 6,
-      "pts": 98,
-      "pct": 0.67123
+      "otl": 16,
+      "pts": 88,
+      "pct": 0.60274
     }
   },
   "away_team": {

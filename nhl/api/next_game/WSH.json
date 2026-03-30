@@ -1,17 +1,17 @@
 {
-  "game_time_utc": "2026-04-14 23:00:00+00:00",
+  "game_time_utc": "2026-03-31 23:00:00+00:00",
   "home_team": {
-    "id": "CBJ",
-    "city": "Columbus",
-    "nick": "Blue Jackets",
-    "full": "Columbus Blue Jackets",
+    "id": "PHI",
+    "city": "Philadelphia",
+    "nick": "Flyers",
+    "full": "Philadelphia Flyers",
     "record": {
-      "gp": 74,
-      "w": 38,
+      "gp": 73,
+      "w": 37,
       "l": 24,
       "otl": 12,
-      "pts": 88,
-      "pct": 0.59459
+      "pts": 86,
+      "pct": 0.58904
     }
   },
   "away_team": {
