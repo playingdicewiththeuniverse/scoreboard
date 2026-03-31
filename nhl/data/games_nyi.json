@@ -1039,11 +1039,11 @@
     "game_id": "20260330-NYI-PIT",
     "game_time_utc": "2026-03-30 23:00:00+00:00",
     "game_date": "2026-03-30",
-    "final": "",
-    "outcome": "upcoming",
+    "final": "Final",
+    "outcome": "loss",
     "score": [
-      "",
-      ""
+      3,
+      8
     ],
     "opponent_id": "PIT",
     "opponent_name": "Pittsburgh Penguins",

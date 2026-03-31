@@ -1,17 +1,17 @@
 {
-  "game_time_utc": "2026-03-31 00:30:00+00:00",
+  "game_time_utc": "2026-04-03 02:00:00+00:00",
   "home_team": {
-    "id": "COL",
-    "city": "Colorado",
-    "nick": "Avalanche",
-    "full": "Colorado Avalanche",
+    "id": "VGK",
+    "city": "Vegas",
+    "nick": "Golden Knights",
+    "full": "Vegas Golden Knights",
     "record": {
-      "gp": 72,
-      "w": 48,
-      "l": 14,
-      "otl": 10,
-      "pts": 106,
-      "pct": 0.73611
+      "gp": 75,
+      "w": 33,
+      "l": 26,
+      "otl": 16,
+      "pts": 82,
+      "pct": 0.54667
     }
   },
   "away_team": {
@@ -20,12 +20,12 @@
     "nick": "Flames",
     "full": "Calgary Flames",
     "record": {
-      "gp": 73,
+      "gp": 74,
       "w": 31,
-      "l": 34,
+      "l": 35,
       "otl": 8,
       "pts": 70,
-      "pct": 0.47945
+      "pct": 0.47297
     }
   }
 }

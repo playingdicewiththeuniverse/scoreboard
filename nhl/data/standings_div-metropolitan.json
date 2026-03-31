@@ -36,41 +36,6 @@
   },
   {
     "team": {
-      "id": "NYI",
-      "city": "NY Islanders",
-      "nick": "Islanders",
-      "full": "New York Islanders",
-      "div": {
-        "id": "div-metropolitan",
-        "name": "Metropolitan Division"
-      },
-      "conf": {
-        "id": "conf-eastern",
-        "name": "Eastern Conference"
-      }
-    },
-    "stats": {
-      "gp": 74,
-      "w": 42,
-      "l": 27,
-      "t": 0,
-      "otl": 5,
-      "pts": 89,
-      "pct": 0.60135,
-      "stk": "W2",
-      "gf": 216,
-      "ga": 209,
-      "gd": 7
-    },
-    "rnk": {
-      "lg": 9,
-      "cf": 6,
-      "dv": 2,
-      "wc": null
-    }
-  },
-  {
-    "team": {
       "id": "PIT",
       "city": "Pittsburgh",
       "nick": "Penguins",
@@ -85,17 +50,52 @@
       }
     },
     "stats": {
-      "gp": 73,
-      "w": 36,
+      "gp": 74,
+      "w": 37,
       "l": 21,
       "t": 0,
       "otl": 16,
-      "pts": 88,
-      "pct": 0.60274,
+      "pts": 90,
+      "pct": 0.60811,
+      "stk": "W1",
+      "gf": 258,
+      "ga": 237,
+      "gd": 21
+    },
+    "rnk": {
+      "lg": 9,
+      "cf": 6,
+      "dv": 2,
+      "wc": null
+    }
+  },
+  {
+    "team": {
+      "id": "NYI",
+      "city": "NY Islanders",
+      "nick": "Islanders",
+      "full": "New York Islanders",
+      "div": {
+        "id": "div-metropolitan",
+        "name": "Metropolitan Division"
+      },
+      "conf": {
+        "id": "conf-eastern",
+        "name": "Eastern Conference"
+      }
+    },
+    "stats": {
+      "gp": 75,
+      "w": 42,
+      "l": 28,
+      "t": 0,
+      "otl": 5,
+      "pts": 89,
+      "pct": 0.59333,
       "stk": "L1",
-      "gf": 250,
-      "ga": 234,
-      "gd": 16
+      "gf": 219,
+      "ga": 217,
+      "gd": 2
     },
     "rnk": {
       "lg": 10,

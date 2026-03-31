@@ -15,17 +15,17 @@
       }
     },
     "stats": {
-      "gp": 72,
-      "w": 48,
+      "gp": 73,
+      "w": 49,
       "l": 14,
       "t": 0,
       "otl": 10,
-      "pts": 106,
-      "pct": 0.73611,
-      "stk": "L1",
-      "gf": 268,
-      "ga": 183,
-      "gd": 85
+      "pts": 108,
+      "pct": 0.73973,
+      "stk": "W1",
+      "gf": 277,
+      "ga": 185,
+      "gd": 92
     },
     "rnk": {
       "lg": 1,
@@ -279,41 +279,6 @@
       "wc": 1
     }
   },
-  "NYI": {
-    "team": {
-      "id": "NYI",
-      "city": "NY Islanders",
-      "nick": "Islanders",
-      "full": "New York Islanders",
-      "div": {
-        "id": "div-metropolitan",
-        "name": "Metropolitan Division"
-      },
-      "conf": {
-        "id": "conf-eastern",
-        "name": "Eastern Conference"
-      }
-    },
-    "stats": {
-      "gp": 74,
-      "w": 42,
-      "l": 27,
-      "t": 0,
-      "otl": 5,
-      "pts": 89,
-      "pct": 0.60135,
-      "stk": "W2",
-      "gf": 216,
-      "ga": 209,
-      "gd": 7
-    },
-    "rnk": {
-      "lg": 9,
-      "cf": 6,
-      "dv": 2,
-      "wc": null
-    }
-  },
   "PIT": {
     "team": {
       "id": "PIT",
@@ -330,17 +295,52 @@
       }
     },
     "stats": {
-      "gp": 73,
-      "w": 36,
+      "gp": 74,
+      "w": 37,
       "l": 21,
       "t": 0,
       "otl": 16,
-      "pts": 88,
-      "pct": 0.60274,
+      "pts": 90,
+      "pct": 0.60811,
+      "stk": "W1",
+      "gf": 258,
+      "ga": 237,
+      "gd": 21
+    },
+    "rnk": {
+      "lg": 9,
+      "cf": 6,
+      "dv": 2,
+      "wc": null
+    }
+  },
+  "NYI": {
+    "team": {
+      "id": "NYI",
+      "city": "NY Islanders",
+      "nick": "Islanders",
+      "full": "New York Islanders",
+      "div": {
+        "id": "div-metropolitan",
+        "name": "Metropolitan Division"
+      },
+      "conf": {
+        "id": "conf-eastern",
+        "name": "Eastern Conference"
+      }
+    },
+    "stats": {
+      "gp": 75,
+      "w": 42,
+      "l": 28,
+      "t": 0,
+      "otl": 5,
+      "pts": 89,
+      "pct": 0.59333,
       "stk": "L1",
-      "gf": 250,
-      "ga": 234,
-      "gd": 16
+      "gf": 219,
+      "ga": 217,
+      "gd": 2
     },
     "rnk": {
       "lg": 10,
@@ -384,6 +384,41 @@
       "wc": 2
     }
   },
+  "ANA": {
+    "team": {
+      "id": "ANA",
+      "city": "Anaheim",
+      "nick": "Ducks",
+      "full": "Anaheim Ducks",
+      "div": {
+        "id": "div-pacific",
+        "name": "Pacific Division"
+      },
+      "conf": {
+        "id": "conf-western",
+        "name": "Western Conference"
+      }
+    },
+    "stats": {
+      "gp": 74,
+      "w": 41,
+      "l": 28,
+      "t": 0,
+      "otl": 5,
+      "pts": 87,
+      "pct": 0.58784,
+      "stk": "OT1",
+      "gf": 249,
+      "ga": 256,
+      "gd": -7
+    },
+    "rnk": {
+      "lg": 12,
+      "cf": 4,
+      "dv": 1,
+      "wc": null
+    }
+  },
   "OTT": {
     "team": {
       "id": "OTT",
@@ -413,7 +448,7 @@
       "gd": 20
     },
     "rnk": {
-      "lg": 12,
+      "lg": 13,
       "cf": 9,
       "dv": 5,
       "wc": 3
@@ -448,45 +483,10 @@
       "gd": -3
     },
     "rnk": {
-      "lg": 13,
+      "lg": 14,
       "cf": 10,
       "dv": 6,
       "wc": 4
-    }
-  },
-  "ANA": {
-    "team": {
-      "id": "ANA",
-      "city": "Anaheim",
-      "nick": "Ducks",
-      "full": "Anaheim Ducks",
-      "div": {
-        "id": "div-pacific",
-        "name": "Pacific Division"
-      },
-      "conf": {
-        "id": "conf-western",
-        "name": "Western Conference"
-      }
-    },
-    "stats": {
-      "gp": 73,
-      "w": 41,
-      "l": 28,
-      "t": 0,
-      "otl": 4,
-      "pts": 86,
-      "pct": 0.58904,
-      "stk": "L1",
-      "gf": 245,
-      "ga": 251,
-      "gd": -6
-    },
-    "rnk": {
-      "lg": 14,
-      "cf": 4,
-      "dv": 1,
-      "wc": null
     }
   },
   "PHI": {
@@ -645,17 +645,17 @@
       }
     },
     "stats": {
-      "gp": 74,
-      "w": 32,
+      "gp": 75,
+      "w": 33,
       "l": 26,
       "t": 0,
       "otl": 16,
-      "pts": 80,
-      "pct": 0.54054,
-      "stk": "OT2",
-      "gf": 232,
-      "ga": 234,
-      "gd": -2
+      "pts": 82,
+      "pct": 0.54667,
+      "stk": "W1",
+      "gf": 236,
+      "ga": 236,
+      "gd": 0
     },
     "rnk": {
       "lg": 19,
@@ -734,6 +734,41 @@
       "wc": 2
     }
   },
+  "TOR": {
+    "team": {
+      "id": "TOR",
+      "city": "Toronto",
+      "nick": "Maple Leafs",
+      "full": "Toronto Maple Leafs",
+      "div": {
+        "id": "div-atlantic",
+        "name": "Atlantic Division"
+      },
+      "conf": {
+        "id": "conf-eastern",
+        "name": "Eastern Conference"
+      }
+    },
+    "stats": {
+      "gp": 75,
+      "w": 32,
+      "l": 30,
+      "t": 0,
+      "otl": 13,
+      "pts": 77,
+      "pct": 0.51333,
+      "stk": "W1",
+      "gf": 235,
+      "ga": 264,
+      "gd": -29
+    },
+    "rnk": {
+      "lg": 22,
+      "cf": 14,
+      "dv": 7,
+      "wc": 8
+    }
+  },
   "LAK": {
     "team": {
       "id": "LAK",
@@ -763,7 +798,7 @@
       "gd": -27
     },
     "rnk": {
-      "lg": 22,
+      "lg": 23,
       "cf": 9,
       "dv": 4,
       "wc": 3
@@ -798,45 +833,45 @@
       "gd": -18
     },
     "rnk": {
-      "lg": 23,
+      "lg": 24,
       "cf": 10,
       "dv": 5,
       "wc": 4
     }
   },
-  "TOR": {
+  "SJS": {
     "team": {
-      "id": "TOR",
-      "city": "Toronto",
-      "nick": "Maple Leafs",
-      "full": "Toronto Maple Leafs",
+      "id": "SJS",
+      "city": "San Jose",
+      "nick": "Sharks",
+      "full": "San Jose Sharks",
       "div": {
-        "id": "div-atlantic",
-        "name": "Atlantic Division"
+        "id": "div-pacific",
+        "name": "Pacific Division"
       },
       "conf": {
-        "id": "conf-eastern",
-        "name": "Eastern Conference"
+        "id": "conf-western",
+        "name": "Western Conference"
       }
     },
     "stats": {
-      "gp": 74,
-      "w": 31,
-      "l": 30,
+      "gp": 72,
+      "w": 34,
+      "l": 31,
       "t": 0,
-      "otl": 13,
+      "otl": 7,
       "pts": 75,
-      "pct": 0.50676,
-      "stk": "L1",
-      "gf": 230,
-      "ga": 260,
-      "gd": -30
+      "pct": 0.52083,
+      "stk": "W2",
+      "gf": 220,
+      "ga": 257,
+      "gd": -37
     },
     "rnk": {
-      "lg": 24,
-      "cf": 14,
-      "dv": 7,
-      "wc": 8
+      "lg": 25,
+      "cf": 11,
+      "dv": 6,
+      "wc": 5
     }
   },
   "WPG": {
@@ -868,80 +903,10 @@
       "gd": -16
     },
     "rnk": {
-      "lg": 25,
-      "cf": 11,
-      "dv": 6,
-      "wc": 5
-    }
-  },
-  "SJS": {
-    "team": {
-      "id": "SJS",
-      "city": "San Jose",
-      "nick": "Sharks",
-      "full": "San Jose Sharks",
-      "div": {
-        "id": "div-pacific",
-        "name": "Pacific Division"
-      },
-      "conf": {
-        "id": "conf-western",
-        "name": "Western Conference"
-      }
-    },
-    "stats": {
-      "gp": 71,
-      "w": 33,
-      "l": 31,
-      "t": 0,
-      "otl": 7,
-      "pts": 73,
-      "pct": 0.51408,
-      "stk": "W1",
-      "gf": 215,
-      "ga": 253,
-      "gd": -38
-    },
-    "rnk": {
       "lg": 26,
       "cf": 12,
       "dv": 6,
       "wc": 6
-    }
-  },
-  "STL": {
-    "team": {
-      "id": "STL",
-      "city": "St. Louis",
-      "nick": "Blues",
-      "full": "St. Louis Blues",
-      "div": {
-        "id": "div-central",
-        "name": "Central Division"
-      },
-      "conf": {
-        "id": "conf-western",
-        "name": "Western Conference"
-      }
-    },
-    "stats": {
-      "gp": 72,
-      "w": 31,
-      "l": 30,
-      "t": 0,
-      "otl": 11,
-      "pts": 73,
-      "pct": 0.50694,
-      "stk": "W4",
-      "gf": 191,
-      "ga": 227,
-      "gd": -36
-    },
-    "rnk": {
-      "lg": 27,
-      "cf": 13,
-      "dv": 7,
-      "wc": 7
     }
   },
   "FLA": {
@@ -973,10 +938,45 @@
       "gd": -28
     },
     "rnk": {
-      "lg": 28,
+      "lg": 27,
       "cf": 15,
       "dv": 8,
       "wc": 9
+    }
+  },
+  "STL": {
+    "team": {
+      "id": "STL",
+      "city": "St. Louis",
+      "nick": "Blues",
+      "full": "St. Louis Blues",
+      "div": {
+        "id": "div-central",
+        "name": "Central Division"
+      },
+      "conf": {
+        "id": "conf-western",
+        "name": "Western Conference"
+      }
+    },
+    "stats": {
+      "gp": 73,
+      "w": 31,
+      "l": 31,
+      "t": 0,
+      "otl": 11,
+      "pts": 73,
+      "pct": 0.5,
+      "stk": "L1",
+      "gf": 195,
+      "ga": 232,
+      "gd": -37
+    },
+    "rnk": {
+      "lg": 28,
+      "cf": 13,
+      "dv": 7,
+      "wc": 7
     }
   },
   "CGY": {
@@ -995,17 +995,17 @@
       }
     },
     "stats": {
-      "gp": 73,
+      "gp": 74,
       "w": 31,
-      "l": 34,
+      "l": 35,
       "t": 0,
       "otl": 8,
       "pts": 70,
-      "pct": 0.47945,
-      "stk": "W1",
-      "gf": 189,
-      "ga": 225,
-      "gd": -36
+      "pct": 0.47297,
+      "stk": "L1",
+      "gf": 191,
+      "ga": 234,
+      "gd": -43
     },
     "rnk": {
       "lg": 29,
@@ -1100,17 +1100,17 @@
       }
     },
     "stats": {
-      "gp": 72,
+      "gp": 73,
       "w": 21,
-      "l": 43,
+      "l": 44,
       "t": 0,
       "otl": 8,
       "pts": 50,
-      "pct": 0.34722,
-      "stk": "L5",
-      "gf": 185,
-      "ga": 273,
-      "gd": -88
+      "pct": 0.34247,
+      "stk": "L6",
+      "gf": 187,
+      "ga": 277,
+      "gd": -90
     },
     "rnk": {
       "lg": 32,

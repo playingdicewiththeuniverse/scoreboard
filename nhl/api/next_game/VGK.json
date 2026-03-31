@@ -1,17 +1,17 @@
 {
-  "game_time_utc": "2026-03-31 02:00:00+00:00",
+  "game_time_utc": "2026-04-03 02:00:00+00:00",
   "home_team": {
-    "id": "VAN",
-    "city": "Vancouver",
-    "nick": "Canucks",
-    "full": "Vancouver Canucks",
+    "id": "CGY",
+    "city": "Calgary",
+    "nick": "Flames",
+    "full": "Calgary Flames",
     "record": {
-      "gp": 72,
-      "w": 21,
-      "l": 43,
+      "gp": 74,
+      "w": 31,
+      "l": 35,
       "otl": 8,
-      "pts": 50,
-      "pct": 0.34722
+      "pts": 70,
+      "pct": 0.47297
     }
   },
   "away_team": {
@@ -20,12 +20,12 @@
     "nick": "Golden Knights",
     "full": "Vegas Golden Knights",
     "record": {
-      "gp": 74,
-      "w": 32,
+      "gp": 75,
+      "w": 33,
       "l": 26,
       "otl": 16,
-      "pts": 80,
-      "pct": 0.54054
+      "pts": 82,
+      "pct": 0.54667
     }
   }
 }

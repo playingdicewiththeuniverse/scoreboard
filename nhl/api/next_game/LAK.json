@@ -6,12 +6,12 @@
     "nick": "Blues",
     "full": "St. Louis Blues",
     "record": {
-      "gp": 72,
+      "gp": 73,
       "w": 31,
-      "l": 30,
+      "l": 31,
       "otl": 11,
       "pts": 73,
-      "pct": 0.50694
+      "pct": 0.5
     }
   },
   "away_team": {

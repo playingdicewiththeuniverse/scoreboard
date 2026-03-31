@@ -1,17 +1,17 @@
 {
-  "game_time_utc": "2026-03-31 02:00:00+00:00",
+  "game_time_utc": "2026-04-02 00:30:00+00:00",
   "home_team": {
-    "id": "VGK",
-    "city": "Vegas",
-    "nick": "Golden Knights",
-    "full": "Vegas Golden Knights",
+    "id": "COL",
+    "city": "Colorado",
+    "nick": "Avalanche",
+    "full": "Colorado Avalanche",
     "record": {
-      "gp": 74,
-      "w": 32,
-      "l": 26,
-      "otl": 16,
-      "pts": 80,
-      "pct": 0.54054
+      "gp": 73,
+      "w": 49,
+      "l": 14,
+      "otl": 10,
+      "pts": 108,
+      "pct": 0.73973
     }
   },
   "away_team": {
@@ -20,12 +20,12 @@
     "nick": "Canucks",
     "full": "Vancouver Canucks",
     "record": {
-      "gp": 72,
+      "gp": 73,
       "w": 21,
-      "l": 43,
+      "l": 44,
       "otl": 8,
       "pts": 50,
-      "pct": 0.34722
+      "pct": 0.34247
     }
   }
 }

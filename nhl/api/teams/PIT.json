@@ -14,39 +14,25 @@
     }
   },
   "stats": {
-    "gp": 73,
-    "w": 36,
+    "gp": 74,
+    "w": 37,
     "l": 21,
     "t": 0,
     "otl": 16,
-    "pts": 88,
-    "pct": 0.60274,
-    "stk": "L1",
-    "gf": 250,
-    "ga": 234,
-    "gd": 16
+    "pts": 90,
+    "pct": 0.60811,
+    "stk": "W1",
+    "gf": 258,
+    "ga": 237,
+    "gd": 21
   },
   "rnk": {
-    "lg": 10,
-    "cf": 7,
-    "dv": 3,
+    "lg": 9,
+    "cf": 6,
+    "dv": 2,
     "wc": null
   },
   "games": [
-    {
-      "game_id": "20260324-PIT-COL",
-      "game_time_utc": "2026-03-24 23:00:00+00:00",
-      "game_date": "2026-03-24",
-      "final": "Final",
-      "outcome": "loss",
-      "score": [
-        2,
-        6
-      ],
-      "opponent_id": "COL",
-      "opponent_name": "Colorado Avalanche",
-      "location": "Home"
-    },
     {
       "game_id": "20260326-OTT-PIT",
       "game_time_utc": "2026-03-26 23:00:00+00:00",
@@ -79,11 +65,11 @@
       "game_id": "20260330-NYI-PIT",
       "game_time_utc": "2026-03-30 23:00:00+00:00",
       "game_date": "2026-03-30",
-      "final": "",
-      "outcome": "upcoming",
+      "final": "Final",
+      "outcome": "win",
       "score": [
-        "",
-        ""
+        8,
+        3
       ],
       "opponent_id": "NYI",
       "opponent_name": "New York Islanders",
@@ -121,6 +107,20 @@
       "game_id": "20260404-PIT-FLA",
       "game_time_utc": "2026-04-04 21:00:00+00:00",
       "game_date": "2026-04-04",
+      "final": "",
+      "outcome": "upcoming",
+      "score": [
+        "",
+        ""
+      ],
+      "opponent_id": "FLA",
+      "opponent_name": "Florida Panthers",
+      "location": "Home"
+    },
+    {
+      "game_id": "20260405-PIT-FLA",
+      "game_time_utc": "2026-04-05 19:00:00+00:00",
+      "game_date": "2026-04-05",
       "final": "",
       "outcome": "upcoming",
       "score": [
@@ -171,41 +171,6 @@
       },
       {
         "team": {
-          "id": "NYI",
-          "city": "NY Islanders",
-          "nick": "Islanders",
-          "full": "New York Islanders",
-          "div": {
-            "id": "div-metropolitan",
-            "name": "Metropolitan Division"
-          },
-          "conf": {
-            "id": "conf-eastern",
-            "name": "Eastern Conference"
-          }
-        },
-        "stats": {
-          "gp": 74,
-          "w": 42,
-          "l": 27,
-          "t": 0,
-          "otl": 5,
-          "pts": 89,
-          "pct": 0.60135,
-          "stk": "W2",
-          "gf": 216,
-          "ga": 209,
-          "gd": 7
-        },
-        "rnk": {
-          "lg": 9,
-          "cf": 6,
-          "dv": 2,
-          "wc": null
-        }
-      },
-      {
-        "team": {
           "id": "PIT",
           "city": "Pittsburgh",
           "nick": "Penguins",
@@ -220,17 +185,52 @@
           }
         },
         "stats": {
-          "gp": 73,
-          "w": 36,
+          "gp": 74,
+          "w": 37,
           "l": 21,
           "t": 0,
           "otl": 16,
-          "pts": 88,
-          "pct": 0.60274,
+          "pts": 90,
+          "pct": 0.60811,
+          "stk": "W1",
+          "gf": 258,
+          "ga": 237,
+          "gd": 21
+        },
+        "rnk": {
+          "lg": 9,
+          "cf": 6,
+          "dv": 2,
+          "wc": null
+        }
+      },
+      {
+        "team": {
+          "id": "NYI",
+          "city": "NY Islanders",
+          "nick": "Islanders",
+          "full": "New York Islanders",
+          "div": {
+            "id": "div-metropolitan",
+            "name": "Metropolitan Division"
+          },
+          "conf": {
+            "id": "conf-eastern",
+            "name": "Eastern Conference"
+          }
+        },
+        "stats": {
+          "gp": 75,
+          "w": 42,
+          "l": 28,
+          "t": 0,
+          "otl": 5,
+          "pts": 89,
+          "pct": 0.59333,
           "stk": "L1",
-          "gf": 250,
-          "ga": 234,
-          "gd": 16
+          "gf": 219,
+          "ga": 217,
+          "gd": 2
         },
         "rnk": {
           "lg": 10,
@@ -593,41 +593,6 @@
       },
       {
         "team": {
-          "id": "NYI",
-          "city": "NY Islanders",
-          "nick": "Islanders",
-          "full": "New York Islanders",
-          "div": {
-            "id": "div-metropolitan",
-            "name": "Metropolitan Division"
-          },
-          "conf": {
-            "id": "conf-eastern",
-            "name": "Eastern Conference"
-          }
-        },
-        "stats": {
-          "gp": 74,
-          "w": 42,
-          "l": 27,
-          "t": 0,
-          "otl": 5,
-          "pts": 89,
-          "pct": 0.60135,
-          "stk": "W2",
-          "gf": 216,
-          "ga": 209,
-          "gd": 7
-        },
-        "rnk": {
-          "lg": 9,
-          "cf": 6,
-          "dv": 2,
-          "wc": null
-        }
-      },
-      {
-        "team": {
           "id": "PIT",
           "city": "Pittsburgh",
           "nick": "Penguins",
@@ -642,17 +607,52 @@
           }
         },
         "stats": {
-          "gp": 73,
-          "w": 36,
+          "gp": 74,
+          "w": 37,
           "l": 21,
           "t": 0,
           "otl": 16,
-          "pts": 88,
-          "pct": 0.60274,
+          "pts": 90,
+          "pct": 0.60811,
+          "stk": "W1",
+          "gf": 258,
+          "ga": 237,
+          "gd": 21
+        },
+        "rnk": {
+          "lg": 9,
+          "cf": 6,
+          "dv": 2,
+          "wc": null
+        }
+      },
+      {
+        "team": {
+          "id": "NYI",
+          "city": "NY Islanders",
+          "nick": "Islanders",
+          "full": "New York Islanders",
+          "div": {
+            "id": "div-metropolitan",
+            "name": "Metropolitan Division"
+          },
+          "conf": {
+            "id": "conf-eastern",
+            "name": "Eastern Conference"
+          }
+        },
+        "stats": {
+          "gp": 75,
+          "w": 42,
+          "l": 28,
+          "t": 0,
+          "otl": 5,
+          "pts": 89,
+          "pct": 0.59333,
           "stk": "L1",
-          "gf": 250,
-          "ga": 234,
-          "gd": 16
+          "gf": 219,
+          "ga": 217,
+          "gd": 2
         },
         "rnk": {
           "lg": 10,
@@ -725,7 +725,7 @@
           "gd": 20
         },
         "rnk": {
-          "lg": 12,
+          "lg": 13,
           "cf": 9,
           "dv": 5,
           "wc": 3
@@ -760,7 +760,7 @@
           "gd": -3
         },
         "rnk": {
-          "lg": 13,
+          "lg": 14,
           "cf": 10,
           "dv": 6,
           "wc": 4
@@ -887,20 +887,20 @@
           }
         },
         "stats": {
-          "gp": 74,
-          "w": 31,
+          "gp": 75,
+          "w": 32,
           "l": 30,
           "t": 0,
           "otl": 13,
-          "pts": 75,
-          "pct": 0.50676,
-          "stk": "L1",
-          "gf": 230,
-          "ga": 260,
-          "gd": -30
+          "pts": 77,
+          "pct": 0.51333,
+          "stk": "W1",
+          "gf": 235,
+          "ga": 264,
+          "gd": -29
         },
         "rnk": {
-          "lg": 24,
+          "lg": 22,
           "cf": 14,
           "dv": 7,
           "wc": 8
@@ -935,7 +935,7 @@
           "gd": -28
         },
         "rnk": {
-          "lg": 28,
+          "lg": 27,
           "cf": 15,
           "dv": 8,
           "wc": 9
