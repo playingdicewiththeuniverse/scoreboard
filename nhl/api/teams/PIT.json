@@ -32,106 +32,215 @@
     "dv": 2,
     "wc": null
   },
-  "games": [
-    {
-      "game_id": "20260328-PIT-DAL",
-      "game_time_utc": "2026-03-28 21:00:00+00:00",
-      "game_date": "2026-03-28",
-      "final": "Final",
-      "outcome": "loss",
-      "score": [
-        3,
-        6
-      ],
-      "opponent_id": "DAL",
-      "opponent_name": "Dallas Stars",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260330-NYI-PIT",
-      "game_time_utc": "2026-03-30 23:00:00+00:00",
-      "game_date": "2026-03-30",
-      "final": "Final",
-      "outcome": "win",
-      "score": [
-        8,
-        3
-      ],
-      "opponent_id": "NYI",
-      "opponent_name": "New York Islanders",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260331-PIT-DET",
-      "game_time_utc": "2026-03-31 23:00:00+00:00",
-      "game_date": "2026-03-31",
-      "final": "Final",
-      "outcome": "win",
-      "score": [
-        5,
-        1
-      ],
-      "opponent_id": "DET",
-      "opponent_name": "Detroit Red Wings",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260402-TBL-PIT",
-      "game_time_utc": "2026-04-02 23:00:00+00:00",
-      "game_date": "2026-04-02",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "TBL",
-      "opponent_name": "Tampa Bay Lightning",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260404-PIT-FLA",
-      "game_time_utc": "2026-04-04 21:00:00+00:00",
-      "game_date": "2026-04-04",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "FLA",
-      "opponent_name": "Florida Panthers",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260405-PIT-FLA",
-      "game_time_utc": "2026-04-05 19:00:00+00:00",
-      "game_date": "2026-04-05",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "FLA",
-      "opponent_name": "Florida Panthers",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260409-NJD-PIT",
-      "game_time_utc": "2026-04-09 23:00:00+00:00",
-      "game_date": "2026-04-09",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "NJD",
-      "opponent_name": "New Jersey Devils",
-      "location": "Away"
-    }
-  ],
+  "games": {
+    "past": [
+      {
+        "game_id": "20260328-PIT-DAL",
+        "game_time_utc": "2026-03-28 21:00:00+00:00",
+        "game_date": "2026-03-28",
+        "final": "Final",
+        "outcome": "loss",
+        "location": "Home",
+        "score": [
+          3,
+          6
+        ],
+        "opponent": {
+          "id": "DAL",
+          "name": "Dallas Stars",
+          "stats": {
+            "gp": 75,
+            "w": 44,
+            "l": 19,
+            "t": 0,
+            "otl": 12,
+            "pts": 100,
+            "pct": 0.66667,
+            "stk": "L1",
+            "gf": 255,
+            "ga": 209,
+            "gd": 46
+          }
+        }
+      },
+      {
+        "game_id": "20260330-NYI-PIT",
+        "game_time_utc": "2026-03-30 23:00:00+00:00",
+        "game_date": "2026-03-30",
+        "final": "Final",
+        "location": "Away",
+        "outcome": "win",
+        "score": [
+          8,
+          3
+        ],
+        "opponent": {
+          "id": "NYI",
+          "name": "New York Islanders",
+          "stats": {
+            "gp": 76,
+            "w": 42,
+            "l": 29,
+            "t": 0,
+            "otl": 5,
+            "pts": 89,
+            "pct": 0.58553,
+            "stk": "L2",
+            "gf": 222,
+            "ga": 221,
+            "gd": 1
+          }
+        }
+      },
+      {
+        "game_id": "20260331-PIT-DET",
+        "game_time_utc": "2026-03-31 23:00:00+00:00",
+        "game_date": "2026-03-31",
+        "final": "Final",
+        "outcome": "win",
+        "location": "Home",
+        "score": [
+          5,
+          1
+        ],
+        "opponent": {
+          "id": "DET",
+          "name": "Detroit Red Wings",
+          "stats": {
+            "gp": 74,
+            "w": 39,
+            "l": 27,
+            "t": 0,
+            "otl": 8,
+            "pts": 86,
+            "pct": 0.58108,
+            "stk": "L2",
+            "gf": 216,
+            "ga": 223,
+            "gd": -7
+          }
+        }
+      }
+    ],
+    "upcoming": [
+      {
+        "game_id": "20260402-TBL-PIT",
+        "game_time_utc": "2026-04-02 23:00:00+00:00",
+        "game_date": "2026-04-02",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "TBL",
+          "name": "Tampa Bay Lightning",
+          "stats": {
+            "gp": 74,
+            "w": 46,
+            "l": 22,
+            "t": 0,
+            "otl": 6,
+            "pts": 98,
+            "pct": 0.66216,
+            "stk": "L1",
+            "gf": 268,
+            "ga": 207,
+            "gd": 61
+          }
+        }
+      },
+      {
+        "game_id": "20260404-PIT-FLA",
+        "game_time_utc": "2026-04-04 21:00:00+00:00",
+        "game_date": "2026-04-04",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "FLA",
+          "name": "Florida Panthers",
+          "stats": {
+            "gp": 74,
+            "w": 36,
+            "l": 35,
+            "t": 0,
+            "otl": 3,
+            "pts": 75,
+            "pct": 0.50676,
+            "stk": "W1",
+            "gf": 222,
+            "ga": 247,
+            "gd": -25
+          }
+        }
+      },
+      {
+        "game_id": "20260405-PIT-FLA",
+        "game_time_utc": "2026-04-05 19:00:00+00:00",
+        "game_date": "2026-04-05",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "FLA",
+          "name": "Florida Panthers",
+          "stats": {
+            "gp": 74,
+            "w": 36,
+            "l": 35,
+            "t": 0,
+            "otl": 3,
+            "pts": 75,
+            "pct": 0.50676,
+            "stk": "W1",
+            "gf": 222,
+            "ga": 247,
+            "gd": -25
+          }
+        }
+      },
+      {
+        "game_id": "20260409-NJD-PIT",
+        "game_time_utc": "2026-04-09 23:00:00+00:00",
+        "game_date": "2026-04-09",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "NJD",
+          "name": "New Jersey Devils",
+          "stats": {
+            "gp": 74,
+            "w": 38,
+            "l": 34,
+            "t": 0,
+            "otl": 2,
+            "pts": 78,
+            "pct": 0.52703,
+            "stk": "L1",
+            "gf": 205,
+            "ga": 227,
+            "gd": -22
+          }
+        }
+      }
+    ]
+  },
   "standings": {
     "division": [
       {

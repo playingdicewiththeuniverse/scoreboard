@@ -32,106 +32,215 @@
     "dv": 1,
     "wc": null
   },
-  "games": [
-    {
-      "game_id": "20260328-CAR-NJD",
-      "game_time_utc": "2026-03-28 21:00:00+00:00",
-      "game_date": "2026-03-28",
-      "final": "Final",
-      "outcome": "win",
-      "score": [
-        5,
-        2
-      ],
-      "opponent_id": "NJD",
-      "opponent_name": "New Jersey Devils",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260329-CAR-MTL",
-      "game_time_utc": "2026-03-29 21:00:00+00:00",
-      "game_date": "2026-03-29",
-      "final": "Final",
-      "outcome": "loss",
-      "score": [
-        1,
-        3
-      ],
-      "opponent_id": "MTL",
-      "opponent_name": "Montreal Canadiens",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260331-CBJ-CAR",
-      "game_time_utc": "2026-03-31 23:30:00+00:00",
-      "game_date": "2026-03-31",
-      "final": "Final",
-      "outcome": "win",
-      "score": [
-        5,
-        2
-      ],
-      "opponent_id": "CBJ",
-      "opponent_name": "Columbus Blue Jackets",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260402-CAR-CBJ",
-      "game_time_utc": "2026-04-02 23:00:00+00:00",
-      "game_date": "2026-04-02",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "CBJ",
-      "opponent_name": "Columbus Blue Jackets",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260404-CAR-NYI",
-      "game_time_utc": "2026-04-04 23:00:00+00:00",
-      "game_date": "2026-04-04",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "NYI",
-      "opponent_name": "New York Islanders",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260405-OTT-CAR",
-      "game_time_utc": "2026-04-05 21:00:00+00:00",
-      "game_date": "2026-04-05",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "OTT",
-      "opponent_name": "Ottawa Senators",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260407-CAR-BOS",
-      "game_time_utc": "2026-04-07 23:00:00+00:00",
-      "game_date": "2026-04-07",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "BOS",
-      "opponent_name": "Boston Bruins",
-      "location": "Home"
-    }
-  ],
+  "games": {
+    "past": [
+      {
+        "game_id": "20260328-CAR-NJD",
+        "game_time_utc": "2026-03-28 21:00:00+00:00",
+        "game_date": "2026-03-28",
+        "final": "Final",
+        "outcome": "win",
+        "location": "Home",
+        "score": [
+          5,
+          2
+        ],
+        "opponent": {
+          "id": "NJD",
+          "name": "New Jersey Devils",
+          "stats": {
+            "gp": 74,
+            "w": 38,
+            "l": 34,
+            "t": 0,
+            "otl": 2,
+            "pts": 78,
+            "pct": 0.52703,
+            "stk": "L1",
+            "gf": 205,
+            "ga": 227,
+            "gd": -22
+          }
+        }
+      },
+      {
+        "game_id": "20260329-CAR-MTL",
+        "game_time_utc": "2026-03-29 21:00:00+00:00",
+        "game_date": "2026-03-29",
+        "final": "Final",
+        "outcome": "loss",
+        "location": "Home",
+        "score": [
+          1,
+          3
+        ],
+        "opponent": {
+          "id": "MTL",
+          "name": "Montreal Canadiens",
+          "stats": {
+            "gp": 74,
+            "w": 43,
+            "l": 21,
+            "t": 0,
+            "otl": 10,
+            "pts": 96,
+            "pct": 0.64865,
+            "stk": "W6",
+            "gf": 262,
+            "ga": 234,
+            "gd": 28
+          }
+        }
+      },
+      {
+        "game_id": "20260331-CBJ-CAR",
+        "game_time_utc": "2026-03-31 23:30:00+00:00",
+        "game_date": "2026-03-31",
+        "final": "Final",
+        "location": "Away",
+        "outcome": "win",
+        "score": [
+          5,
+          2
+        ],
+        "opponent": {
+          "id": "CBJ",
+          "name": "Columbus Blue Jackets",
+          "stats": {
+            "gp": 75,
+            "w": 38,
+            "l": 25,
+            "t": 0,
+            "otl": 12,
+            "pts": 88,
+            "pct": 0.58667,
+            "stk": "L1",
+            "gf": 239,
+            "ga": 231,
+            "gd": 8
+          }
+        }
+      }
+    ],
+    "upcoming": [
+      {
+        "game_id": "20260402-CAR-CBJ",
+        "game_time_utc": "2026-04-02 23:00:00+00:00",
+        "game_date": "2026-04-02",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "CBJ",
+          "name": "Columbus Blue Jackets",
+          "stats": {
+            "gp": 75,
+            "w": 38,
+            "l": 25,
+            "t": 0,
+            "otl": 12,
+            "pts": 88,
+            "pct": 0.58667,
+            "stk": "L1",
+            "gf": 239,
+            "ga": 231,
+            "gd": 8
+          }
+        }
+      },
+      {
+        "game_id": "20260404-CAR-NYI",
+        "game_time_utc": "2026-04-04 23:00:00+00:00",
+        "game_date": "2026-04-04",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "NYI",
+          "name": "New York Islanders",
+          "stats": {
+            "gp": 76,
+            "w": 42,
+            "l": 29,
+            "t": 0,
+            "otl": 5,
+            "pts": 89,
+            "pct": 0.58553,
+            "stk": "L2",
+            "gf": 222,
+            "ga": 221,
+            "gd": 1
+          }
+        }
+      },
+      {
+        "game_id": "20260405-OTT-CAR",
+        "game_time_utc": "2026-04-05 21:00:00+00:00",
+        "game_date": "2026-04-05",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "OTT",
+          "name": "Ottawa Senators",
+          "stats": {
+            "gp": 74,
+            "w": 38,
+            "l": 26,
+            "t": 0,
+            "otl": 10,
+            "pts": 86,
+            "pct": 0.58108,
+            "stk": "L2",
+            "gf": 247,
+            "ga": 230,
+            "gd": 17
+          }
+        }
+      },
+      {
+        "game_id": "20260407-CAR-BOS",
+        "game_time_utc": "2026-04-07 23:00:00+00:00",
+        "game_date": "2026-04-07",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "BOS",
+          "name": "Boston Bruins",
+          "stats": {
+            "gp": 75,
+            "w": 43,
+            "l": 24,
+            "t": 0,
+            "otl": 8,
+            "pts": 94,
+            "pct": 0.62667,
+            "stk": "W4",
+            "gf": 256,
+            "ga": 233,
+            "gd": 23
+          }
+        }
+      }
+    ]
+  },
   "standings": {
     "division": [
       {

@@ -32,106 +32,215 @@
     "dv": 7,
     "wc": 8
   },
-  "games": [
-    {
-      "game_id": "20260326-CGY-ANA",
-      "game_time_utc": "2026-03-27 01:00:00+00:00",
-      "game_date": "2026-03-26",
-      "final": "Final/OT",
-      "outcome": "loss",
-      "score": [
-        2,
-        3
-      ],
-      "opponent_id": "ANA",
-      "opponent_name": "Anaheim Ducks",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260328-CGY-VAN",
-      "game_time_utc": "2026-03-29 02:00:00+00:00",
-      "game_date": "2026-03-28",
-      "final": "Final",
-      "outcome": "win",
-      "score": [
-        7,
-        3
-      ],
-      "opponent_id": "VAN",
-      "opponent_name": "Vancouver Canucks",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260330-COL-CGY",
-      "game_time_utc": "2026-03-31 00:30:00+00:00",
-      "game_date": "2026-03-30",
-      "final": "Final",
-      "outcome": "loss",
-      "score": [
-        2,
-        9
-      ],
-      "opponent_id": "COL",
-      "opponent_name": "Colorado Avalanche",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260402-VGK-CGY",
-      "game_time_utc": "2026-04-03 02:00:00+00:00",
-      "game_date": "2026-04-02",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "VGK",
-      "opponent_name": "Vegas Golden Knights",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260404-ANA-CGY",
-      "game_time_utc": "2026-04-05 02:00:00+00:00",
-      "game_date": "2026-04-04",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "ANA",
-      "opponent_name": "Anaheim Ducks",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260407-DAL-CGY",
-      "game_time_utc": "2026-04-08 00:00:00+00:00",
-      "game_date": "2026-04-07",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "DAL",
-      "opponent_name": "Dallas Stars",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260409-COL-CGY",
-      "game_time_utc": "2026-04-10 01:00:00+00:00",
-      "game_date": "2026-04-09",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "COL",
-      "opponent_name": "Colorado Avalanche",
-      "location": "Away"
-    }
-  ],
+  "games": {
+    "past": [
+      {
+        "game_id": "20260326-CGY-ANA",
+        "game_time_utc": "2026-03-27 01:00:00+00:00",
+        "game_date": "2026-03-26",
+        "final": "Final/OT",
+        "outcome": "loss",
+        "location": "Home",
+        "score": [
+          2,
+          3
+        ],
+        "opponent": {
+          "id": "ANA",
+          "name": "Anaheim Ducks",
+          "stats": {
+            "gp": 75,
+            "w": 41,
+            "l": 29,
+            "t": 0,
+            "otl": 5,
+            "pts": 87,
+            "pct": 0.58,
+            "stk": "L1",
+            "gf": 252,
+            "ga": 260,
+            "gd": -8
+          }
+        }
+      },
+      {
+        "game_id": "20260328-CGY-VAN",
+        "game_time_utc": "2026-03-29 02:00:00+00:00",
+        "game_date": "2026-03-28",
+        "final": "Final",
+        "outcome": "win",
+        "location": "Home",
+        "score": [
+          7,
+          3
+        ],
+        "opponent": {
+          "id": "VAN",
+          "name": "Vancouver Canucks",
+          "stats": {
+            "gp": 74,
+            "w": 22,
+            "l": 44,
+            "t": 0,
+            "otl": 8,
+            "pts": 52,
+            "pct": 0.35135,
+            "stk": "W1",
+            "gf": 195,
+            "ga": 283,
+            "gd": -88
+          }
+        }
+      },
+      {
+        "game_id": "20260330-COL-CGY",
+        "game_time_utc": "2026-03-31 00:30:00+00:00",
+        "game_date": "2026-03-30",
+        "final": "Final",
+        "location": "Away",
+        "outcome": "loss",
+        "score": [
+          2,
+          9
+        ],
+        "opponent": {
+          "id": "COL",
+          "name": "Colorado Avalanche",
+          "stats": {
+            "gp": 74,
+            "w": 49,
+            "l": 15,
+            "t": 0,
+            "otl": 10,
+            "pts": 108,
+            "pct": 0.72973,
+            "stk": "L1",
+            "gf": 283,
+            "ga": 193,
+            "gd": 90
+          }
+        }
+      }
+    ],
+    "upcoming": [
+      {
+        "game_id": "20260402-VGK-CGY",
+        "game_time_utc": "2026-04-03 02:00:00+00:00",
+        "game_date": "2026-04-02",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "VGK",
+          "name": "Vegas Golden Knights",
+          "stats": {
+            "gp": 75,
+            "w": 33,
+            "l": 26,
+            "t": 0,
+            "otl": 16,
+            "pts": 82,
+            "pct": 0.54667,
+            "stk": "W1",
+            "gf": 236,
+            "ga": 236,
+            "gd": 0
+          }
+        }
+      },
+      {
+        "game_id": "20260404-ANA-CGY",
+        "game_time_utc": "2026-04-05 02:00:00+00:00",
+        "game_date": "2026-04-04",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "ANA",
+          "name": "Anaheim Ducks",
+          "stats": {
+            "gp": 75,
+            "w": 41,
+            "l": 29,
+            "t": 0,
+            "otl": 5,
+            "pts": 87,
+            "pct": 0.58,
+            "stk": "L1",
+            "gf": 252,
+            "ga": 260,
+            "gd": -8
+          }
+        }
+      },
+      {
+        "game_id": "20260407-DAL-CGY",
+        "game_time_utc": "2026-04-08 00:00:00+00:00",
+        "game_date": "2026-04-07",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "DAL",
+          "name": "Dallas Stars",
+          "stats": {
+            "gp": 75,
+            "w": 44,
+            "l": 19,
+            "t": 0,
+            "otl": 12,
+            "pts": 100,
+            "pct": 0.66667,
+            "stk": "L1",
+            "gf": 255,
+            "ga": 209,
+            "gd": 46
+          }
+        }
+      },
+      {
+        "game_id": "20260409-COL-CGY",
+        "game_time_utc": "2026-04-10 01:00:00+00:00",
+        "game_date": "2026-04-09",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "COL",
+          "name": "Colorado Avalanche",
+          "stats": {
+            "gp": 74,
+            "w": 49,
+            "l": 15,
+            "t": 0,
+            "otl": 10,
+            "pts": 108,
+            "pct": 0.72973,
+            "stk": "L1",
+            "gf": 283,
+            "ga": 193,
+            "gd": 90
+          }
+        }
+      }
+    ]
+  },
   "standings": {
     "division": [
       {

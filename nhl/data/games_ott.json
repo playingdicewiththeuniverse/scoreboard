@@ -4,28 +4,58 @@
     "game_time_utc": "2025-10-09 23:00:00+00:00",
     "game_date": "2025-10-09",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       5,
       4
     ],
-    "opponent_id": "TBL",
-    "opponent_name": "Tampa Bay Lightning",
-    "location": "Away"
+    "opponent": {
+      "id": "TBL",
+      "name": "Tampa Bay Lightning",
+      "stats": {
+        "gp": 74,
+        "w": 46,
+        "l": 22,
+        "t": 0,
+        "otl": 6,
+        "pts": 98,
+        "pct": 0.66216,
+        "stk": "L1",
+        "gf": 268,
+        "ga": 207,
+        "gd": 61
+      }
+    }
   },
   {
     "game_id": "20251011-FLA-OTT",
     "game_time_utc": "2025-10-11 23:00:00+00:00",
     "game_date": "2025-10-11",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       2,
       6
     ],
-    "opponent_id": "FLA",
-    "opponent_name": "Florida Panthers",
-    "location": "Away"
+    "opponent": {
+      "id": "FLA",
+      "name": "Florida Panthers",
+      "stats": {
+        "gp": 74,
+        "w": 36,
+        "l": 35,
+        "t": 0,
+        "otl": 3,
+        "pts": 75,
+        "pct": 0.50676,
+        "stk": "W1",
+        "gf": 222,
+        "ga": 247,
+        "gd": -25
+      }
+    }
   },
   {
     "game_id": "20251013-OTT-NSH",
@@ -33,27 +63,57 @@
     "game_date": "2025-10-13",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       1,
       4
     ],
-    "opponent_id": "NSH",
-    "opponent_name": "Nashville Predators",
-    "location": "Home"
+    "opponent": {
+      "id": "NSH",
+      "name": "Nashville Predators",
+      "stats": {
+        "gp": 74,
+        "w": 34,
+        "l": 31,
+        "t": 0,
+        "otl": 9,
+        "pts": 77,
+        "pct": 0.52027,
+        "stk": "L3",
+        "gf": 220,
+        "ga": 246,
+        "gd": -26
+      }
+    }
   },
   {
     "game_id": "20251015-BUF-OTT",
     "game_time_utc": "2025-10-15 23:00:00+00:00",
     "game_date": "2025-10-15",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       4,
       8
     ],
-    "opponent_id": "BUF",
-    "opponent_name": "Buffalo Sabres",
-    "location": "Away"
+    "opponent": {
+      "id": "BUF",
+      "name": "Buffalo Sabres",
+      "stats": {
+        "gp": 75,
+        "w": 46,
+        "l": 21,
+        "t": 0,
+        "otl": 8,
+        "pts": 100,
+        "pct": 0.66667,
+        "stk": "W2",
+        "gf": 263,
+        "ga": 221,
+        "gd": 42
+      }
+    }
   },
   {
     "game_id": "20251016-OTT-SEA",
@@ -61,13 +121,28 @@
     "game_date": "2025-10-16",
     "final": "Final/SO",
     "outcome": "win",
+    "location": "Home",
     "score": [
       4,
       3
     ],
-    "opponent_id": "SEA",
-    "opponent_name": "Seattle Kraken",
-    "location": "Home"
+    "opponent": {
+      "id": "SEA",
+      "name": "Seattle Kraken",
+      "stats": {
+        "gp": 73,
+        "w": 32,
+        "l": 30,
+        "t": 0,
+        "otl": 11,
+        "pts": 75,
+        "pct": 0.5137,
+        "stk": "L1",
+        "gf": 206,
+        "ga": 227,
+        "gd": -21
+      }
+    }
   },
   {
     "game_id": "20251018-OTT-NYI",
@@ -75,13 +150,28 @@
     "game_date": "2025-10-18",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       4,
       5
     ],
-    "opponent_id": "NYI",
-    "opponent_name": "New York Islanders",
-    "location": "Home"
+    "opponent": {
+      "id": "NYI",
+      "name": "New York Islanders",
+      "stats": {
+        "gp": 76,
+        "w": 42,
+        "l": 29,
+        "t": 0,
+        "otl": 5,
+        "pts": 89,
+        "pct": 0.58553,
+        "stk": "L2",
+        "gf": 222,
+        "ga": 221,
+        "gd": 1
+      }
+    }
   },
   {
     "game_id": "20251021-OTT-EDM",
@@ -89,13 +179,28 @@
     "game_date": "2025-10-21",
     "final": "Final/OT",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       2,
       3
     ],
-    "opponent_id": "EDM",
-    "opponent_name": "Edmonton Oilers",
-    "location": "Home"
+    "opponent": {
+      "id": "EDM",
+      "name": "Edmonton Oilers",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 28,
+        "t": 0,
+        "otl": 9,
+        "pts": 85,
+        "pct": 0.56667,
+        "stk": "W4",
+        "gf": 261,
+        "ga": 251,
+        "gd": 10
+      }
+    }
   },
   {
     "game_id": "20251023-OTT-PHI",
@@ -103,27 +208,57 @@
     "game_date": "2025-10-23",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       2,
       1
     ],
-    "opponent_id": "PHI",
-    "opponent_name": "Philadelphia Flyers",
-    "location": "Home"
+    "opponent": {
+      "id": "PHI",
+      "name": "Philadelphia Flyers",
+      "stats": {
+        "gp": 74,
+        "w": 37,
+        "l": 25,
+        "t": 0,
+        "otl": 12,
+        "pts": 86,
+        "pct": 0.58108,
+        "stk": "L1",
+        "gf": 220,
+        "ga": 225,
+        "gd": -5
+      }
+    }
   },
   {
     "game_id": "20251025-WSH-OTT",
     "game_time_utc": "2025-10-25 23:00:00+00:00",
     "game_date": "2025-10-25",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       7,
       1
     ],
-    "opponent_id": "WSH",
-    "opponent_name": "Washington Capitals",
-    "location": "Away"
+    "opponent": {
+      "id": "WSH",
+      "name": "Washington Capitals",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 28,
+        "t": 0,
+        "otl": 9,
+        "pts": 85,
+        "pct": 0.56667,
+        "stk": "W3",
+        "gf": 238,
+        "ga": 223,
+        "gd": 15
+      }
+    }
   },
   {
     "game_id": "20251027-OTT-BOS",
@@ -131,27 +266,57 @@
     "game_date": "2025-10-27",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       7,
       2
     ],
-    "opponent_id": "BOS",
-    "opponent_name": "Boston Bruins",
-    "location": "Home"
+    "opponent": {
+      "id": "BOS",
+      "name": "Boston Bruins",
+      "stats": {
+        "gp": 75,
+        "w": 43,
+        "l": 24,
+        "t": 0,
+        "otl": 8,
+        "pts": 94,
+        "pct": 0.62667,
+        "stk": "W4",
+        "gf": 256,
+        "ga": 233,
+        "gd": 23
+      }
+    }
   },
   {
     "game_id": "20251028-CHI-OTT",
     "game_time_utc": "2025-10-29 00:45:00+00:00",
     "game_date": "2025-10-28",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       3,
       7
     ],
-    "opponent_id": "CHI",
-    "opponent_name": "Chicago Blackhawks",
-    "location": "Away"
+    "opponent": {
+      "id": "CHI",
+      "name": "Chicago Blackhawks",
+      "stats": {
+        "gp": 75,
+        "w": 27,
+        "l": 34,
+        "t": 0,
+        "otl": 14,
+        "pts": 68,
+        "pct": 0.45333,
+        "stk": "OT1",
+        "gf": 195,
+        "ga": 248,
+        "gd": -53
+      }
+    }
   },
   {
     "game_id": "20251030-OTT-CGY",
@@ -159,55 +324,115 @@
     "game_date": "2025-10-30",
     "final": "Final/SO",
     "outcome": "win",
+    "location": "Home",
     "score": [
       4,
       3
     ],
-    "opponent_id": "CGY",
-    "opponent_name": "Calgary Flames",
-    "location": "Home"
+    "opponent": {
+      "id": "CGY",
+      "name": "Calgary Flames",
+      "stats": {
+        "gp": 74,
+        "w": 31,
+        "l": 35,
+        "t": 0,
+        "otl": 8,
+        "pts": 70,
+        "pct": 0.47297,
+        "stk": "L1",
+        "gf": 191,
+        "ga": 234,
+        "gd": -43
+      }
+    }
   },
   {
     "game_id": "20251101-MTL-OTT",
     "game_time_utc": "2025-11-01 23:00:00+00:00",
     "game_date": "2025-11-01",
     "final": "Final/OT",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       3,
       4
     ],
-    "opponent_id": "MTL",
-    "opponent_name": "Montreal Canadiens",
-    "location": "Away"
+    "opponent": {
+      "id": "MTL",
+      "name": "Montreal Canadiens",
+      "stats": {
+        "gp": 74,
+        "w": 43,
+        "l": 21,
+        "t": 0,
+        "otl": 10,
+        "pts": 96,
+        "pct": 0.64865,
+        "stk": "W6",
+        "gf": 262,
+        "ga": 234,
+        "gd": 28
+      }
+    }
   },
   {
     "game_id": "20251106-BOS-OTT",
     "game_time_utc": "2025-11-07 00:00:00+00:00",
     "game_date": "2025-11-06",
     "final": "Final/OT",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       2,
       3
     ],
-    "opponent_id": "BOS",
-    "opponent_name": "Boston Bruins",
-    "location": "Away"
+    "opponent": {
+      "id": "BOS",
+      "name": "Boston Bruins",
+      "stats": {
+        "gp": 75,
+        "w": 43,
+        "l": 24,
+        "t": 0,
+        "otl": 8,
+        "pts": 94,
+        "pct": 0.62667,
+        "stk": "W4",
+        "gf": 256,
+        "ga": 233,
+        "gd": 23
+      }
+    }
   },
   {
     "game_id": "20251108-PHI-OTT",
     "game_time_utc": "2025-11-08 18:00:00+00:00",
     "game_date": "2025-11-08",
     "final": "Final/OT",
+    "location": "Away",
     "outcome": "win",
     "score": [
       3,
       2
     ],
-    "opponent_id": "PHI",
-    "opponent_name": "Philadelphia Flyers",
-    "location": "Away"
+    "opponent": {
+      "id": "PHI",
+      "name": "Philadelphia Flyers",
+      "stats": {
+        "gp": 74,
+        "w": 37,
+        "l": 25,
+        "t": 0,
+        "otl": 12,
+        "pts": 86,
+        "pct": 0.58108,
+        "stk": "L1",
+        "gf": 220,
+        "ga": 225,
+        "gd": -5
+      }
+    }
   },
   {
     "game_id": "20251109-OTT-UTA",
@@ -215,13 +440,28 @@
     "game_date": "2025-11-09",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       4,
       2
     ],
-    "opponent_id": "UTA",
-    "opponent_name": "Utah Mammoth",
-    "location": "Home"
+    "opponent": {
+      "id": "UTA",
+      "name": "Utah Mammoth",
+      "stats": {
+        "gp": 74,
+        "w": 38,
+        "l": 30,
+        "t": 0,
+        "otl": 6,
+        "pts": 82,
+        "pct": 0.55405,
+        "stk": "W1",
+        "gf": 235,
+        "ga": 212,
+        "gd": 23
+      }
+    }
   },
   {
     "game_id": "20251111-OTT-DAL",
@@ -229,13 +469,28 @@
     "game_date": "2025-11-11",
     "final": "Final/OT",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       2,
       3
     ],
-    "opponent_id": "DAL",
-    "opponent_name": "Dallas Stars",
-    "location": "Home"
+    "opponent": {
+      "id": "DAL",
+      "name": "Dallas Stars",
+      "stats": {
+        "gp": 75,
+        "w": 44,
+        "l": 19,
+        "t": 0,
+        "otl": 12,
+        "pts": 100,
+        "pct": 0.66667,
+        "stk": "L1",
+        "gf": 255,
+        "ga": 209,
+        "gd": 46
+      }
+    }
   },
   {
     "game_id": "20251113-OTT-BOS",
@@ -243,13 +498,28 @@
     "game_date": "2025-11-13",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       5,
       3
     ],
-    "opponent_id": "BOS",
-    "opponent_name": "Boston Bruins",
-    "location": "Home"
+    "opponent": {
+      "id": "BOS",
+      "name": "Boston Bruins",
+      "stats": {
+        "gp": 75,
+        "w": 43,
+        "l": 24,
+        "t": 0,
+        "otl": 8,
+        "pts": 94,
+        "pct": 0.62667,
+        "stk": "W4",
+        "gf": 256,
+        "ga": 233,
+        "gd": 23
+      }
+    }
   },
   {
     "game_id": "20251115-OTT-LAK",
@@ -257,111 +527,231 @@
     "game_date": "2025-11-15",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       0,
       1
     ],
-    "opponent_id": "LAK",
-    "opponent_name": "Los Angeles Kings",
-    "location": "Home"
+    "opponent": {
+      "id": "LAK",
+      "name": "Los Angeles Kings",
+      "stats": {
+        "gp": 74,
+        "w": 30,
+        "l": 26,
+        "t": 0,
+        "otl": 18,
+        "pts": 78,
+        "pct": 0.52703,
+        "stk": "W1",
+        "gf": 197,
+        "ga": 223,
+        "gd": -26
+      }
+    }
   },
   {
     "game_id": "20251120-ANA-OTT",
     "game_time_utc": "2025-11-21 03:00:00+00:00",
     "game_date": "2025-11-20",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       3,
       2
     ],
-    "opponent_id": "ANA",
-    "opponent_name": "Anaheim Ducks",
-    "location": "Away"
+    "opponent": {
+      "id": "ANA",
+      "name": "Anaheim Ducks",
+      "stats": {
+        "gp": 75,
+        "w": 41,
+        "l": 29,
+        "t": 0,
+        "otl": 5,
+        "pts": 87,
+        "pct": 0.58,
+        "stk": "L1",
+        "gf": 252,
+        "ga": 260,
+        "gd": -8
+      }
+    }
   },
   {
     "game_id": "20251122-SJS-OTT",
     "game_time_utc": "2025-11-23 00:00:00+00:00",
     "game_date": "2025-11-22",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       3,
       2
     ],
-    "opponent_id": "SJS",
-    "opponent_name": "San Jose Sharks",
-    "location": "Away"
+    "opponent": {
+      "id": "SJS",
+      "name": "San Jose Sharks",
+      "stats": {
+        "gp": 73,
+        "w": 35,
+        "l": 31,
+        "t": 0,
+        "otl": 7,
+        "pts": 77,
+        "pct": 0.5274,
+        "stk": "W3",
+        "gf": 224,
+        "ga": 260,
+        "gd": -36
+      }
+    }
   },
   {
     "game_id": "20251124-LAK-OTT",
     "game_time_utc": "2025-11-25 02:00:00+00:00",
     "game_date": "2025-11-24",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       1,
       2
     ],
-    "opponent_id": "LAK",
-    "opponent_name": "Los Angeles Kings",
-    "location": "Away"
+    "opponent": {
+      "id": "LAK",
+      "name": "Los Angeles Kings",
+      "stats": {
+        "gp": 74,
+        "w": 30,
+        "l": 26,
+        "t": 0,
+        "otl": 18,
+        "pts": 78,
+        "pct": 0.52703,
+        "stk": "W1",
+        "gf": 197,
+        "ga": 223,
+        "gd": -26
+      }
+    }
   },
   {
     "game_id": "20251126-VGK-OTT",
     "game_time_utc": "2025-11-27 03:00:00+00:00",
     "game_date": "2025-11-26",
     "final": "Final/SO",
+    "location": "Away",
     "outcome": "win",
     "score": [
       4,
       3
     ],
-    "opponent_id": "VGK",
-    "opponent_name": "Vegas Golden Knights",
-    "location": "Away"
+    "opponent": {
+      "id": "VGK",
+      "name": "Vegas Golden Knights",
+      "stats": {
+        "gp": 75,
+        "w": 33,
+        "l": 26,
+        "t": 0,
+        "otl": 16,
+        "pts": 82,
+        "pct": 0.54667,
+        "stk": "W1",
+        "gf": 236,
+        "ga": 236,
+        "gd": 0
+      }
+    }
   },
   {
     "game_id": "20251128-STL-OTT",
     "game_time_utc": "2025-11-28 21:00:00+00:00",
     "game_date": "2025-11-28",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       3,
       4
     ],
-    "opponent_id": "STL",
-    "opponent_name": "St. Louis Blues",
-    "location": "Away"
+    "opponent": {
+      "id": "STL",
+      "name": "St. Louis Blues",
+      "stats": {
+        "gp": 74,
+        "w": 31,
+        "l": 31,
+        "t": 0,
+        "otl": 12,
+        "pts": 74,
+        "pct": 0.5,
+        "stk": "OT1",
+        "gf": 196,
+        "ga": 234,
+        "gd": -38
+      }
+    }
   },
   {
     "game_id": "20251130-DAL-OTT",
     "game_time_utc": "2025-11-30 23:00:00+00:00",
     "game_date": "2025-11-30",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       1,
       6
     ],
-    "opponent_id": "DAL",
-    "opponent_name": "Dallas Stars",
-    "location": "Away"
+    "opponent": {
+      "id": "DAL",
+      "name": "Dallas Stars",
+      "stats": {
+        "gp": 75,
+        "w": 44,
+        "l": 19,
+        "t": 0,
+        "otl": 12,
+        "pts": 100,
+        "pct": 0.66667,
+        "stk": "L1",
+        "gf": 255,
+        "ga": 209,
+        "gd": 46
+      }
+    }
   },
   {
     "game_id": "20251202-MTL-OTT",
     "game_time_utc": "2025-12-03 00:00:00+00:00",
     "game_date": "2025-12-02",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       5,
       2
     ],
-    "opponent_id": "MTL",
-    "opponent_name": "Montreal Canadiens",
-    "location": "Away"
+    "opponent": {
+      "id": "MTL",
+      "name": "Montreal Canadiens",
+      "stats": {
+        "gp": 74,
+        "w": 43,
+        "l": 21,
+        "t": 0,
+        "otl": 10,
+        "pts": 96,
+        "pct": 0.64865,
+        "stk": "W6",
+        "gf": 262,
+        "ga": 234,
+        "gd": 28
+      }
+    }
   },
   {
     "game_id": "20251204-OTT-NYR",
@@ -369,13 +759,28 @@
     "game_date": "2025-12-04",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       2,
       4
     ],
-    "opponent_id": "NYR",
-    "opponent_name": "New York Rangers",
-    "location": "Home"
+    "opponent": {
+      "id": "NYR",
+      "name": "New York Rangers",
+      "stats": {
+        "gp": 75,
+        "w": 31,
+        "l": 35,
+        "t": 0,
+        "otl": 9,
+        "pts": 71,
+        "pct": 0.47333,
+        "stk": "W3",
+        "gf": 215,
+        "ga": 233,
+        "gd": -18
+      }
+    }
   },
   {
     "game_id": "20251206-OTT-STL",
@@ -383,13 +788,28 @@
     "game_date": "2025-12-06",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       1,
       2
     ],
-    "opponent_id": "STL",
-    "opponent_name": "St. Louis Blues",
-    "location": "Home"
+    "opponent": {
+      "id": "STL",
+      "name": "St. Louis Blues",
+      "stats": {
+        "gp": 74,
+        "w": 31,
+        "l": 31,
+        "t": 0,
+        "otl": 12,
+        "pts": 74,
+        "pct": 0.5,
+        "stk": "OT1",
+        "gf": 196,
+        "ga": 234,
+        "gd": -38
+      }
+    }
   },
   {
     "game_id": "20251209-OTT-NJD",
@@ -397,55 +817,115 @@
     "game_date": "2025-12-09",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       3,
       4
     ],
-    "opponent_id": "NJD",
-    "opponent_name": "New Jersey Devils",
-    "location": "Home"
+    "opponent": {
+      "id": "NJD",
+      "name": "New Jersey Devils",
+      "stats": {
+        "gp": 74,
+        "w": 38,
+        "l": 34,
+        "t": 0,
+        "otl": 2,
+        "pts": 78,
+        "pct": 0.52703,
+        "stk": "L1",
+        "gf": 205,
+        "ga": 227,
+        "gd": -22
+      }
+    }
   },
   {
     "game_id": "20251211-CBJ-OTT",
     "game_time_utc": "2025-12-12 00:00:00+00:00",
     "game_date": "2025-12-11",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       6,
       3
     ],
-    "opponent_id": "CBJ",
-    "opponent_name": "Columbus Blue Jackets",
-    "location": "Away"
+    "opponent": {
+      "id": "CBJ",
+      "name": "Columbus Blue Jackets",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 25,
+        "t": 0,
+        "otl": 12,
+        "pts": 88,
+        "pct": 0.58667,
+        "stk": "L1",
+        "gf": 239,
+        "ga": 231,
+        "gd": 8
+      }
+    }
   },
   {
     "game_id": "20251213-MIN-OTT",
     "game_time_utc": "2025-12-13 19:00:00+00:00",
     "game_date": "2025-12-13",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       2,
       3
     ],
-    "opponent_id": "MIN",
-    "opponent_name": "Minnesota Wild",
-    "location": "Away"
+    "opponent": {
+      "id": "MIN",
+      "name": "Minnesota Wild",
+      "stats": {
+        "gp": 74,
+        "w": 41,
+        "l": 21,
+        "t": 0,
+        "otl": 12,
+        "pts": 94,
+        "pct": 0.63514,
+        "stk": "L1",
+        "gf": 242,
+        "ga": 216,
+        "gd": 26
+      }
+    }
   },
   {
     "game_id": "20251215-WPG-OTT",
     "game_time_utc": "2025-12-16 00:30:00+00:00",
     "game_date": "2025-12-15",
     "final": "Final/OT",
+    "location": "Away",
     "outcome": "win",
     "score": [
       3,
       2
     ],
-    "opponent_id": "WPG",
-    "opponent_name": "Winnipeg Jets",
-    "location": "Away"
+    "opponent": {
+      "id": "WPG",
+      "name": "Winnipeg Jets",
+      "stats": {
+        "gp": 74,
+        "w": 32,
+        "l": 30,
+        "t": 0,
+        "otl": 12,
+        "pts": 76,
+        "pct": 0.51351,
+        "stk": "W2",
+        "gf": 213,
+        "ga": 228,
+        "gd": -15
+      }
+    }
   },
   {
     "game_id": "20251218-OTT-PIT",
@@ -453,13 +933,28 @@
     "game_date": "2025-12-18",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       4,
       0
     ],
-    "opponent_id": "PIT",
-    "opponent_name": "Pittsburgh Penguins",
-    "location": "Home"
+    "opponent": {
+      "id": "PIT",
+      "name": "Pittsburgh Penguins",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 21,
+        "t": 0,
+        "otl": 16,
+        "pts": 92,
+        "pct": 0.61333,
+        "stk": "W2",
+        "gf": 263,
+        "ga": 238,
+        "gd": 25
+      }
+    }
   },
   {
     "game_id": "20251220-OTT-CHI",
@@ -467,27 +962,57 @@
     "game_date": "2025-12-20",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       6,
       4
     ],
-    "opponent_id": "CHI",
-    "opponent_name": "Chicago Blackhawks",
-    "location": "Home"
+    "opponent": {
+      "id": "CHI",
+      "name": "Chicago Blackhawks",
+      "stats": {
+        "gp": 75,
+        "w": 27,
+        "l": 34,
+        "t": 0,
+        "otl": 14,
+        "pts": 68,
+        "pct": 0.45333,
+        "stk": "OT1",
+        "gf": 195,
+        "ga": 248,
+        "gd": -53
+      }
+    }
   },
   {
     "game_id": "20251221-BOS-OTT",
     "game_time_utc": "2025-12-22 00:00:00+00:00",
     "game_date": "2025-12-21",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       6,
       2
     ],
-    "opponent_id": "BOS",
-    "opponent_name": "Boston Bruins",
-    "location": "Away"
+    "opponent": {
+      "id": "BOS",
+      "name": "Boston Bruins",
+      "stats": {
+        "gp": 75,
+        "w": 43,
+        "l": 24,
+        "t": 0,
+        "otl": 8,
+        "pts": 94,
+        "pct": 0.62667,
+        "stk": "W4",
+        "gf": 256,
+        "ga": 233,
+        "gd": 23
+      }
+    }
   },
   {
     "game_id": "20251223-OTT-BUF",
@@ -495,27 +1020,57 @@
     "game_date": "2025-12-23",
     "final": "Final/OT",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       2,
       3
     ],
-    "opponent_id": "BUF",
-    "opponent_name": "Buffalo Sabres",
-    "location": "Home"
+    "opponent": {
+      "id": "BUF",
+      "name": "Buffalo Sabres",
+      "stats": {
+        "gp": 75,
+        "w": 46,
+        "l": 21,
+        "t": 0,
+        "otl": 8,
+        "pts": 100,
+        "pct": 0.66667,
+        "stk": "W2",
+        "gf": 263,
+        "ga": 221,
+        "gd": 42
+      }
+    }
   },
   {
     "game_id": "20251227-TOR-OTT",
     "game_time_utc": "2025-12-28 00:00:00+00:00",
     "game_date": "2025-12-27",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       5,
       7
     ],
-    "opponent_id": "TOR",
-    "opponent_name": "Toronto Maple Leafs",
-    "location": "Away"
+    "opponent": {
+      "id": "TOR",
+      "name": "Toronto Maple Leafs",
+      "stats": {
+        "gp": 75,
+        "w": 32,
+        "l": 30,
+        "t": 0,
+        "otl": 13,
+        "pts": 77,
+        "pct": 0.51333,
+        "stk": "W1",
+        "gf": 235,
+        "ga": 264,
+        "gd": -29
+      }
+    }
   },
   {
     "game_id": "20251229-OTT-CBJ",
@@ -523,13 +1078,28 @@
     "game_date": "2025-12-29",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       1,
       4
     ],
-    "opponent_id": "CBJ",
-    "opponent_name": "Columbus Blue Jackets",
-    "location": "Home"
+    "opponent": {
+      "id": "CBJ",
+      "name": "Columbus Blue Jackets",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 25,
+        "t": 0,
+        "otl": 12,
+        "pts": 88,
+        "pct": 0.58667,
+        "stk": "L1",
+        "gf": 239,
+        "ga": 231,
+        "gd": 8
+      }
+    }
   },
   {
     "game_id": "20260101-OTT-WSH",
@@ -537,13 +1107,28 @@
     "game_date": "2026-01-01",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       4,
       3
     ],
-    "opponent_id": "WSH",
-    "opponent_name": "Washington Capitals",
-    "location": "Home"
+    "opponent": {
+      "id": "WSH",
+      "name": "Washington Capitals",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 28,
+        "t": 0,
+        "otl": 9,
+        "pts": 85,
+        "pct": 0.56667,
+        "stk": "W3",
+        "gf": 238,
+        "ga": 223,
+        "gd": 15
+      }
+    }
   },
   {
     "game_id": "20260103-OTT-WPG",
@@ -551,13 +1136,28 @@
     "game_date": "2026-01-03",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       4,
       2
     ],
-    "opponent_id": "WPG",
-    "opponent_name": "Winnipeg Jets",
-    "location": "Home"
+    "opponent": {
+      "id": "WPG",
+      "name": "Winnipeg Jets",
+      "stats": {
+        "gp": 74,
+        "w": 32,
+        "l": 30,
+        "t": 0,
+        "otl": 12,
+        "pts": 76,
+        "pct": 0.51351,
+        "stk": "W2",
+        "gf": 213,
+        "ga": 228,
+        "gd": -15
+      }
+    }
   },
   {
     "game_id": "20260105-OTT-DET",
@@ -565,41 +1165,86 @@
     "game_date": "2026-01-05",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       3,
       5
     ],
-    "opponent_id": "DET",
-    "opponent_name": "Detroit Red Wings",
-    "location": "Home"
+    "opponent": {
+      "id": "DET",
+      "name": "Detroit Red Wings",
+      "stats": {
+        "gp": 74,
+        "w": 39,
+        "l": 27,
+        "t": 0,
+        "otl": 8,
+        "pts": 86,
+        "pct": 0.58108,
+        "stk": "L2",
+        "gf": 216,
+        "ga": 223,
+        "gd": -7
+      }
+    }
   },
   {
     "game_id": "20260107-UTA-OTT",
     "game_time_utc": "2026-01-08 02:30:00+00:00",
     "game_date": "2026-01-07",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       1,
       3
     ],
-    "opponent_id": "UTA",
-    "opponent_name": "Utah Mammoth",
-    "location": "Away"
+    "opponent": {
+      "id": "UTA",
+      "name": "Utah Mammoth",
+      "stats": {
+        "gp": 74,
+        "w": 38,
+        "l": 30,
+        "t": 0,
+        "otl": 6,
+        "pts": 82,
+        "pct": 0.55405,
+        "stk": "W1",
+        "gf": 235,
+        "ga": 212,
+        "gd": 23
+      }
+    }
   },
   {
     "game_id": "20260108-COL-OTT",
     "game_time_utc": "2026-01-09 02:00:00+00:00",
     "game_date": "2026-01-08",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       2,
       8
     ],
-    "opponent_id": "COL",
-    "opponent_name": "Colorado Avalanche",
-    "location": "Away"
+    "opponent": {
+      "id": "COL",
+      "name": "Colorado Avalanche",
+      "stats": {
+        "gp": 74,
+        "w": 49,
+        "l": 15,
+        "t": 0,
+        "otl": 10,
+        "pts": 108,
+        "pct": 0.72973,
+        "stk": "L1",
+        "gf": 283,
+        "ga": 193,
+        "gd": 90
+      }
+    }
   },
   {
     "game_id": "20260110-OTT-FLA",
@@ -607,13 +1252,28 @@
     "game_date": "2026-01-10",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       2,
       3
     ],
-    "opponent_id": "FLA",
-    "opponent_name": "Florida Panthers",
-    "location": "Home"
+    "opponent": {
+      "id": "FLA",
+      "name": "Florida Panthers",
+      "stats": {
+        "gp": 74,
+        "w": 36,
+        "l": 35,
+        "t": 0,
+        "otl": 3,
+        "pts": 75,
+        "pct": 0.50676,
+        "stk": "W1",
+        "gf": 222,
+        "ga": 247,
+        "gd": -25
+      }
+    }
   },
   {
     "game_id": "20260113-OTT-VAN",
@@ -621,27 +1281,57 @@
     "game_date": "2026-01-13",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       2,
       1
     ],
-    "opponent_id": "VAN",
-    "opponent_name": "Vancouver Canucks",
-    "location": "Home"
+    "opponent": {
+      "id": "VAN",
+      "name": "Vancouver Canucks",
+      "stats": {
+        "gp": 74,
+        "w": 22,
+        "l": 44,
+        "t": 0,
+        "otl": 8,
+        "pts": 52,
+        "pct": 0.35135,
+        "stk": "W1",
+        "gf": 195,
+        "ga": 283,
+        "gd": -88
+      }
+    }
   },
   {
     "game_id": "20260114-NYR-OTT",
     "game_time_utc": "2026-01-15 00:30:00+00:00",
     "game_date": "2026-01-14",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       8,
       4
     ],
-    "opponent_id": "NYR",
-    "opponent_name": "New York Rangers",
-    "location": "Away"
+    "opponent": {
+      "id": "NYR",
+      "name": "New York Rangers",
+      "stats": {
+        "gp": 75,
+        "w": 31,
+        "l": 35,
+        "t": 0,
+        "otl": 9,
+        "pts": 71,
+        "pct": 0.47333,
+        "stk": "W3",
+        "gf": 215,
+        "ga": 233,
+        "gd": -18
+      }
+    }
   },
   {
     "game_id": "20260117-OTT-MTL",
@@ -649,55 +1339,115 @@
     "game_date": "2026-01-17",
     "final": "Final/OT",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       5,
       6
     ],
-    "opponent_id": "MTL",
-    "opponent_name": "Montreal Canadiens",
-    "location": "Home"
+    "opponent": {
+      "id": "MTL",
+      "name": "Montreal Canadiens",
+      "stats": {
+        "gp": 74,
+        "w": 43,
+        "l": 21,
+        "t": 0,
+        "otl": 10,
+        "pts": 96,
+        "pct": 0.64865,
+        "stk": "W6",
+        "gf": 262,
+        "ga": 234,
+        "gd": 28
+      }
+    }
   },
   {
     "game_id": "20260118-DET-OTT",
     "game_time_utc": "2026-01-18 22:00:00+00:00",
     "game_date": "2026-01-18",
     "final": "Final/OT",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       3,
       4
     ],
-    "opponent_id": "DET",
-    "opponent_name": "Detroit Red Wings",
-    "location": "Away"
+    "opponent": {
+      "id": "DET",
+      "name": "Detroit Red Wings",
+      "stats": {
+        "gp": 74,
+        "w": 39,
+        "l": 27,
+        "t": 0,
+        "otl": 8,
+        "pts": 86,
+        "pct": 0.58108,
+        "stk": "L2",
+        "gf": 216,
+        "ga": 223,
+        "gd": -7
+      }
+    }
   },
   {
     "game_id": "20260120-CBJ-OTT",
     "game_time_utc": "2026-01-21 00:00:00+00:00",
     "game_date": "2026-01-20",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       4,
       1
     ],
-    "opponent_id": "CBJ",
-    "opponent_name": "Columbus Blue Jackets",
-    "location": "Away"
+    "opponent": {
+      "id": "CBJ",
+      "name": "Columbus Blue Jackets",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 25,
+        "t": 0,
+        "otl": 12,
+        "pts": 88,
+        "pct": 0.58667,
+        "stk": "L1",
+        "gf": 239,
+        "ga": 231,
+        "gd": 8
+      }
+    }
   },
   {
     "game_id": "20260122-NSH-OTT",
     "game_time_utc": "2026-01-23 01:00:00+00:00",
     "game_date": "2026-01-22",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       3,
       5
     ],
-    "opponent_id": "NSH",
-    "opponent_name": "Nashville Predators",
-    "location": "Away"
+    "opponent": {
+      "id": "NSH",
+      "name": "Nashville Predators",
+      "stats": {
+        "gp": 74,
+        "w": 34,
+        "l": 31,
+        "t": 0,
+        "otl": 9,
+        "pts": 77,
+        "pct": 0.52027,
+        "stk": "L3",
+        "gf": 220,
+        "ga": 246,
+        "gd": -26
+      }
+    }
   },
   {
     "game_id": "20260124-OTT-CAR",
@@ -705,13 +1455,28 @@
     "game_date": "2026-01-24",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       1,
       4
     ],
-    "opponent_id": "CAR",
-    "opponent_name": "Carolina Hurricanes",
-    "location": "Home"
+    "opponent": {
+      "id": "CAR",
+      "name": "Carolina Hurricanes",
+      "stats": {
+        "gp": 74,
+        "w": 47,
+        "l": 21,
+        "t": 0,
+        "otl": 6,
+        "pts": 100,
+        "pct": 0.67568,
+        "stk": "W1",
+        "gf": 263,
+        "ga": 218,
+        "gd": 45
+      }
+    }
   },
   {
     "game_id": "20260125-OTT-VGK",
@@ -719,13 +1484,28 @@
     "game_date": "2026-01-25",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       7,
       1
     ],
-    "opponent_id": "VGK",
-    "opponent_name": "Vegas Golden Knights",
-    "location": "Home"
+    "opponent": {
+      "id": "VGK",
+      "name": "Vegas Golden Knights",
+      "stats": {
+        "gp": 75,
+        "w": 33,
+        "l": 26,
+        "t": 0,
+        "otl": 16,
+        "pts": 82,
+        "pct": 0.54667,
+        "stk": "W1",
+        "gf": 236,
+        "ga": 236,
+        "gd": 0
+      }
+    }
   },
   {
     "game_id": "20260128-OTT-COL",
@@ -733,13 +1513,28 @@
     "game_date": "2026-01-28",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       5,
       2
     ],
-    "opponent_id": "COL",
-    "opponent_name": "Colorado Avalanche",
-    "location": "Home"
+    "opponent": {
+      "id": "COL",
+      "name": "Colorado Avalanche",
+      "stats": {
+        "gp": 74,
+        "w": 49,
+        "l": 15,
+        "t": 0,
+        "otl": 10,
+        "pts": 108,
+        "pct": 0.72973,
+        "stk": "L1",
+        "gf": 283,
+        "ga": 193,
+        "gd": 90
+      }
+    }
   },
   {
     "game_id": "20260131-OTT-NJD",
@@ -747,55 +1542,115 @@
     "game_date": "2026-01-31",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       4,
       1
     ],
-    "opponent_id": "NJD",
-    "opponent_name": "New Jersey Devils",
-    "location": "Home"
+    "opponent": {
+      "id": "NJD",
+      "name": "New Jersey Devils",
+      "stats": {
+        "gp": 74,
+        "w": 38,
+        "l": 34,
+        "t": 0,
+        "otl": 2,
+        "pts": 78,
+        "pct": 0.52703,
+        "stk": "L1",
+        "gf": 205,
+        "ga": 227,
+        "gd": -22
+      }
+    }
   },
   {
     "game_id": "20260202-PIT-OTT",
     "game_time_utc": "2026-02-03 00:00:00+00:00",
     "game_date": "2026-02-02",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       3,
       2
     ],
-    "opponent_id": "PIT",
-    "opponent_name": "Pittsburgh Penguins",
-    "location": "Away"
+    "opponent": {
+      "id": "PIT",
+      "name": "Pittsburgh Penguins",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 21,
+        "t": 0,
+        "otl": 16,
+        "pts": 92,
+        "pct": 0.61333,
+        "stk": "W2",
+        "gf": 263,
+        "ga": 238,
+        "gd": 25
+      }
+    }
   },
   {
     "game_id": "20260203-CAR-OTT",
     "game_time_utc": "2026-02-04 00:00:00+00:00",
     "game_date": "2026-02-03",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       3,
       4
     ],
-    "opponent_id": "CAR",
-    "opponent_name": "Carolina Hurricanes",
-    "location": "Away"
+    "opponent": {
+      "id": "CAR",
+      "name": "Carolina Hurricanes",
+      "stats": {
+        "gp": 74,
+        "w": 47,
+        "l": 21,
+        "t": 0,
+        "otl": 6,
+        "pts": 100,
+        "pct": 0.67568,
+        "stk": "W1",
+        "gf": 263,
+        "ga": 218,
+        "gd": 45
+      }
+    }
   },
   {
     "game_id": "20260205-PHI-OTT",
     "game_time_utc": "2026-02-06 00:00:00+00:00",
     "game_date": "2026-02-05",
     "final": "Final/OT",
+    "location": "Away",
     "outcome": "win",
     "score": [
       2,
       1
     ],
-    "opponent_id": "PHI",
-    "opponent_name": "Philadelphia Flyers",
-    "location": "Away"
+    "opponent": {
+      "id": "PHI",
+      "name": "Philadelphia Flyers",
+      "stats": {
+        "gp": 74,
+        "w": 37,
+        "l": 25,
+        "t": 0,
+        "otl": 12,
+        "pts": 86,
+        "pct": 0.58108,
+        "stk": "L1",
+        "gf": 220,
+        "ga": 225,
+        "gd": -5
+      }
+    }
   },
   {
     "game_id": "20260226-OTT-DET",
@@ -803,83 +1658,173 @@
     "game_date": "2026-02-26",
     "final": "Final/OT",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       1,
       2
     ],
-    "opponent_id": "DET",
-    "opponent_name": "Detroit Red Wings",
-    "location": "Home"
+    "opponent": {
+      "id": "DET",
+      "name": "Detroit Red Wings",
+      "stats": {
+        "gp": 74,
+        "w": 39,
+        "l": 27,
+        "t": 0,
+        "otl": 8,
+        "pts": 86,
+        "pct": 0.58108,
+        "stk": "L2",
+        "gf": 216,
+        "ga": 223,
+        "gd": -7
+      }
+    }
   },
   {
     "game_id": "20260228-TOR-OTT",
     "game_time_utc": "2026-03-01 00:00:00+00:00",
     "game_date": "2026-02-28",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       5,
       2
     ],
-    "opponent_id": "TOR",
-    "opponent_name": "Toronto Maple Leafs",
-    "location": "Away"
+    "opponent": {
+      "id": "TOR",
+      "name": "Toronto Maple Leafs",
+      "stats": {
+        "gp": 75,
+        "w": 32,
+        "l": 30,
+        "t": 0,
+        "otl": 13,
+        "pts": 77,
+        "pct": 0.51333,
+        "stk": "W1",
+        "gf": 235,
+        "ga": 264,
+        "gd": -29
+      }
+    }
   },
   {
     "game_id": "20260303-EDM-OTT",
     "game_time_utc": "2026-03-04 02:00:00+00:00",
     "game_date": "2026-03-03",
     "final": "Final/OT",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       4,
       5
     ],
-    "opponent_id": "EDM",
-    "opponent_name": "Edmonton Oilers",
-    "location": "Away"
+    "opponent": {
+      "id": "EDM",
+      "name": "Edmonton Oilers",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 28,
+        "t": 0,
+        "otl": 9,
+        "pts": 85,
+        "pct": 0.56667,
+        "stk": "W4",
+        "gf": 261,
+        "ga": 251,
+        "gd": 10
+      }
+    }
   },
   {
     "game_id": "20260305-CGY-OTT",
     "game_time_utc": "2026-03-06 02:00:00+00:00",
     "game_date": "2026-03-05",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       4,
       1
     ],
-    "opponent_id": "CGY",
-    "opponent_name": "Calgary Flames",
-    "location": "Away"
+    "opponent": {
+      "id": "CGY",
+      "name": "Calgary Flames",
+      "stats": {
+        "gp": 74,
+        "w": 31,
+        "l": 35,
+        "t": 0,
+        "otl": 8,
+        "pts": 70,
+        "pct": 0.47297,
+        "stk": "L1",
+        "gf": 191,
+        "ga": 234,
+        "gd": -43
+      }
+    }
   },
   {
     "game_id": "20260307-SEA-OTT",
     "game_time_utc": "2026-03-08 03:00:00+00:00",
     "game_date": "2026-03-07",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       7,
       4
     ],
-    "opponent_id": "SEA",
-    "opponent_name": "Seattle Kraken",
-    "location": "Away"
+    "opponent": {
+      "id": "SEA",
+      "name": "Seattle Kraken",
+      "stats": {
+        "gp": 73,
+        "w": 32,
+        "l": 30,
+        "t": 0,
+        "otl": 11,
+        "pts": 75,
+        "pct": 0.5137,
+        "stk": "L1",
+        "gf": 206,
+        "ga": 227,
+        "gd": -21
+      }
+    }
   },
   {
     "game_id": "20260309-VAN-OTT",
     "game_time_utc": "2026-03-10 01:00:00+00:00",
     "game_date": "2026-03-09",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       2,
       0
     ],
-    "opponent_id": "VAN",
-    "opponent_name": "Vancouver Canucks",
-    "location": "Away"
+    "opponent": {
+      "id": "VAN",
+      "name": "Vancouver Canucks",
+      "stats": {
+        "gp": 74,
+        "w": 22,
+        "l": 44,
+        "t": 0,
+        "otl": 8,
+        "pts": 52,
+        "pct": 0.35135,
+        "stk": "W1",
+        "gf": 195,
+        "ga": 283,
+        "gd": -88
+      }
+    }
   },
   {
     "game_id": "20260311-OTT-MTL",
@@ -887,13 +1832,28 @@
     "game_date": "2026-03-11",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       2,
       3
     ],
-    "opponent_id": "MTL",
-    "opponent_name": "Montreal Canadiens",
-    "location": "Home"
+    "opponent": {
+      "id": "MTL",
+      "name": "Montreal Canadiens",
+      "stats": {
+        "gp": 74,
+        "w": 43,
+        "l": 21,
+        "t": 0,
+        "otl": 10,
+        "pts": 96,
+        "pct": 0.64865,
+        "stk": "W6",
+        "gf": 262,
+        "ga": 234,
+        "gd": 28
+      }
+    }
   },
   {
     "game_id": "20260314-OTT-ANA",
@@ -901,13 +1861,28 @@
     "game_date": "2026-03-14",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       2,
       0
     ],
-    "opponent_id": "ANA",
-    "opponent_name": "Anaheim Ducks",
-    "location": "Home"
+    "opponent": {
+      "id": "ANA",
+      "name": "Anaheim Ducks",
+      "stats": {
+        "gp": 75,
+        "w": 41,
+        "l": 29,
+        "t": 0,
+        "otl": 5,
+        "pts": 87,
+        "pct": 0.58,
+        "stk": "L1",
+        "gf": 252,
+        "ga": 260,
+        "gd": -8
+      }
+    }
   },
   {
     "game_id": "20260315-OTT-SJS",
@@ -915,27 +1890,57 @@
     "game_date": "2026-03-15",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       7,
       4
     ],
-    "opponent_id": "SJS",
-    "opponent_name": "San Jose Sharks",
-    "location": "Home"
+    "opponent": {
+      "id": "SJS",
+      "name": "San Jose Sharks",
+      "stats": {
+        "gp": 73,
+        "w": 35,
+        "l": 31,
+        "t": 0,
+        "otl": 7,
+        "pts": 77,
+        "pct": 0.5274,
+        "stk": "W3",
+        "gf": 224,
+        "ga": 260,
+        "gd": -36
+      }
+    }
   },
   {
     "game_id": "20260318-WSH-OTT",
     "game_time_utc": "2026-03-18 23:30:00+00:00",
     "game_date": "2026-03-18",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       1,
       4
     ],
-    "opponent_id": "WSH",
-    "opponent_name": "Washington Capitals",
-    "location": "Away"
+    "opponent": {
+      "id": "WSH",
+      "name": "Washington Capitals",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 28,
+        "t": 0,
+        "otl": 9,
+        "pts": 85,
+        "pct": 0.56667,
+        "stk": "W3",
+        "gf": 238,
+        "ga": 223,
+        "gd": 15
+      }
+    }
   },
   {
     "game_id": "20260319-OTT-NYI",
@@ -943,13 +1948,28 @@
     "game_date": "2026-03-19",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       3,
       2
     ],
-    "opponent_id": "NYI",
-    "opponent_name": "New York Islanders",
-    "location": "Home"
+    "opponent": {
+      "id": "NYI",
+      "name": "New York Islanders",
+      "stats": {
+        "gp": 76,
+        "w": 42,
+        "l": 29,
+        "t": 0,
+        "otl": 5,
+        "pts": 89,
+        "pct": 0.58553,
+        "stk": "L2",
+        "gf": 222,
+        "ga": 221,
+        "gd": 1
+      }
+    }
   },
   {
     "game_id": "20260321-OTT-TOR",
@@ -957,41 +1977,86 @@
     "game_date": "2026-03-21",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       5,
       2
     ],
-    "opponent_id": "TOR",
-    "opponent_name": "Toronto Maple Leafs",
-    "location": "Home"
+    "opponent": {
+      "id": "TOR",
+      "name": "Toronto Maple Leafs",
+      "stats": {
+        "gp": 75,
+        "w": 32,
+        "l": 30,
+        "t": 0,
+        "otl": 13,
+        "pts": 77,
+        "pct": 0.51333,
+        "stk": "W1",
+        "gf": 235,
+        "ga": 264,
+        "gd": -29
+      }
+    }
   },
   {
     "game_id": "20260323-NYR-OTT",
     "game_time_utc": "2026-03-23 23:30:00+00:00",
     "game_date": "2026-03-23",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       2,
       1
     ],
-    "opponent_id": "NYR",
-    "opponent_name": "New York Rangers",
-    "location": "Away"
+    "opponent": {
+      "id": "NYR",
+      "name": "New York Rangers",
+      "stats": {
+        "gp": 75,
+        "w": 31,
+        "l": 35,
+        "t": 0,
+        "otl": 9,
+        "pts": 71,
+        "pct": 0.47333,
+        "stk": "W3",
+        "gf": 215,
+        "ga": 233,
+        "gd": -18
+      }
+    }
   },
   {
     "game_id": "20260324-DET-OTT",
     "game_time_utc": "2026-03-24 23:00:00+00:00",
     "game_date": "2026-03-24",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       3,
       2
     ],
-    "opponent_id": "DET",
-    "opponent_name": "Detroit Red Wings",
-    "location": "Away"
+    "opponent": {
+      "id": "DET",
+      "name": "Detroit Red Wings",
+      "stats": {
+        "gp": 74,
+        "w": 39,
+        "l": 27,
+        "t": 0,
+        "otl": 8,
+        "pts": 86,
+        "pct": 0.58108,
+        "stk": "L2",
+        "gf": 216,
+        "ga": 223,
+        "gd": -7
+      }
+    }
   },
   {
     "game_id": "20260326-OTT-PIT",
@@ -999,41 +2064,86 @@
     "game_date": "2026-03-26",
     "final": "Final/SO",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       3,
       4
     ],
-    "opponent_id": "PIT",
-    "opponent_name": "Pittsburgh Penguins",
-    "location": "Home"
+    "opponent": {
+      "id": "PIT",
+      "name": "Pittsburgh Penguins",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 21,
+        "t": 0,
+        "otl": 16,
+        "pts": 92,
+        "pct": 0.61333,
+        "stk": "W2",
+        "gf": 263,
+        "ga": 238,
+        "gd": 25
+      }
+    }
   },
   {
     "game_id": "20260328-TBL-OTT",
     "game_time_utc": "2026-03-28 17:00:00+00:00",
     "game_date": "2026-03-28",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       2,
       4
     ],
-    "opponent_id": "TBL",
-    "opponent_name": "Tampa Bay Lightning",
-    "location": "Away"
+    "opponent": {
+      "id": "TBL",
+      "name": "Tampa Bay Lightning",
+      "stats": {
+        "gp": 74,
+        "w": 46,
+        "l": 22,
+        "t": 0,
+        "otl": 6,
+        "pts": 98,
+        "pct": 0.66216,
+        "stk": "L1",
+        "gf": 268,
+        "ga": 207,
+        "gd": 61
+      }
+    }
   },
   {
     "game_id": "20260331-FLA-OTT",
     "game_time_utc": "2026-03-31 23:00:00+00:00",
     "game_date": "2026-03-31",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       3,
       6
     ],
-    "opponent_id": "FLA",
-    "opponent_name": "Florida Panthers",
-    "location": "Away"
+    "opponent": {
+      "id": "FLA",
+      "name": "Florida Panthers",
+      "stats": {
+        "gp": 74,
+        "w": 36,
+        "l": 35,
+        "t": 0,
+        "otl": 3,
+        "pts": 75,
+        "pct": 0.50676,
+        "stk": "W1",
+        "gf": 222,
+        "ga": 247,
+        "gd": -25
+      }
+    }
   },
   {
     "game_id": "20260402-OTT-BUF",
@@ -1041,13 +2151,28 @@
     "game_date": "2026-04-02",
     "final": "",
     "outcome": "upcoming",
+    "location": "Home",
     "score": [
       "",
       ""
     ],
-    "opponent_id": "BUF",
-    "opponent_name": "Buffalo Sabres",
-    "location": "Home"
+    "opponent": {
+      "id": "BUF",
+      "name": "Buffalo Sabres",
+      "stats": {
+        "gp": 75,
+        "w": 46,
+        "l": 21,
+        "t": 0,
+        "otl": 8,
+        "pts": 100,
+        "pct": 0.66667,
+        "stk": "W2",
+        "gf": 263,
+        "ga": 221,
+        "gd": 42
+      }
+    }
   },
   {
     "game_id": "20260404-OTT-MIN",
@@ -1055,13 +2180,28 @@
     "game_date": "2026-04-04",
     "final": "",
     "outcome": "upcoming",
+    "location": "Home",
     "score": [
       "",
       ""
     ],
-    "opponent_id": "MIN",
-    "opponent_name": "Minnesota Wild",
-    "location": "Home"
+    "opponent": {
+      "id": "MIN",
+      "name": "Minnesota Wild",
+      "stats": {
+        "gp": 74,
+        "w": 41,
+        "l": 21,
+        "t": 0,
+        "otl": 12,
+        "pts": 94,
+        "pct": 0.63514,
+        "stk": "L1",
+        "gf": 242,
+        "ga": 216,
+        "gd": 26
+      }
+    }
   },
   {
     "game_id": "20260405-OTT-CAR",
@@ -1069,13 +2209,28 @@
     "game_date": "2026-04-05",
     "final": "",
     "outcome": "upcoming",
+    "location": "Home",
     "score": [
       "",
       ""
     ],
-    "opponent_id": "CAR",
-    "opponent_name": "Carolina Hurricanes",
-    "location": "Home"
+    "opponent": {
+      "id": "CAR",
+      "name": "Carolina Hurricanes",
+      "stats": {
+        "gp": 74,
+        "w": 47,
+        "l": 21,
+        "t": 0,
+        "otl": 6,
+        "pts": 100,
+        "pct": 0.67568,
+        "stk": "W1",
+        "gf": 263,
+        "ga": 218,
+        "gd": 45
+      }
+    }
   },
   {
     "game_id": "20260407-OTT-TBL",
@@ -1083,13 +2238,28 @@
     "game_date": "2026-04-07",
     "final": "",
     "outcome": "upcoming",
+    "location": "Home",
     "score": [
       "",
       ""
     ],
-    "opponent_id": "TBL",
-    "opponent_name": "Tampa Bay Lightning",
-    "location": "Home"
+    "opponent": {
+      "id": "TBL",
+      "name": "Tampa Bay Lightning",
+      "stats": {
+        "gp": 74,
+        "w": 46,
+        "l": 22,
+        "t": 0,
+        "otl": 6,
+        "pts": 98,
+        "pct": 0.66216,
+        "stk": "L1",
+        "gf": 268,
+        "ga": 207,
+        "gd": 61
+      }
+    }
   },
   {
     "game_id": "20260409-OTT-FLA",
@@ -1097,41 +2267,86 @@
     "game_date": "2026-04-09",
     "final": "",
     "outcome": "upcoming",
+    "location": "Home",
     "score": [
       "",
       ""
     ],
-    "opponent_id": "FLA",
-    "opponent_name": "Florida Panthers",
-    "location": "Home"
+    "opponent": {
+      "id": "FLA",
+      "name": "Florida Panthers",
+      "stats": {
+        "gp": 74,
+        "w": 36,
+        "l": 35,
+        "t": 0,
+        "otl": 3,
+        "pts": 75,
+        "pct": 0.50676,
+        "stk": "W1",
+        "gf": 222,
+        "ga": 247,
+        "gd": -25
+      }
+    }
   },
   {
     "game_id": "20260411-NYI-OTT",
     "game_time_utc": "2026-04-11 17:00:00+00:00",
     "game_date": "2026-04-11",
     "final": "",
+    "location": "Away",
     "outcome": "upcoming",
     "score": [
       "",
       ""
     ],
-    "opponent_id": "NYI",
-    "opponent_name": "New York Islanders",
-    "location": "Away"
+    "opponent": {
+      "id": "NYI",
+      "name": "New York Islanders",
+      "stats": {
+        "gp": 76,
+        "w": 42,
+        "l": 29,
+        "t": 0,
+        "otl": 5,
+        "pts": 89,
+        "pct": 0.58553,
+        "stk": "L2",
+        "gf": 222,
+        "ga": 221,
+        "gd": 1
+      }
+    }
   },
   {
     "game_id": "20260412-NJD-OTT",
     "game_time_utc": "2026-04-12 23:00:00+00:00",
     "game_date": "2026-04-12",
     "final": "",
+    "location": "Away",
     "outcome": "upcoming",
     "score": [
       "",
       ""
     ],
-    "opponent_id": "NJD",
-    "opponent_name": "New Jersey Devils",
-    "location": "Away"
+    "opponent": {
+      "id": "NJD",
+      "name": "New Jersey Devils",
+      "stats": {
+        "gp": 74,
+        "w": 38,
+        "l": 34,
+        "t": 0,
+        "otl": 2,
+        "pts": 78,
+        "pct": 0.52703,
+        "stk": "L1",
+        "gf": 205,
+        "ga": 227,
+        "gd": -22
+      }
+    }
   },
   {
     "game_id": "20260415-OTT-TOR",
@@ -1139,12 +2354,27 @@
     "game_date": "2026-04-15",
     "final": "",
     "outcome": "upcoming",
+    "location": "Home",
     "score": [
       "",
       ""
     ],
-    "opponent_id": "TOR",
-    "opponent_name": "Toronto Maple Leafs",
-    "location": "Home"
+    "opponent": {
+      "id": "TOR",
+      "name": "Toronto Maple Leafs",
+      "stats": {
+        "gp": 75,
+        "w": 32,
+        "l": 30,
+        "t": 0,
+        "otl": 13,
+        "pts": 77,
+        "pct": 0.51333,
+        "stk": "W1",
+        "gf": 235,
+        "ga": 264,
+        "gd": -29
+      }
+    }
   }
 ]

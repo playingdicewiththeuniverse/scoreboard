@@ -5,13 +5,28 @@
     "game_date": "2025-10-09",
     "final": "Final/OT",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       3,
       4
     ],
-    "opponent_id": "VGK",
-    "opponent_name": "Vegas Golden Knights",
-    "location": "Home"
+    "opponent": {
+      "id": "VGK",
+      "name": "Vegas Golden Knights",
+      "stats": {
+        "gp": 75,
+        "w": 33,
+        "l": 26,
+        "t": 0,
+        "otl": 16,
+        "pts": 82,
+        "pct": 0.54667,
+        "stk": "W1",
+        "gf": 236,
+        "ga": 236,
+        "gd": 0
+      }
+    }
   },
   {
     "game_id": "20251011-SJS-ANA",
@@ -19,13 +34,28 @@
     "game_date": "2025-10-11",
     "final": "Final/OT",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       6,
       7
     ],
-    "opponent_id": "ANA",
-    "opponent_name": "Anaheim Ducks",
-    "location": "Home"
+    "opponent": {
+      "id": "ANA",
+      "name": "Anaheim Ducks",
+      "stats": {
+        "gp": 75,
+        "w": 41,
+        "l": 29,
+        "t": 0,
+        "otl": 5,
+        "pts": 87,
+        "pct": 0.58,
+        "stk": "L1",
+        "gf": 252,
+        "ga": 260,
+        "gd": -8
+      }
+    }
   },
   {
     "game_id": "20251014-SJS-CAR",
@@ -33,27 +63,57 @@
     "game_date": "2025-10-14",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       1,
       5
     ],
-    "opponent_id": "CAR",
-    "opponent_name": "Carolina Hurricanes",
-    "location": "Home"
+    "opponent": {
+      "id": "CAR",
+      "name": "Carolina Hurricanes",
+      "stats": {
+        "gp": 74,
+        "w": 47,
+        "l": 21,
+        "t": 0,
+        "otl": 6,
+        "pts": 100,
+        "pct": 0.67568,
+        "stk": "W1",
+        "gf": 263,
+        "ga": 218,
+        "gd": 45
+      }
+    }
   },
   {
     "game_id": "20251017-UTA-SJS",
     "game_time_utc": "2025-10-18 01:00:00+00:00",
     "game_date": "2025-10-17",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       3,
       6
     ],
-    "opponent_id": "UTA",
-    "opponent_name": "Utah Mammoth",
-    "location": "Away"
+    "opponent": {
+      "id": "UTA",
+      "name": "Utah Mammoth",
+      "stats": {
+        "gp": 74,
+        "w": 38,
+        "l": 30,
+        "t": 0,
+        "otl": 6,
+        "pts": 82,
+        "pct": 0.55405,
+        "stk": "W1",
+        "gf": 235,
+        "ga": 212,
+        "gd": 23
+      }
+    }
   },
   {
     "game_id": "20251018-SJS-PIT",
@@ -61,69 +121,144 @@
     "game_date": "2025-10-18",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       0,
       3
     ],
-    "opponent_id": "PIT",
-    "opponent_name": "Pittsburgh Penguins",
-    "location": "Home"
+    "opponent": {
+      "id": "PIT",
+      "name": "Pittsburgh Penguins",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 21,
+        "t": 0,
+        "otl": 16,
+        "pts": 92,
+        "pct": 0.61333,
+        "stk": "W2",
+        "gf": 263,
+        "ga": 238,
+        "gd": 25
+      }
+    }
   },
   {
     "game_id": "20251021-NYI-SJS",
     "game_time_utc": "2025-10-21 23:00:00+00:00",
     "game_date": "2025-10-21",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       3,
       4
     ],
-    "opponent_id": "NYI",
-    "opponent_name": "New York Islanders",
-    "location": "Away"
+    "opponent": {
+      "id": "NYI",
+      "name": "New York Islanders",
+      "stats": {
+        "gp": 76,
+        "w": 42,
+        "l": 29,
+        "t": 0,
+        "otl": 5,
+        "pts": 89,
+        "pct": 0.58553,
+        "stk": "L2",
+        "gf": 222,
+        "ga": 221,
+        "gd": 1
+      }
+    }
   },
   {
     "game_id": "20251023-NYR-SJS",
     "game_time_utc": "2025-10-23 23:00:00+00:00",
     "game_date": "2025-10-23",
     "final": "Final/OT",
+    "location": "Away",
     "outcome": "win",
     "score": [
       6,
       5
     ],
-    "opponent_id": "NYR",
-    "opponent_name": "New York Rangers",
-    "location": "Away"
+    "opponent": {
+      "id": "NYR",
+      "name": "New York Rangers",
+      "stats": {
+        "gp": 75,
+        "w": 31,
+        "l": 35,
+        "t": 0,
+        "otl": 9,
+        "pts": 71,
+        "pct": 0.47333,
+        "stk": "W3",
+        "gf": 215,
+        "ga": 233,
+        "gd": -18
+      }
+    }
   },
   {
     "game_id": "20251024-NJD-SJS",
     "game_time_utc": "2025-10-24 23:00:00+00:00",
     "game_date": "2025-10-24",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       1,
       3
     ],
-    "opponent_id": "NJD",
-    "opponent_name": "New Jersey Devils",
-    "location": "Away"
+    "opponent": {
+      "id": "NJD",
+      "name": "New Jersey Devils",
+      "stats": {
+        "gp": 74,
+        "w": 38,
+        "l": 34,
+        "t": 0,
+        "otl": 2,
+        "pts": 78,
+        "pct": 0.52703,
+        "stk": "L1",
+        "gf": 205,
+        "ga": 227,
+        "gd": -22
+      }
+    }
   },
   {
     "game_id": "20251026-MIN-SJS",
     "game_time_utc": "2025-10-26 22:00:00+00:00",
     "game_date": "2025-10-26",
     "final": "Final/OT",
+    "location": "Away",
     "outcome": "win",
     "score": [
       6,
       5
     ],
-    "opponent_id": "MIN",
-    "opponent_name": "Minnesota Wild",
-    "location": "Away"
+    "opponent": {
+      "id": "MIN",
+      "name": "Minnesota Wild",
+      "stats": {
+        "gp": 74,
+        "w": 41,
+        "l": 21,
+        "t": 0,
+        "otl": 12,
+        "pts": 94,
+        "pct": 0.63514,
+        "stk": "L1",
+        "gf": 242,
+        "ga": 216,
+        "gd": 26
+      }
+    }
   },
   {
     "game_id": "20251028-SJS-LAK",
@@ -131,13 +266,28 @@
     "game_date": "2025-10-28",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       3,
       4
     ],
-    "opponent_id": "LAK",
-    "opponent_name": "Los Angeles Kings",
-    "location": "Home"
+    "opponent": {
+      "id": "LAK",
+      "name": "Los Angeles Kings",
+      "stats": {
+        "gp": 74,
+        "w": 30,
+        "l": 26,
+        "t": 0,
+        "otl": 18,
+        "pts": 78,
+        "pct": 0.52703,
+        "stk": "W1",
+        "gf": 197,
+        "ga": 223,
+        "gd": -26
+      }
+    }
   },
   {
     "game_id": "20251030-SJS-NJD",
@@ -145,13 +295,28 @@
     "game_date": "2025-10-30",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       5,
       2
     ],
-    "opponent_id": "NJD",
-    "opponent_name": "New Jersey Devils",
-    "location": "Home"
+    "opponent": {
+      "id": "NJD",
+      "name": "New Jersey Devils",
+      "stats": {
+        "gp": 74,
+        "w": 38,
+        "l": 34,
+        "t": 0,
+        "otl": 2,
+        "pts": 78,
+        "pct": 0.52703,
+        "stk": "L1",
+        "gf": 205,
+        "ga": 227,
+        "gd": -22
+      }
+    }
   },
   {
     "game_id": "20251101-SJS-COL",
@@ -159,13 +324,28 @@
     "game_date": "2025-11-01",
     "final": "Final/OT",
     "outcome": "win",
+    "location": "Home",
     "score": [
       3,
       2
     ],
-    "opponent_id": "COL",
-    "opponent_name": "Colorado Avalanche",
-    "location": "Home"
+    "opponent": {
+      "id": "COL",
+      "name": "Colorado Avalanche",
+      "stats": {
+        "gp": 74,
+        "w": 49,
+        "l": 15,
+        "t": 0,
+        "otl": 10,
+        "pts": 108,
+        "pct": 0.72973,
+        "stk": "L1",
+        "gf": 283,
+        "ga": 193,
+        "gd": 90
+      }
+    }
   },
   {
     "game_id": "20251102-SJS-DET",
@@ -173,27 +353,57 @@
     "game_date": "2025-11-02",
     "final": "Final/SO",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       2,
       3
     ],
-    "opponent_id": "DET",
-    "opponent_name": "Detroit Red Wings",
-    "location": "Home"
+    "opponent": {
+      "id": "DET",
+      "name": "Detroit Red Wings",
+      "stats": {
+        "gp": 74,
+        "w": 39,
+        "l": 27,
+        "t": 0,
+        "otl": 8,
+        "pts": 86,
+        "pct": 0.58108,
+        "stk": "L2",
+        "gf": 216,
+        "ga": 223,
+        "gd": -7
+      }
+    }
   },
   {
     "game_id": "20251105-SEA-SJS",
     "game_time_utc": "2025-11-06 03:00:00+00:00",
     "game_date": "2025-11-05",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       6,
       1
     ],
-    "opponent_id": "SEA",
-    "opponent_name": "Seattle Kraken",
-    "location": "Away"
+    "opponent": {
+      "id": "SEA",
+      "name": "Seattle Kraken",
+      "stats": {
+        "gp": 73,
+        "w": 32,
+        "l": 30,
+        "t": 0,
+        "otl": 11,
+        "pts": 75,
+        "pct": 0.5137,
+        "stk": "L1",
+        "gf": 206,
+        "ga": 227,
+        "gd": -21
+      }
+    }
   },
   {
     "game_id": "20251107-SJS-WPG",
@@ -201,13 +411,28 @@
     "game_date": "2025-11-07",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       2,
       1
     ],
-    "opponent_id": "WPG",
-    "opponent_name": "Winnipeg Jets",
-    "location": "Home"
+    "opponent": {
+      "id": "WPG",
+      "name": "Winnipeg Jets",
+      "stats": {
+        "gp": 74,
+        "w": 32,
+        "l": 30,
+        "t": 0,
+        "otl": 12,
+        "pts": 76,
+        "pct": 0.51351,
+        "stk": "W2",
+        "gf": 213,
+        "ga": 228,
+        "gd": -15
+      }
+    }
   },
   {
     "game_id": "20251108-SJS-FLA",
@@ -215,55 +440,115 @@
     "game_date": "2025-11-08",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       3,
       1
     ],
-    "opponent_id": "FLA",
-    "opponent_name": "Florida Panthers",
-    "location": "Home"
+    "opponent": {
+      "id": "FLA",
+      "name": "Florida Panthers",
+      "stats": {
+        "gp": 74,
+        "w": 36,
+        "l": 35,
+        "t": 0,
+        "otl": 3,
+        "pts": 75,
+        "pct": 0.50676,
+        "stk": "W1",
+        "gf": 222,
+        "ga": 247,
+        "gd": -25
+      }
+    }
   },
   {
     "game_id": "20251111-MIN-SJS",
     "game_time_utc": "2025-11-12 01:00:00+00:00",
     "game_date": "2025-11-11",
     "final": "Final/OT",
+    "location": "Away",
     "outcome": "win",
     "score": [
       2,
       1
     ],
-    "opponent_id": "MIN",
-    "opponent_name": "Minnesota Wild",
-    "location": "Away"
+    "opponent": {
+      "id": "MIN",
+      "name": "Minnesota Wild",
+      "stats": {
+        "gp": 74,
+        "w": 41,
+        "l": 21,
+        "t": 0,
+        "otl": 12,
+        "pts": 94,
+        "pct": 0.63514,
+        "stk": "L1",
+        "gf": 242,
+        "ga": 216,
+        "gd": 26
+      }
+    }
   },
   {
     "game_id": "20251113-CGY-SJS",
     "game_time_utc": "2025-11-14 02:00:00+00:00",
     "game_date": "2025-11-13",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       0,
       2
     ],
-    "opponent_id": "CGY",
-    "opponent_name": "Calgary Flames",
-    "location": "Away"
+    "opponent": {
+      "id": "CGY",
+      "name": "Calgary Flames",
+      "stats": {
+        "gp": 74,
+        "w": 31,
+        "l": 35,
+        "t": 0,
+        "otl": 8,
+        "pts": 70,
+        "pct": 0.47297,
+        "stk": "L1",
+        "gf": 191,
+        "ga": 234,
+        "gd": -43
+      }
+    }
   },
   {
     "game_id": "20251115-SEA-SJS",
     "game_time_utc": "2025-11-16 03:00:00+00:00",
     "game_date": "2025-11-15",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       1,
       4
     ],
-    "opponent_id": "SEA",
-    "opponent_name": "Seattle Kraken",
-    "location": "Away"
+    "opponent": {
+      "id": "SEA",
+      "name": "Seattle Kraken",
+      "stats": {
+        "gp": 73,
+        "w": 32,
+        "l": 30,
+        "t": 0,
+        "otl": 11,
+        "pts": 75,
+        "pct": 0.5137,
+        "stk": "L1",
+        "gf": 206,
+        "ga": 227,
+        "gd": -21
+      }
+    }
   },
   {
     "game_id": "20251118-SJS-UTA",
@@ -271,13 +556,28 @@
     "game_date": "2025-11-18",
     "final": "Final/OT",
     "outcome": "win",
+    "location": "Home",
     "score": [
       3,
       2
     ],
-    "opponent_id": "UTA",
-    "opponent_name": "Utah Mammoth",
-    "location": "Home"
+    "opponent": {
+      "id": "UTA",
+      "name": "Utah Mammoth",
+      "stats": {
+        "gp": 74,
+        "w": 38,
+        "l": 30,
+        "t": 0,
+        "otl": 6,
+        "pts": 82,
+        "pct": 0.55405,
+        "stk": "W1",
+        "gf": 235,
+        "ga": 212,
+        "gd": 23
+      }
+    }
   },
   {
     "game_id": "20251120-SJS-LAK",
@@ -285,13 +585,28 @@
     "game_date": "2025-11-20",
     "final": "Final/SO",
     "outcome": "win",
+    "location": "Home",
     "score": [
       4,
       3
     ],
-    "opponent_id": "LAK",
-    "opponent_name": "Los Angeles Kings",
-    "location": "Home"
+    "opponent": {
+      "id": "LAK",
+      "name": "Los Angeles Kings",
+      "stats": {
+        "gp": 74,
+        "w": 30,
+        "l": 26,
+        "t": 0,
+        "otl": 18,
+        "pts": 78,
+        "pct": 0.52703,
+        "stk": "W1",
+        "gf": 197,
+        "ga": 223,
+        "gd": -26
+      }
+    }
   },
   {
     "game_id": "20251122-SJS-OTT",
@@ -299,13 +614,28 @@
     "game_date": "2025-11-22",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       2,
       3
     ],
-    "opponent_id": "OTT",
-    "opponent_name": "Ottawa Senators",
-    "location": "Home"
+    "opponent": {
+      "id": "OTT",
+      "name": "Ottawa Senators",
+      "stats": {
+        "gp": 74,
+        "w": 38,
+        "l": 26,
+        "t": 0,
+        "otl": 10,
+        "pts": 86,
+        "pct": 0.58108,
+        "stk": "L2",
+        "gf": 247,
+        "ga": 230,
+        "gd": 17
+      }
+    }
   },
   {
     "game_id": "20251123-SJS-BOS",
@@ -313,27 +643,57 @@
     "game_date": "2025-11-23",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       3,
       1
     ],
-    "opponent_id": "BOS",
-    "opponent_name": "Boston Bruins",
-    "location": "Home"
+    "opponent": {
+      "id": "BOS",
+      "name": "Boston Bruins",
+      "stats": {
+        "gp": 75,
+        "w": 43,
+        "l": 24,
+        "t": 0,
+        "otl": 8,
+        "pts": 94,
+        "pct": 0.62667,
+        "stk": "W4",
+        "gf": 256,
+        "ga": 233,
+        "gd": 23
+      }
+    }
   },
   {
     "game_id": "20251126-COL-SJS",
     "game_time_utc": "2025-11-27 02:00:00+00:00",
     "game_date": "2025-11-26",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       0,
       6
     ],
-    "opponent_id": "COL",
-    "opponent_name": "Colorado Avalanche",
-    "location": "Away"
+    "opponent": {
+      "id": "COL",
+      "name": "Colorado Avalanche",
+      "stats": {
+        "gp": 74,
+        "w": 49,
+        "l": 15,
+        "t": 0,
+        "otl": 10,
+        "pts": 108,
+        "pct": 0.72973,
+        "stk": "L1",
+        "gf": 283,
+        "ga": 193,
+        "gd": 90
+      }
+    }
   },
   {
     "game_id": "20251128-SJS-VAN",
@@ -341,27 +701,57 @@
     "game_date": "2025-11-28",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       3,
       2
     ],
-    "opponent_id": "VAN",
-    "opponent_name": "Vancouver Canucks",
-    "location": "Home"
+    "opponent": {
+      "id": "VAN",
+      "name": "Vancouver Canucks",
+      "stats": {
+        "gp": 74,
+        "w": 22,
+        "l": 44,
+        "t": 0,
+        "otl": 8,
+        "pts": 52,
+        "pct": 0.35135,
+        "stk": "W1",
+        "gf": 195,
+        "ga": 283,
+        "gd": -88
+      }
+    }
   },
   {
     "game_id": "20251129-VGK-SJS",
     "game_time_utc": "2025-11-30 03:00:00+00:00",
     "game_date": "2025-11-29",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       3,
       4
     ],
-    "opponent_id": "VGK",
-    "opponent_name": "Vegas Golden Knights",
-    "location": "Away"
+    "opponent": {
+      "id": "VGK",
+      "name": "Vegas Golden Knights",
+      "stats": {
+        "gp": 75,
+        "w": 33,
+        "l": 26,
+        "t": 0,
+        "otl": 16,
+        "pts": 82,
+        "pct": 0.54667,
+        "stk": "W1",
+        "gf": 236,
+        "ga": 236,
+        "gd": 0
+      }
+    }
   },
   {
     "game_id": "20251201-SJS-UTA",
@@ -369,13 +759,28 @@
     "game_date": "2025-12-01",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       6,
       3
     ],
-    "opponent_id": "UTA",
-    "opponent_name": "Utah Mammoth",
-    "location": "Home"
+    "opponent": {
+      "id": "UTA",
+      "name": "Utah Mammoth",
+      "stats": {
+        "gp": 74,
+        "w": 38,
+        "l": 30,
+        "t": 0,
+        "otl": 6,
+        "pts": 82,
+        "pct": 0.55405,
+        "stk": "W1",
+        "gf": 235,
+        "ga": 212,
+        "gd": 23
+      }
+    }
   },
   {
     "game_id": "20251203-SJS-WSH",
@@ -383,83 +788,173 @@
     "game_date": "2025-12-03",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       1,
       7
     ],
-    "opponent_id": "WSH",
-    "opponent_name": "Washington Capitals",
-    "location": "Home"
+    "opponent": {
+      "id": "WSH",
+      "name": "Washington Capitals",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 28,
+        "t": 0,
+        "otl": 9,
+        "pts": 85,
+        "pct": 0.56667,
+        "stk": "W3",
+        "gf": 238,
+        "ga": 223,
+        "gd": 15
+      }
+    }
   },
   {
     "game_id": "20251205-DAL-SJS",
     "game_time_utc": "2025-12-06 01:00:00+00:00",
     "game_date": "2025-12-05",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       1,
       4
     ],
-    "opponent_id": "DAL",
-    "opponent_name": "Dallas Stars",
-    "location": "Away"
+    "opponent": {
+      "id": "DAL",
+      "name": "Dallas Stars",
+      "stats": {
+        "gp": 75,
+        "w": 44,
+        "l": 19,
+        "t": 0,
+        "otl": 12,
+        "pts": 100,
+        "pct": 0.66667,
+        "stk": "L1",
+        "gf": 255,
+        "ga": 209,
+        "gd": 46
+      }
+    }
   },
   {
     "game_id": "20251207-CAR-SJS",
     "game_time_utc": "2025-12-07 22:00:00+00:00",
     "game_date": "2025-12-07",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       4,
       1
     ],
-    "opponent_id": "CAR",
-    "opponent_name": "Carolina Hurricanes",
-    "location": "Away"
+    "opponent": {
+      "id": "CAR",
+      "name": "Carolina Hurricanes",
+      "stats": {
+        "gp": 74,
+        "w": 47,
+        "l": 21,
+        "t": 0,
+        "otl": 6,
+        "pts": 100,
+        "pct": 0.67568,
+        "stk": "W1",
+        "gf": 263,
+        "ga": 218,
+        "gd": 45
+      }
+    }
   },
   {
     "game_id": "20251209-PHI-SJS",
     "game_time_utc": "2025-12-10 00:00:00+00:00",
     "game_date": "2025-12-09",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       1,
       4
     ],
-    "opponent_id": "PHI",
-    "opponent_name": "Philadelphia Flyers",
-    "location": "Away"
+    "opponent": {
+      "id": "PHI",
+      "name": "Philadelphia Flyers",
+      "stats": {
+        "gp": 74,
+        "w": 37,
+        "l": 25,
+        "t": 0,
+        "otl": 12,
+        "pts": 86,
+        "pct": 0.58108,
+        "stk": "L1",
+        "gf": 220,
+        "ga": 225,
+        "gd": -5
+      }
+    }
   },
   {
     "game_id": "20251211-TOR-SJS",
     "game_time_utc": "2025-12-12 00:00:00+00:00",
     "game_date": "2025-12-11",
     "final": "Final/OT",
+    "location": "Away",
     "outcome": "win",
     "score": [
       3,
       2
     ],
-    "opponent_id": "TOR",
-    "opponent_name": "Toronto Maple Leafs",
-    "location": "Away"
+    "opponent": {
+      "id": "TOR",
+      "name": "Toronto Maple Leafs",
+      "stats": {
+        "gp": 75,
+        "w": 32,
+        "l": 30,
+        "t": 0,
+        "otl": 13,
+        "pts": 77,
+        "pct": 0.51333,
+        "stk": "W1",
+        "gf": 235,
+        "ga": 264,
+        "gd": -29
+      }
+    }
   },
   {
     "game_id": "20251213-PIT-SJS",
     "game_time_utc": "2025-12-13 20:00:00+00:00",
     "game_date": "2025-12-13",
     "final": "Final/OT",
+    "location": "Away",
     "outcome": "win",
     "score": [
       6,
       5
     ],
-    "opponent_id": "PIT",
-    "opponent_name": "Pittsburgh Penguins",
-    "location": "Away"
+    "opponent": {
+      "id": "PIT",
+      "name": "Pittsburgh Penguins",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 21,
+        "t": 0,
+        "otl": 16,
+        "pts": 92,
+        "pct": 0.61333,
+        "stk": "W2",
+        "gf": 263,
+        "ga": 238,
+        "gd": 25
+      }
+    }
   },
   {
     "game_id": "20251216-SJS-CGY",
@@ -467,13 +962,28 @@
     "game_date": "2025-12-16",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       6,
       3
     ],
-    "opponent_id": "CGY",
-    "opponent_name": "Calgary Flames",
-    "location": "Home"
+    "opponent": {
+      "id": "CGY",
+      "name": "Calgary Flames",
+      "stats": {
+        "gp": 74,
+        "w": 31,
+        "l": 35,
+        "t": 0,
+        "otl": 8,
+        "pts": 70,
+        "pct": 0.47297,
+        "stk": "L1",
+        "gf": 191,
+        "ga": 234,
+        "gd": -43
+      }
+    }
   },
   {
     "game_id": "20251218-SJS-DAL",
@@ -481,13 +991,28 @@
     "game_date": "2025-12-18",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       3,
       5
     ],
-    "opponent_id": "DAL",
-    "opponent_name": "Dallas Stars",
-    "location": "Home"
+    "opponent": {
+      "id": "DAL",
+      "name": "Dallas Stars",
+      "stats": {
+        "gp": 75,
+        "w": 44,
+        "l": 19,
+        "t": 0,
+        "otl": 12,
+        "pts": 100,
+        "pct": 0.66667,
+        "stk": "L1",
+        "gf": 255,
+        "ga": 209,
+        "gd": 46
+      }
+    }
   },
   {
     "game_id": "20251220-SJS-SEA",
@@ -495,55 +1020,115 @@
     "game_date": "2025-12-20",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       2,
       4
     ],
-    "opponent_id": "SEA",
-    "opponent_name": "Seattle Kraken",
-    "location": "Home"
+    "opponent": {
+      "id": "SEA",
+      "name": "Seattle Kraken",
+      "stats": {
+        "gp": 73,
+        "w": 32,
+        "l": 30,
+        "t": 0,
+        "otl": 11,
+        "pts": 75,
+        "pct": 0.5137,
+        "stk": "L1",
+        "gf": 206,
+        "ga": 227,
+        "gd": -21
+      }
+    }
   },
   {
     "game_id": "20251223-VGK-SJS",
     "game_time_utc": "2025-12-24 03:00:00+00:00",
     "game_date": "2025-12-23",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       2,
       7
     ],
-    "opponent_id": "VGK",
-    "opponent_name": "Vegas Golden Knights",
-    "location": "Away"
+    "opponent": {
+      "id": "VGK",
+      "name": "Vegas Golden Knights",
+      "stats": {
+        "gp": 75,
+        "w": 33,
+        "l": 26,
+        "t": 0,
+        "otl": 16,
+        "pts": 82,
+        "pct": 0.54667,
+        "stk": "W1",
+        "gf": 236,
+        "ga": 236,
+        "gd": 0
+      }
+    }
   },
   {
     "game_id": "20251227-VAN-SJS",
     "game_time_utc": "2025-12-28 03:00:00+00:00",
     "game_date": "2025-12-27",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       6,
       3
     ],
-    "opponent_id": "VAN",
-    "opponent_name": "Vancouver Canucks",
-    "location": "Away"
+    "opponent": {
+      "id": "VAN",
+      "name": "Vancouver Canucks",
+      "stats": {
+        "gp": 74,
+        "w": 22,
+        "l": 44,
+        "t": 0,
+        "otl": 8,
+        "pts": 52,
+        "pct": 0.35135,
+        "stk": "W1",
+        "gf": 195,
+        "ga": 283,
+        "gd": -88
+      }
+    }
   },
   {
     "game_id": "20251229-ANA-SJS",
     "game_time_utc": "2025-12-30 03:00:00+00:00",
     "game_date": "2025-12-29",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       5,
       4
     ],
-    "opponent_id": "ANA",
-    "opponent_name": "Anaheim Ducks",
-    "location": "Away"
+    "opponent": {
+      "id": "ANA",
+      "name": "Anaheim Ducks",
+      "stats": {
+        "gp": 75,
+        "w": 41,
+        "l": 29,
+        "t": 0,
+        "otl": 5,
+        "pts": 87,
+        "pct": 0.58,
+        "stk": "L1",
+        "gf": 252,
+        "ga": 260,
+        "gd": -8
+      }
+    }
   },
   {
     "game_id": "20251231-SJS-MIN",
@@ -551,13 +1136,28 @@
     "game_date": "2025-12-31",
     "final": "Final/SO",
     "outcome": "win",
+    "location": "Home",
     "score": [
       4,
       3
     ],
-    "opponent_id": "MIN",
-    "opponent_name": "Minnesota Wild",
-    "location": "Home"
+    "opponent": {
+      "id": "MIN",
+      "name": "Minnesota Wild",
+      "stats": {
+        "gp": 74,
+        "w": 41,
+        "l": 21,
+        "t": 0,
+        "otl": 12,
+        "pts": 94,
+        "pct": 0.63514,
+        "stk": "L1",
+        "gf": 242,
+        "ga": 216,
+        "gd": 26
+      }
+    }
   },
   {
     "game_id": "20260103-SJS-TBL",
@@ -565,13 +1165,28 @@
     "game_date": "2026-01-03",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       3,
       7
     ],
-    "opponent_id": "TBL",
-    "opponent_name": "Tampa Bay Lightning",
-    "location": "Home"
+    "opponent": {
+      "id": "TBL",
+      "name": "Tampa Bay Lightning",
+      "stats": {
+        "gp": 74,
+        "w": 46,
+        "l": 22,
+        "t": 0,
+        "otl": 6,
+        "pts": 98,
+        "pct": 0.66216,
+        "stk": "L1",
+        "gf": 268,
+        "ga": 207,
+        "gd": 61
+      }
+    }
   },
   {
     "game_id": "20260106-SJS-CBJ",
@@ -579,27 +1194,57 @@
     "game_date": "2026-01-06",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       5,
       2
     ],
-    "opponent_id": "CBJ",
-    "opponent_name": "Columbus Blue Jackets",
-    "location": "Home"
+    "opponent": {
+      "id": "CBJ",
+      "name": "Columbus Blue Jackets",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 25,
+        "t": 0,
+        "otl": 12,
+        "pts": 88,
+        "pct": 0.58667,
+        "stk": "L1",
+        "gf": 239,
+        "ga": 231,
+        "gd": 8
+      }
+    }
   },
   {
     "game_id": "20260107-LAK-SJS",
     "game_time_utc": "2026-01-08 03:30:00+00:00",
     "game_date": "2026-01-07",
     "final": "Final/OT",
+    "location": "Away",
     "outcome": "win",
     "score": [
       4,
       3
     ],
-    "opponent_id": "LAK",
-    "opponent_name": "Los Angeles Kings",
-    "location": "Away"
+    "opponent": {
+      "id": "LAK",
+      "name": "Los Angeles Kings",
+      "stats": {
+        "gp": 74,
+        "w": 30,
+        "l": 26,
+        "t": 0,
+        "otl": 18,
+        "pts": 78,
+        "pct": 0.52703,
+        "stk": "W1",
+        "gf": 197,
+        "ga": 223,
+        "gd": -26
+      }
+    }
   },
   {
     "game_id": "20260110-SJS-DAL",
@@ -607,13 +1252,28 @@
     "game_date": "2026-01-10",
     "final": "Final/OT",
     "outcome": "win",
+    "location": "Home",
     "score": [
       5,
       4
     ],
-    "opponent_id": "DAL",
-    "opponent_name": "Dallas Stars",
-    "location": "Home"
+    "opponent": {
+      "id": "DAL",
+      "name": "Dallas Stars",
+      "stats": {
+        "gp": 75,
+        "w": 44,
+        "l": 19,
+        "t": 0,
+        "otl": 12,
+        "pts": 100,
+        "pct": 0.66667,
+        "stk": "L1",
+        "gf": 255,
+        "ga": 209,
+        "gd": 46
+      }
+    }
   },
   {
     "game_id": "20260111-SJS-VGK",
@@ -621,69 +1281,144 @@
     "game_date": "2026-01-11",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       2,
       7
     ],
-    "opponent_id": "VGK",
-    "opponent_name": "Vegas Golden Knights",
-    "location": "Home"
+    "opponent": {
+      "id": "VGK",
+      "name": "Vegas Golden Knights",
+      "stats": {
+        "gp": 75,
+        "w": 33,
+        "l": 26,
+        "t": 0,
+        "otl": 16,
+        "pts": 82,
+        "pct": 0.54667,
+        "stk": "W1",
+        "gf": 236,
+        "ga": 236,
+        "gd": 0
+      }
+    }
   },
   {
     "game_id": "20260115-WSH-SJS",
     "game_time_utc": "2026-01-16 00:00:00+00:00",
     "game_date": "2026-01-15",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       3,
       2
     ],
-    "opponent_id": "WSH",
-    "opponent_name": "Washington Capitals",
-    "location": "Away"
+    "opponent": {
+      "id": "WSH",
+      "name": "Washington Capitals",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 28,
+        "t": 0,
+        "otl": 9,
+        "pts": 85,
+        "pct": 0.56667,
+        "stk": "W3",
+        "gf": 238,
+        "ga": 223,
+        "gd": 15
+      }
+    }
   },
   {
     "game_id": "20260116-DET-SJS",
     "game_time_utc": "2026-01-17 00:00:00+00:00",
     "game_date": "2026-01-16",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       2,
       4
     ],
-    "opponent_id": "DET",
-    "opponent_name": "Detroit Red Wings",
-    "location": "Away"
+    "opponent": {
+      "id": "DET",
+      "name": "Detroit Red Wings",
+      "stats": {
+        "gp": 74,
+        "w": 39,
+        "l": 27,
+        "t": 0,
+        "otl": 8,
+        "pts": 86,
+        "pct": 0.58108,
+        "stk": "L2",
+        "gf": 216,
+        "ga": 223,
+        "gd": -7
+      }
+    }
   },
   {
     "game_id": "20260119-FLA-SJS",
     "game_time_utc": "2026-01-19 23:00:00+00:00",
     "game_date": "2026-01-19",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       4,
       1
     ],
-    "opponent_id": "FLA",
-    "opponent_name": "Florida Panthers",
-    "location": "Away"
+    "opponent": {
+      "id": "FLA",
+      "name": "Florida Panthers",
+      "stats": {
+        "gp": 74,
+        "w": 36,
+        "l": 35,
+        "t": 0,
+        "otl": 3,
+        "pts": 75,
+        "pct": 0.50676,
+        "stk": "W1",
+        "gf": 222,
+        "ga": 247,
+        "gd": -25
+      }
+    }
   },
   {
     "game_id": "20260120-TBL-SJS",
     "game_time_utc": "2026-01-21 00:00:00+00:00",
     "game_date": "2026-01-20",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       1,
       4
     ],
-    "opponent_id": "TBL",
-    "opponent_name": "Tampa Bay Lightning",
-    "location": "Away"
+    "opponent": {
+      "id": "TBL",
+      "name": "Tampa Bay Lightning",
+      "stats": {
+        "gp": 74,
+        "w": 46,
+        "l": 22,
+        "t": 0,
+        "otl": 6,
+        "pts": 98,
+        "pct": 0.66216,
+        "stk": "L1",
+        "gf": 268,
+        "ga": 207,
+        "gd": 61
+      }
+    }
   },
   {
     "game_id": "20260123-SJS-NYR",
@@ -691,83 +1426,173 @@
     "game_date": "2026-01-23",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       3,
       1
     ],
-    "opponent_id": "NYR",
-    "opponent_name": "New York Rangers",
-    "location": "Home"
+    "opponent": {
+      "id": "NYR",
+      "name": "New York Rangers",
+      "stats": {
+        "gp": 75,
+        "w": 31,
+        "l": 35,
+        "t": 0,
+        "otl": 9,
+        "pts": 71,
+        "pct": 0.47333,
+        "stk": "W3",
+        "gf": 215,
+        "ga": 233,
+        "gd": -18
+      }
+    }
   },
   {
     "game_id": "20260127-VAN-SJS",
     "game_time_utc": "2026-01-28 03:00:00+00:00",
     "game_date": "2026-01-27",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       5,
       2
     ],
-    "opponent_id": "VAN",
-    "opponent_name": "Vancouver Canucks",
-    "location": "Away"
+    "opponent": {
+      "id": "VAN",
+      "name": "Vancouver Canucks",
+      "stats": {
+        "gp": 74,
+        "w": 22,
+        "l": 44,
+        "t": 0,
+        "otl": 8,
+        "pts": 52,
+        "pct": 0.35135,
+        "stk": "W1",
+        "gf": 195,
+        "ga": 283,
+        "gd": -88
+      }
+    }
   },
   {
     "game_id": "20260129-EDM-SJS",
     "game_time_utc": "2026-01-30 02:00:00+00:00",
     "game_date": "2026-01-29",
     "final": "Final/OT",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       3,
       4
     ],
-    "opponent_id": "EDM",
-    "opponent_name": "Edmonton Oilers",
-    "location": "Away"
+    "opponent": {
+      "id": "EDM",
+      "name": "Edmonton Oilers",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 28,
+        "t": 0,
+        "otl": 9,
+        "pts": 85,
+        "pct": 0.56667,
+        "stk": "W4",
+        "gf": 261,
+        "ga": 251,
+        "gd": 10
+      }
+    }
   },
   {
     "game_id": "20260131-CGY-SJS",
     "game_time_utc": "2026-01-31 21:00:00+00:00",
     "game_date": "2026-01-31",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       2,
       3
     ],
-    "opponent_id": "CGY",
-    "opponent_name": "Calgary Flames",
-    "location": "Away"
+    "opponent": {
+      "id": "CGY",
+      "name": "Calgary Flames",
+      "stats": {
+        "gp": 74,
+        "w": 31,
+        "l": 35,
+        "t": 0,
+        "otl": 8,
+        "pts": 70,
+        "pct": 0.47297,
+        "stk": "L1",
+        "gf": 191,
+        "ga": 234,
+        "gd": -43
+      }
+    }
   },
   {
     "game_id": "20260202-CHI-SJS",
     "game_time_utc": "2026-02-03 01:30:00+00:00",
     "game_date": "2026-02-02",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       3,
       6
     ],
-    "opponent_id": "CHI",
-    "opponent_name": "Chicago Blackhawks",
-    "location": "Away"
+    "opponent": {
+      "id": "CHI",
+      "name": "Chicago Blackhawks",
+      "stats": {
+        "gp": 75,
+        "w": 27,
+        "l": 34,
+        "t": 0,
+        "otl": 14,
+        "pts": 68,
+        "pct": 0.45333,
+        "stk": "OT1",
+        "gf": 195,
+        "ga": 248,
+        "gd": -53
+      }
+    }
   },
   {
     "game_id": "20260204-COL-SJS",
     "game_time_utc": "2026-02-05 02:00:00+00:00",
     "game_date": "2026-02-04",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       2,
       4
     ],
-    "opponent_id": "COL",
-    "opponent_name": "Colorado Avalanche",
-    "location": "Away"
+    "opponent": {
+      "id": "COL",
+      "name": "Colorado Avalanche",
+      "stats": {
+        "gp": 74,
+        "w": 49,
+        "l": 15,
+        "t": 0,
+        "otl": 10,
+        "pts": 108,
+        "pct": 0.72973,
+        "stk": "L1",
+        "gf": 283,
+        "ga": 193,
+        "gd": 90
+      }
+    }
   },
   {
     "game_id": "20260226-SJS-CGY",
@@ -775,13 +1600,28 @@
     "game_date": "2026-02-26",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       1,
       4
     ],
-    "opponent_id": "CGY",
-    "opponent_name": "Calgary Flames",
-    "location": "Home"
+    "opponent": {
+      "id": "CGY",
+      "name": "Calgary Flames",
+      "stats": {
+        "gp": 74,
+        "w": 31,
+        "l": 35,
+        "t": 0,
+        "otl": 8,
+        "pts": 70,
+        "pct": 0.47297,
+        "stk": "L1",
+        "gf": 191,
+        "ga": 234,
+        "gd": -43
+      }
+    }
   },
   {
     "game_id": "20260228-SJS-EDM",
@@ -789,13 +1629,28 @@
     "game_date": "2026-02-28",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       5,
       4
     ],
-    "opponent_id": "EDM",
-    "opponent_name": "Edmonton Oilers",
-    "location": "Home"
+    "opponent": {
+      "id": "EDM",
+      "name": "Edmonton Oilers",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 28,
+        "t": 0,
+        "otl": 9,
+        "pts": 85,
+        "pct": 0.56667,
+        "stk": "W4",
+        "gf": 261,
+        "ga": 251,
+        "gd": 10
+      }
+    }
   },
   {
     "game_id": "20260301-SJS-WPG",
@@ -803,13 +1658,28 @@
     "game_date": "2026-03-01",
     "final": "Final/OT",
     "outcome": "win",
+    "location": "Home",
     "score": [
       2,
       1
     ],
-    "opponent_id": "WPG",
-    "opponent_name": "Winnipeg Jets",
-    "location": "Home"
+    "opponent": {
+      "id": "WPG",
+      "name": "Winnipeg Jets",
+      "stats": {
+        "gp": 74,
+        "w": 32,
+        "l": 30,
+        "t": 0,
+        "otl": 12,
+        "pts": 76,
+        "pct": 0.51351,
+        "stk": "W2",
+        "gf": 213,
+        "ga": 228,
+        "gd": -15
+      }
+    }
   },
   {
     "game_id": "20260303-SJS-MTL",
@@ -817,13 +1687,28 @@
     "game_date": "2026-03-03",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       7,
       5
     ],
-    "opponent_id": "MTL",
-    "opponent_name": "Montreal Canadiens",
-    "location": "Home"
+    "opponent": {
+      "id": "MTL",
+      "name": "Montreal Canadiens",
+      "stats": {
+        "gp": 74,
+        "w": 43,
+        "l": 21,
+        "t": 0,
+        "otl": 10,
+        "pts": 96,
+        "pct": 0.64865,
+        "stk": "W6",
+        "gf": 262,
+        "ga": 234,
+        "gd": 28
+      }
+    }
   },
   {
     "game_id": "20260306-SJS-STL",
@@ -831,13 +1716,28 @@
     "game_date": "2026-03-06",
     "final": "Final/OT",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       2,
       3
     ],
-    "opponent_id": "STL",
-    "opponent_name": "St. Louis Blues",
-    "location": "Home"
+    "opponent": {
+      "id": "STL",
+      "name": "St. Louis Blues",
+      "stats": {
+        "gp": 74,
+        "w": 31,
+        "l": 31,
+        "t": 0,
+        "otl": 12,
+        "pts": 74,
+        "pct": 0.5,
+        "stk": "OT1",
+        "gf": 196,
+        "ga": 234,
+        "gd": -38
+      }
+    }
   },
   {
     "game_id": "20260307-SJS-NYI",
@@ -845,83 +1745,173 @@
     "game_date": "2026-03-07",
     "final": "Final/OT",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       1,
       2
     ],
-    "opponent_id": "NYI",
-    "opponent_name": "New York Islanders",
-    "location": "Home"
+    "opponent": {
+      "id": "NYI",
+      "name": "New York Islanders",
+      "stats": {
+        "gp": 76,
+        "w": 42,
+        "l": 29,
+        "t": 0,
+        "otl": 5,
+        "pts": 89,
+        "pct": 0.58553,
+        "stk": "L2",
+        "gf": 222,
+        "ga": 221,
+        "gd": 1
+      }
+    }
   },
   {
     "game_id": "20260310-BUF-SJS",
     "game_time_utc": "2026-03-10 23:00:00+00:00",
     "game_date": "2026-03-10",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       3,
       6
     ],
-    "opponent_id": "BUF",
-    "opponent_name": "Buffalo Sabres",
-    "location": "Away"
+    "opponent": {
+      "id": "BUF",
+      "name": "Buffalo Sabres",
+      "stats": {
+        "gp": 75,
+        "w": 46,
+        "l": 21,
+        "t": 0,
+        "otl": 8,
+        "pts": 100,
+        "pct": 0.66667,
+        "stk": "W2",
+        "gf": 263,
+        "ga": 221,
+        "gd": 42
+      }
+    }
   },
   {
     "game_id": "20260312-BOS-SJS",
     "game_time_utc": "2026-03-12 23:00:00+00:00",
     "game_date": "2026-03-12",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       4,
       2
     ],
-    "opponent_id": "BOS",
-    "opponent_name": "Boston Bruins",
-    "location": "Away"
+    "opponent": {
+      "id": "BOS",
+      "name": "Boston Bruins",
+      "stats": {
+        "gp": 75,
+        "w": 43,
+        "l": 24,
+        "t": 0,
+        "otl": 8,
+        "pts": 94,
+        "pct": 0.62667,
+        "stk": "W4",
+        "gf": 256,
+        "ga": 233,
+        "gd": 23
+      }
+    }
   },
   {
     "game_id": "20260314-MTL-SJS",
     "game_time_utc": "2026-03-14 23:00:00+00:00",
     "game_date": "2026-03-14",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       4,
       2
     ],
-    "opponent_id": "MTL",
-    "opponent_name": "Montreal Canadiens",
-    "location": "Away"
+    "opponent": {
+      "id": "MTL",
+      "name": "Montreal Canadiens",
+      "stats": {
+        "gp": 74,
+        "w": 43,
+        "l": 21,
+        "t": 0,
+        "otl": 10,
+        "pts": 96,
+        "pct": 0.64865,
+        "stk": "W6",
+        "gf": 262,
+        "ga": 234,
+        "gd": 28
+      }
+    }
   },
   {
     "game_id": "20260315-OTT-SJS",
     "game_time_utc": "2026-03-15 21:00:00+00:00",
     "game_date": "2026-03-15",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       4,
       7
     ],
-    "opponent_id": "OTT",
-    "opponent_name": "Ottawa Senators",
-    "location": "Away"
+    "opponent": {
+      "id": "OTT",
+      "name": "Ottawa Senators",
+      "stats": {
+        "gp": 74,
+        "w": 38,
+        "l": 26,
+        "t": 0,
+        "otl": 10,
+        "pts": 86,
+        "pct": 0.58108,
+        "stk": "L2",
+        "gf": 247,
+        "ga": 230,
+        "gd": 17
+      }
+    }
   },
   {
     "game_id": "20260317-EDM-SJS",
     "game_time_utc": "2026-03-18 01:00:00+00:00",
     "game_date": "2026-03-17",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       3,
       5
     ],
-    "opponent_id": "EDM",
-    "opponent_name": "Edmonton Oilers",
-    "location": "Away"
+    "opponent": {
+      "id": "EDM",
+      "name": "Edmonton Oilers",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 28,
+        "t": 0,
+        "otl": 9,
+        "pts": 85,
+        "pct": 0.56667,
+        "stk": "W4",
+        "gf": 261,
+        "ga": 251,
+        "gd": 10
+      }
+    }
   },
   {
     "game_id": "20260319-SJS-BUF",
@@ -929,13 +1919,28 @@
     "game_date": "2026-03-19",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       0,
       5
     ],
-    "opponent_id": "BUF",
-    "opponent_name": "Buffalo Sabres",
-    "location": "Home"
+    "opponent": {
+      "id": "BUF",
+      "name": "Buffalo Sabres",
+      "stats": {
+        "gp": 75,
+        "w": 46,
+        "l": 21,
+        "t": 0,
+        "otl": 8,
+        "pts": 100,
+        "pct": 0.66667,
+        "stk": "W2",
+        "gf": 263,
+        "ga": 221,
+        "gd": 42
+      }
+    }
   },
   {
     "game_id": "20260321-SJS-PHI",
@@ -943,55 +1948,115 @@
     "game_date": "2026-03-21",
     "final": "Final",
     "outcome": "loss",
+    "location": "Home",
     "score": [
       1,
       4
     ],
-    "opponent_id": "PHI",
-    "opponent_name": "Philadelphia Flyers",
-    "location": "Home"
+    "opponent": {
+      "id": "PHI",
+      "name": "Philadelphia Flyers",
+      "stats": {
+        "gp": 74,
+        "w": 37,
+        "l": 25,
+        "t": 0,
+        "otl": 12,
+        "pts": 86,
+        "pct": 0.58108,
+        "stk": "L1",
+        "gf": 220,
+        "ga": 225,
+        "gd": -5
+      }
+    }
   },
   {
     "game_id": "20260324-NSH-SJS",
     "game_time_utc": "2026-03-25 00:00:00+00:00",
     "game_date": "2026-03-24",
     "final": "Final",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       3,
       6
     ],
-    "opponent_id": "NSH",
-    "opponent_name": "Nashville Predators",
-    "location": "Away"
+    "opponent": {
+      "id": "NSH",
+      "name": "Nashville Predators",
+      "stats": {
+        "gp": 74,
+        "w": 34,
+        "l": 31,
+        "t": 0,
+        "otl": 9,
+        "pts": 77,
+        "pct": 0.52027,
+        "stk": "L3",
+        "gf": 220,
+        "ga": 246,
+        "gd": -26
+      }
+    }
   },
   {
     "game_id": "20260326-STL-SJS",
     "game_time_utc": "2026-03-27 00:00:00+00:00",
     "game_date": "2026-03-26",
     "final": "Final/OT",
+    "location": "Away",
     "outcome": "loss",
     "score": [
       1,
       2
     ],
-    "opponent_id": "STL",
-    "opponent_name": "St. Louis Blues",
-    "location": "Away"
+    "opponent": {
+      "id": "STL",
+      "name": "St. Louis Blues",
+      "stats": {
+        "gp": 74,
+        "w": 31,
+        "l": 31,
+        "t": 0,
+        "otl": 12,
+        "pts": 74,
+        "pct": 0.5,
+        "stk": "OT1",
+        "gf": 196,
+        "ga": 234,
+        "gd": -38
+      }
+    }
   },
   {
     "game_id": "20260328-CBJ-SJS",
     "game_time_utc": "2026-03-28 21:00:00+00:00",
     "game_date": "2026-03-28",
     "final": "Final",
+    "location": "Away",
     "outcome": "win",
     "score": [
       3,
       2
     ],
-    "opponent_id": "CBJ",
-    "opponent_name": "Columbus Blue Jackets",
-    "location": "Away"
+    "opponent": {
+      "id": "CBJ",
+      "name": "Columbus Blue Jackets",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 25,
+        "t": 0,
+        "otl": 12,
+        "pts": 88,
+        "pct": 0.58667,
+        "stk": "L1",
+        "gf": 239,
+        "ga": 231,
+        "gd": 8
+      }
+    }
   },
   {
     "game_id": "20260330-SJS-STL",
@@ -999,13 +2064,28 @@
     "game_date": "2026-03-30",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       5,
       4
     ],
-    "opponent_id": "STL",
-    "opponent_name": "St. Louis Blues",
-    "location": "Home"
+    "opponent": {
+      "id": "STL",
+      "name": "St. Louis Blues",
+      "stats": {
+        "gp": 74,
+        "w": 31,
+        "l": 31,
+        "t": 0,
+        "otl": 12,
+        "pts": 74,
+        "pct": 0.5,
+        "stk": "OT1",
+        "gf": 196,
+        "ga": 234,
+        "gd": -38
+      }
+    }
   },
   {
     "game_id": "20260401-SJS-ANA",
@@ -1013,13 +2093,28 @@
     "game_date": "2026-04-01",
     "final": "Final",
     "outcome": "win",
+    "location": "Home",
     "score": [
       4,
       3
     ],
-    "opponent_id": "ANA",
-    "opponent_name": "Anaheim Ducks",
-    "location": "Home"
+    "opponent": {
+      "id": "ANA",
+      "name": "Anaheim Ducks",
+      "stats": {
+        "gp": 75,
+        "w": 41,
+        "l": 29,
+        "t": 0,
+        "otl": 5,
+        "pts": 87,
+        "pct": 0.58,
+        "stk": "L1",
+        "gf": 252,
+        "ga": 260,
+        "gd": -8
+      }
+    }
   },
   {
     "game_id": "20260402-SJS-TOR",
@@ -1027,13 +2122,28 @@
     "game_date": "2026-04-02",
     "final": "",
     "outcome": "upcoming",
+    "location": "Home",
     "score": [
       "",
       ""
     ],
-    "opponent_id": "TOR",
-    "opponent_name": "Toronto Maple Leafs",
-    "location": "Home"
+    "opponent": {
+      "id": "TOR",
+      "name": "Toronto Maple Leafs",
+      "stats": {
+        "gp": 75,
+        "w": 32,
+        "l": 30,
+        "t": 0,
+        "otl": 13,
+        "pts": 77,
+        "pct": 0.51333,
+        "stk": "W1",
+        "gf": 235,
+        "ga": 264,
+        "gd": -29
+      }
+    }
   },
   {
     "game_id": "20260404-SJS-NSH",
@@ -1041,13 +2151,28 @@
     "game_date": "2026-04-04",
     "final": "",
     "outcome": "upcoming",
+    "location": "Home",
     "score": [
       "",
       ""
     ],
-    "opponent_id": "NSH",
-    "opponent_name": "Nashville Predators",
-    "location": "Home"
+    "opponent": {
+      "id": "NSH",
+      "name": "Nashville Predators",
+      "stats": {
+        "gp": 74,
+        "w": 34,
+        "l": 31,
+        "t": 0,
+        "otl": 9,
+        "pts": 77,
+        "pct": 0.52027,
+        "stk": "L3",
+        "gf": 220,
+        "ga": 246,
+        "gd": -26
+      }
+    }
   },
   {
     "game_id": "20260406-SJS-CHI",
@@ -1055,13 +2180,28 @@
     "game_date": "2026-04-06",
     "final": "",
     "outcome": "upcoming",
+    "location": "Home",
     "score": [
       "",
       ""
     ],
-    "opponent_id": "CHI",
-    "opponent_name": "Chicago Blackhawks",
-    "location": "Home"
+    "opponent": {
+      "id": "CHI",
+      "name": "Chicago Blackhawks",
+      "stats": {
+        "gp": 75,
+        "w": 27,
+        "l": 34,
+        "t": 0,
+        "otl": 14,
+        "pts": 68,
+        "pct": 0.45333,
+        "stk": "OT1",
+        "gf": 195,
+        "ga": 248,
+        "gd": -53
+      }
+    }
   },
   {
     "game_id": "20260408-SJS-EDM",
@@ -1069,27 +2209,57 @@
     "game_date": "2026-04-08",
     "final": "",
     "outcome": "upcoming",
+    "location": "Home",
     "score": [
       "",
       ""
     ],
-    "opponent_id": "EDM",
-    "opponent_name": "Edmonton Oilers",
-    "location": "Home"
+    "opponent": {
+      "id": "EDM",
+      "name": "Edmonton Oilers",
+      "stats": {
+        "gp": 75,
+        "w": 38,
+        "l": 28,
+        "t": 0,
+        "otl": 9,
+        "pts": 85,
+        "pct": 0.56667,
+        "stk": "W4",
+        "gf": 261,
+        "ga": 251,
+        "gd": 10
+      }
+    }
   },
   {
     "game_id": "20260409-ANA-SJS",
     "game_time_utc": "2026-04-10 02:00:00+00:00",
     "game_date": "2026-04-09",
     "final": "",
+    "location": "Away",
     "outcome": "upcoming",
     "score": [
       "",
       ""
     ],
-    "opponent_id": "ANA",
-    "opponent_name": "Anaheim Ducks",
-    "location": "Away"
+    "opponent": {
+      "id": "ANA",
+      "name": "Anaheim Ducks",
+      "stats": {
+        "gp": 75,
+        "w": 41,
+        "l": 29,
+        "t": 0,
+        "otl": 5,
+        "pts": 87,
+        "pct": 0.58,
+        "stk": "L1",
+        "gf": 252,
+        "ga": 260,
+        "gd": -8
+      }
+    }
   },
   {
     "game_id": "20260411-SJS-VAN",
@@ -1097,54 +2267,114 @@
     "game_date": "2026-04-11",
     "final": "",
     "outcome": "upcoming",
+    "location": "Home",
     "score": [
       "",
       ""
     ],
-    "opponent_id": "VAN",
-    "opponent_name": "Vancouver Canucks",
-    "location": "Home"
+    "opponent": {
+      "id": "VAN",
+      "name": "Vancouver Canucks",
+      "stats": {
+        "gp": 74,
+        "w": 22,
+        "l": 44,
+        "t": 0,
+        "otl": 8,
+        "pts": 52,
+        "pct": 0.35135,
+        "stk": "W1",
+        "gf": 195,
+        "ga": 283,
+        "gd": -88
+      }
+    }
   },
   {
     "game_id": "20260413-NSH-SJS",
     "game_time_utc": "2026-04-14 00:00:00+00:00",
     "game_date": "2026-04-13",
     "final": "",
+    "location": "Away",
     "outcome": "upcoming",
     "score": [
       "",
       ""
     ],
-    "opponent_id": "NSH",
-    "opponent_name": "Nashville Predators",
-    "location": "Away"
+    "opponent": {
+      "id": "NSH",
+      "name": "Nashville Predators",
+      "stats": {
+        "gp": 74,
+        "w": 34,
+        "l": 31,
+        "t": 0,
+        "otl": 9,
+        "pts": 77,
+        "pct": 0.52027,
+        "stk": "L3",
+        "gf": 220,
+        "ga": 246,
+        "gd": -26
+      }
+    }
   },
   {
     "game_id": "20260415-CHI-SJS",
     "game_time_utc": "2026-04-16 00:30:00+00:00",
     "game_date": "2026-04-15",
     "final": "",
+    "location": "Away",
     "outcome": "upcoming",
     "score": [
       "",
       ""
     ],
-    "opponent_id": "CHI",
-    "opponent_name": "Chicago Blackhawks",
-    "location": "Away"
+    "opponent": {
+      "id": "CHI",
+      "name": "Chicago Blackhawks",
+      "stats": {
+        "gp": 75,
+        "w": 27,
+        "l": 34,
+        "t": 0,
+        "otl": 14,
+        "pts": 68,
+        "pct": 0.45333,
+        "stk": "OT1",
+        "gf": 195,
+        "ga": 248,
+        "gd": -53
+      }
+    }
   },
   {
     "game_id": "20260416-WPG-SJS",
     "game_time_utc": "2026-04-17 00:00:00+00:00",
     "game_date": "2026-04-16",
     "final": "",
+    "location": "Away",
     "outcome": "upcoming",
     "score": [
       "",
       ""
     ],
-    "opponent_id": "WPG",
-    "opponent_name": "Winnipeg Jets",
-    "location": "Away"
+    "opponent": {
+      "id": "WPG",
+      "name": "Winnipeg Jets",
+      "stats": {
+        "gp": 74,
+        "w": 32,
+        "l": 30,
+        "t": 0,
+        "otl": 12,
+        "pts": 76,
+        "pct": 0.51351,
+        "stk": "W2",
+        "gf": 213,
+        "ga": 228,
+        "gd": -15
+      }
+    }
   }
 ]

@@ -32,106 +32,215 @@
     "dv": 5,
     "wc": 3
   },
-  "games": [
-    {
-      "game_id": "20260326-OTT-PIT",
-      "game_time_utc": "2026-03-26 23:00:00+00:00",
-      "game_date": "2026-03-26",
-      "final": "Final/SO",
-      "outcome": "loss",
-      "score": [
-        3,
-        4
-      ],
-      "opponent_id": "PIT",
-      "opponent_name": "Pittsburgh Penguins",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260328-TBL-OTT",
-      "game_time_utc": "2026-03-28 17:00:00+00:00",
-      "game_date": "2026-03-28",
-      "final": "Final",
-      "outcome": "loss",
-      "score": [
-        2,
-        4
-      ],
-      "opponent_id": "TBL",
-      "opponent_name": "Tampa Bay Lightning",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260331-FLA-OTT",
-      "game_time_utc": "2026-03-31 23:00:00+00:00",
-      "game_date": "2026-03-31",
-      "final": "Final",
-      "outcome": "loss",
-      "score": [
-        3,
-        6
-      ],
-      "opponent_id": "FLA",
-      "opponent_name": "Florida Panthers",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260402-OTT-BUF",
-      "game_time_utc": "2026-04-02 23:00:00+00:00",
-      "game_date": "2026-04-02",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "BUF",
-      "opponent_name": "Buffalo Sabres",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260404-OTT-MIN",
-      "game_time_utc": "2026-04-04 17:00:00+00:00",
-      "game_date": "2026-04-04",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "MIN",
-      "opponent_name": "Minnesota Wild",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260405-OTT-CAR",
-      "game_time_utc": "2026-04-05 21:00:00+00:00",
-      "game_date": "2026-04-05",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "CAR",
-      "opponent_name": "Carolina Hurricanes",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260407-OTT-TBL",
-      "game_time_utc": "2026-04-07 23:00:00+00:00",
-      "game_date": "2026-04-07",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "TBL",
-      "opponent_name": "Tampa Bay Lightning",
-      "location": "Home"
-    }
-  ],
+  "games": {
+    "past": [
+      {
+        "game_id": "20260326-OTT-PIT",
+        "game_time_utc": "2026-03-26 23:00:00+00:00",
+        "game_date": "2026-03-26",
+        "final": "Final/SO",
+        "outcome": "loss",
+        "location": "Home",
+        "score": [
+          3,
+          4
+        ],
+        "opponent": {
+          "id": "PIT",
+          "name": "Pittsburgh Penguins",
+          "stats": {
+            "gp": 75,
+            "w": 38,
+            "l": 21,
+            "t": 0,
+            "otl": 16,
+            "pts": 92,
+            "pct": 0.61333,
+            "stk": "W2",
+            "gf": 263,
+            "ga": 238,
+            "gd": 25
+          }
+        }
+      },
+      {
+        "game_id": "20260328-TBL-OTT",
+        "game_time_utc": "2026-03-28 17:00:00+00:00",
+        "game_date": "2026-03-28",
+        "final": "Final",
+        "location": "Away",
+        "outcome": "loss",
+        "score": [
+          2,
+          4
+        ],
+        "opponent": {
+          "id": "TBL",
+          "name": "Tampa Bay Lightning",
+          "stats": {
+            "gp": 74,
+            "w": 46,
+            "l": 22,
+            "t": 0,
+            "otl": 6,
+            "pts": 98,
+            "pct": 0.66216,
+            "stk": "L1",
+            "gf": 268,
+            "ga": 207,
+            "gd": 61
+          }
+        }
+      },
+      {
+        "game_id": "20260331-FLA-OTT",
+        "game_time_utc": "2026-03-31 23:00:00+00:00",
+        "game_date": "2026-03-31",
+        "final": "Final",
+        "location": "Away",
+        "outcome": "loss",
+        "score": [
+          3,
+          6
+        ],
+        "opponent": {
+          "id": "FLA",
+          "name": "Florida Panthers",
+          "stats": {
+            "gp": 74,
+            "w": 36,
+            "l": 35,
+            "t": 0,
+            "otl": 3,
+            "pts": 75,
+            "pct": 0.50676,
+            "stk": "W1",
+            "gf": 222,
+            "ga": 247,
+            "gd": -25
+          }
+        }
+      }
+    ],
+    "upcoming": [
+      {
+        "game_id": "20260402-OTT-BUF",
+        "game_time_utc": "2026-04-02 23:00:00+00:00",
+        "game_date": "2026-04-02",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "BUF",
+          "name": "Buffalo Sabres",
+          "stats": {
+            "gp": 75,
+            "w": 46,
+            "l": 21,
+            "t": 0,
+            "otl": 8,
+            "pts": 100,
+            "pct": 0.66667,
+            "stk": "W2",
+            "gf": 263,
+            "ga": 221,
+            "gd": 42
+          }
+        }
+      },
+      {
+        "game_id": "20260404-OTT-MIN",
+        "game_time_utc": "2026-04-04 17:00:00+00:00",
+        "game_date": "2026-04-04",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "MIN",
+          "name": "Minnesota Wild",
+          "stats": {
+            "gp": 74,
+            "w": 41,
+            "l": 21,
+            "t": 0,
+            "otl": 12,
+            "pts": 94,
+            "pct": 0.63514,
+            "stk": "L1",
+            "gf": 242,
+            "ga": 216,
+            "gd": 26
+          }
+        }
+      },
+      {
+        "game_id": "20260405-OTT-CAR",
+        "game_time_utc": "2026-04-05 21:00:00+00:00",
+        "game_date": "2026-04-05",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "CAR",
+          "name": "Carolina Hurricanes",
+          "stats": {
+            "gp": 74,
+            "w": 47,
+            "l": 21,
+            "t": 0,
+            "otl": 6,
+            "pts": 100,
+            "pct": 0.67568,
+            "stk": "W1",
+            "gf": 263,
+            "ga": 218,
+            "gd": 45
+          }
+        }
+      },
+      {
+        "game_id": "20260407-OTT-TBL",
+        "game_time_utc": "2026-04-07 23:00:00+00:00",
+        "game_date": "2026-04-07",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "TBL",
+          "name": "Tampa Bay Lightning",
+          "stats": {
+            "gp": 74,
+            "w": 46,
+            "l": 22,
+            "t": 0,
+            "otl": 6,
+            "pts": 98,
+            "pct": 0.66216,
+            "stk": "L1",
+            "gf": 268,
+            "ga": 207,
+            "gd": 61
+          }
+        }
+      }
+    ]
+  },
   "standings": {
     "division": [
       {

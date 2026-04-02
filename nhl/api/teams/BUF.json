@@ -32,106 +32,215 @@
     "dv": 1,
     "wc": null
   },
-  "games": [
-    {
-      "game_id": "20260327-BUF-DET",
-      "game_time_utc": "2026-03-27 23:00:00+00:00",
-      "game_date": "2026-03-27",
-      "final": "Final",
-      "outcome": "loss",
-      "score": [
-        2,
-        5
-      ],
-      "opponent_id": "DET",
-      "opponent_name": "Detroit Red Wings",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260328-BUF-SEA",
-      "game_time_utc": "2026-03-28 21:30:00+00:00",
-      "game_date": "2026-03-28",
-      "final": "Final/SO",
-      "outcome": "win",
-      "score": [
-        3,
-        2
-      ],
-      "opponent_id": "SEA",
-      "opponent_name": "Seattle Kraken",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260331-BUF-NYI",
-      "game_time_utc": "2026-03-31 23:00:00+00:00",
-      "game_date": "2026-03-31",
-      "final": "Final",
-      "outcome": "win",
-      "score": [
-        4,
-        3
-      ],
-      "opponent_id": "NYI",
-      "opponent_name": "New York Islanders",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260402-OTT-BUF",
-      "game_time_utc": "2026-04-02 23:00:00+00:00",
-      "game_date": "2026-04-02",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "OTT",
-      "opponent_name": "Ottawa Senators",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260404-WSH-BUF",
-      "game_time_utc": "2026-04-04 23:00:00+00:00",
-      "game_date": "2026-04-04",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "WSH",
-      "opponent_name": "Washington Capitals",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260406-BUF-TBL",
-      "game_time_utc": "2026-04-06 23:00:00+00:00",
-      "game_date": "2026-04-06",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "TBL",
-      "opponent_name": "Tampa Bay Lightning",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260408-NYR-BUF",
-      "game_time_utc": "2026-04-08 23:00:00+00:00",
-      "game_date": "2026-04-08",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "NYR",
-      "opponent_name": "New York Rangers",
-      "location": "Away"
-    }
-  ],
+  "games": {
+    "past": [
+      {
+        "game_id": "20260327-BUF-DET",
+        "game_time_utc": "2026-03-27 23:00:00+00:00",
+        "game_date": "2026-03-27",
+        "final": "Final",
+        "outcome": "loss",
+        "location": "Home",
+        "score": [
+          2,
+          5
+        ],
+        "opponent": {
+          "id": "DET",
+          "name": "Detroit Red Wings",
+          "stats": {
+            "gp": 74,
+            "w": 39,
+            "l": 27,
+            "t": 0,
+            "otl": 8,
+            "pts": 86,
+            "pct": 0.58108,
+            "stk": "L2",
+            "gf": 216,
+            "ga": 223,
+            "gd": -7
+          }
+        }
+      },
+      {
+        "game_id": "20260328-BUF-SEA",
+        "game_time_utc": "2026-03-28 21:30:00+00:00",
+        "game_date": "2026-03-28",
+        "final": "Final/SO",
+        "outcome": "win",
+        "location": "Home",
+        "score": [
+          3,
+          2
+        ],
+        "opponent": {
+          "id": "SEA",
+          "name": "Seattle Kraken",
+          "stats": {
+            "gp": 73,
+            "w": 32,
+            "l": 30,
+            "t": 0,
+            "otl": 11,
+            "pts": 75,
+            "pct": 0.5137,
+            "stk": "L1",
+            "gf": 206,
+            "ga": 227,
+            "gd": -21
+          }
+        }
+      },
+      {
+        "game_id": "20260331-BUF-NYI",
+        "game_time_utc": "2026-03-31 23:00:00+00:00",
+        "game_date": "2026-03-31",
+        "final": "Final",
+        "outcome": "win",
+        "location": "Home",
+        "score": [
+          4,
+          3
+        ],
+        "opponent": {
+          "id": "NYI",
+          "name": "New York Islanders",
+          "stats": {
+            "gp": 76,
+            "w": 42,
+            "l": 29,
+            "t": 0,
+            "otl": 5,
+            "pts": 89,
+            "pct": 0.58553,
+            "stk": "L2",
+            "gf": 222,
+            "ga": 221,
+            "gd": 1
+          }
+        }
+      }
+    ],
+    "upcoming": [
+      {
+        "game_id": "20260402-OTT-BUF",
+        "game_time_utc": "2026-04-02 23:00:00+00:00",
+        "game_date": "2026-04-02",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "OTT",
+          "name": "Ottawa Senators",
+          "stats": {
+            "gp": 74,
+            "w": 38,
+            "l": 26,
+            "t": 0,
+            "otl": 10,
+            "pts": 86,
+            "pct": 0.58108,
+            "stk": "L2",
+            "gf": 247,
+            "ga": 230,
+            "gd": 17
+          }
+        }
+      },
+      {
+        "game_id": "20260404-WSH-BUF",
+        "game_time_utc": "2026-04-04 23:00:00+00:00",
+        "game_date": "2026-04-04",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "WSH",
+          "name": "Washington Capitals",
+          "stats": {
+            "gp": 75,
+            "w": 38,
+            "l": 28,
+            "t": 0,
+            "otl": 9,
+            "pts": 85,
+            "pct": 0.56667,
+            "stk": "W3",
+            "gf": 238,
+            "ga": 223,
+            "gd": 15
+          }
+        }
+      },
+      {
+        "game_id": "20260406-BUF-TBL",
+        "game_time_utc": "2026-04-06 23:00:00+00:00",
+        "game_date": "2026-04-06",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "TBL",
+          "name": "Tampa Bay Lightning",
+          "stats": {
+            "gp": 74,
+            "w": 46,
+            "l": 22,
+            "t": 0,
+            "otl": 6,
+            "pts": 98,
+            "pct": 0.66216,
+            "stk": "L1",
+            "gf": 268,
+            "ga": 207,
+            "gd": 61
+          }
+        }
+      },
+      {
+        "game_id": "20260408-NYR-BUF",
+        "game_time_utc": "2026-04-08 23:00:00+00:00",
+        "game_date": "2026-04-08",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "NYR",
+          "name": "New York Rangers",
+          "stats": {
+            "gp": 75,
+            "w": 31,
+            "l": 35,
+            "t": 0,
+            "otl": 9,
+            "pts": 71,
+            "pct": 0.47333,
+            "stk": "W3",
+            "gf": 215,
+            "ga": 233,
+            "gd": -18
+          }
+        }
+      }
+    ]
+  },
   "standings": {
     "division": [
       {

@@ -32,106 +32,215 @@
     "dv": 3,
     "wc": null
   },
-  "games": [
-    {
-      "game_id": "20260328-NYI-FLA",
-      "game_time_utc": "2026-03-28 17:00:00+00:00",
-      "game_date": "2026-03-28",
-      "final": "Final",
-      "outcome": "win",
-      "score": [
-        5,
-        2
-      ],
-      "opponent_id": "FLA",
-      "opponent_name": "Florida Panthers",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260330-NYI-PIT",
-      "game_time_utc": "2026-03-30 23:00:00+00:00",
-      "game_date": "2026-03-30",
-      "final": "Final",
-      "outcome": "loss",
-      "score": [
-        3,
-        8
-      ],
-      "opponent_id": "PIT",
-      "opponent_name": "Pittsburgh Penguins",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260331-BUF-NYI",
-      "game_time_utc": "2026-03-31 23:00:00+00:00",
-      "game_date": "2026-03-31",
-      "final": "Final",
-      "outcome": "loss",
-      "score": [
-        3,
-        4
-      ],
-      "opponent_id": "BUF",
-      "opponent_name": "Buffalo Sabres",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260403-NYI-PHI",
-      "game_time_utc": "2026-04-03 23:00:00+00:00",
-      "game_date": "2026-04-03",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "PHI",
-      "opponent_name": "Philadelphia Flyers",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260404-CAR-NYI",
-      "game_time_utc": "2026-04-04 23:00:00+00:00",
-      "game_date": "2026-04-04",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "CAR",
-      "opponent_name": "Carolina Hurricanes",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260409-NYI-TOR",
-      "game_time_utc": "2026-04-09 22:45:00+00:00",
-      "game_date": "2026-04-09",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "TOR",
-      "opponent_name": "Toronto Maple Leafs",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260411-NYI-OTT",
-      "game_time_utc": "2026-04-11 17:00:00+00:00",
-      "game_date": "2026-04-11",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "OTT",
-      "opponent_name": "Ottawa Senators",
-      "location": "Home"
-    }
-  ],
+  "games": {
+    "past": [
+      {
+        "game_id": "20260328-NYI-FLA",
+        "game_time_utc": "2026-03-28 17:00:00+00:00",
+        "game_date": "2026-03-28",
+        "final": "Final",
+        "outcome": "win",
+        "location": "Home",
+        "score": [
+          5,
+          2
+        ],
+        "opponent": {
+          "id": "FLA",
+          "name": "Florida Panthers",
+          "stats": {
+            "gp": 74,
+            "w": 36,
+            "l": 35,
+            "t": 0,
+            "otl": 3,
+            "pts": 75,
+            "pct": 0.50676,
+            "stk": "W1",
+            "gf": 222,
+            "ga": 247,
+            "gd": -25
+          }
+        }
+      },
+      {
+        "game_id": "20260330-NYI-PIT",
+        "game_time_utc": "2026-03-30 23:00:00+00:00",
+        "game_date": "2026-03-30",
+        "final": "Final",
+        "outcome": "loss",
+        "location": "Home",
+        "score": [
+          3,
+          8
+        ],
+        "opponent": {
+          "id": "PIT",
+          "name": "Pittsburgh Penguins",
+          "stats": {
+            "gp": 75,
+            "w": 38,
+            "l": 21,
+            "t": 0,
+            "otl": 16,
+            "pts": 92,
+            "pct": 0.61333,
+            "stk": "W2",
+            "gf": 263,
+            "ga": 238,
+            "gd": 25
+          }
+        }
+      },
+      {
+        "game_id": "20260331-BUF-NYI",
+        "game_time_utc": "2026-03-31 23:00:00+00:00",
+        "game_date": "2026-03-31",
+        "final": "Final",
+        "location": "Away",
+        "outcome": "loss",
+        "score": [
+          3,
+          4
+        ],
+        "opponent": {
+          "id": "BUF",
+          "name": "Buffalo Sabres",
+          "stats": {
+            "gp": 75,
+            "w": 46,
+            "l": 21,
+            "t": 0,
+            "otl": 8,
+            "pts": 100,
+            "pct": 0.66667,
+            "stk": "W2",
+            "gf": 263,
+            "ga": 221,
+            "gd": 42
+          }
+        }
+      }
+    ],
+    "upcoming": [
+      {
+        "game_id": "20260403-NYI-PHI",
+        "game_time_utc": "2026-04-03 23:00:00+00:00",
+        "game_date": "2026-04-03",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "PHI",
+          "name": "Philadelphia Flyers",
+          "stats": {
+            "gp": 74,
+            "w": 37,
+            "l": 25,
+            "t": 0,
+            "otl": 12,
+            "pts": 86,
+            "pct": 0.58108,
+            "stk": "L1",
+            "gf": 220,
+            "ga": 225,
+            "gd": -5
+          }
+        }
+      },
+      {
+        "game_id": "20260404-CAR-NYI",
+        "game_time_utc": "2026-04-04 23:00:00+00:00",
+        "game_date": "2026-04-04",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "CAR",
+          "name": "Carolina Hurricanes",
+          "stats": {
+            "gp": 74,
+            "w": 47,
+            "l": 21,
+            "t": 0,
+            "otl": 6,
+            "pts": 100,
+            "pct": 0.67568,
+            "stk": "W1",
+            "gf": 263,
+            "ga": 218,
+            "gd": 45
+          }
+        }
+      },
+      {
+        "game_id": "20260409-NYI-TOR",
+        "game_time_utc": "2026-04-09 22:45:00+00:00",
+        "game_date": "2026-04-09",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "TOR",
+          "name": "Toronto Maple Leafs",
+          "stats": {
+            "gp": 75,
+            "w": 32,
+            "l": 30,
+            "t": 0,
+            "otl": 13,
+            "pts": 77,
+            "pct": 0.51333,
+            "stk": "W1",
+            "gf": 235,
+            "ga": 264,
+            "gd": -29
+          }
+        }
+      },
+      {
+        "game_id": "20260411-NYI-OTT",
+        "game_time_utc": "2026-04-11 17:00:00+00:00",
+        "game_date": "2026-04-11",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "OTT",
+          "name": "Ottawa Senators",
+          "stats": {
+            "gp": 74,
+            "w": 38,
+            "l": 26,
+            "t": 0,
+            "otl": 10,
+            "pts": 86,
+            "pct": 0.58108,
+            "stk": "L2",
+            "gf": 247,
+            "ga": 230,
+            "gd": 17
+          }
+        }
+      }
+    ]
+  },
   "standings": {
     "division": [
       {

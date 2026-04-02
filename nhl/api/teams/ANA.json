@@ -32,106 +32,215 @@
     "dv": 1,
     "wc": null
   },
-  "games": [
-    {
-      "game_id": "20260328-EDM-ANA",
-      "game_time_utc": "2026-03-28 19:30:00+00:00",
-      "game_date": "2026-03-28",
-      "final": "Final",
-      "outcome": "loss",
-      "score": [
-        2,
-        4
-      ],
-      "opponent_id": "EDM",
-      "opponent_name": "Edmonton Oilers",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260330-ANA-TOR",
-      "game_time_utc": "2026-03-31 02:00:00+00:00",
-      "game_date": "2026-03-30",
-      "final": "Final/OT",
-      "outcome": "loss",
-      "score": [
-        4,
-        5
-      ],
-      "opponent_id": "TOR",
-      "opponent_name": "Toronto Maple Leafs",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260401-SJS-ANA",
-      "game_time_utc": "2026-04-02 01:00:00+00:00",
-      "game_date": "2026-04-01",
-      "final": "Final",
-      "outcome": "loss",
-      "score": [
-        3,
-        4
-      ],
-      "opponent_id": "SJS",
-      "opponent_name": "San Jose Sharks",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260403-ANA-STL",
-      "game_time_utc": "2026-04-04 02:00:00+00:00",
-      "game_date": "2026-04-03",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "STL",
-      "opponent_name": "St. Louis Blues",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260404-ANA-CGY",
-      "game_time_utc": "2026-04-05 02:00:00+00:00",
-      "game_date": "2026-04-04",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "CGY",
-      "opponent_name": "Calgary Flames",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260407-ANA-NSH",
-      "game_time_utc": "2026-04-08 02:00:00+00:00",
-      "game_date": "2026-04-07",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "NSH",
-      "opponent_name": "Nashville Predators",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260409-ANA-SJS",
-      "game_time_utc": "2026-04-10 02:00:00+00:00",
-      "game_date": "2026-04-09",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "SJS",
-      "opponent_name": "San Jose Sharks",
-      "location": "Home"
-    }
-  ],
+  "games": {
+    "past": [
+      {
+        "game_id": "20260328-EDM-ANA",
+        "game_time_utc": "2026-03-28 19:30:00+00:00",
+        "game_date": "2026-03-28",
+        "final": "Final",
+        "location": "Away",
+        "outcome": "loss",
+        "score": [
+          2,
+          4
+        ],
+        "opponent": {
+          "id": "EDM",
+          "name": "Edmonton Oilers",
+          "stats": {
+            "gp": 75,
+            "w": 38,
+            "l": 28,
+            "t": 0,
+            "otl": 9,
+            "pts": 85,
+            "pct": 0.56667,
+            "stk": "W4",
+            "gf": 261,
+            "ga": 251,
+            "gd": 10
+          }
+        }
+      },
+      {
+        "game_id": "20260330-ANA-TOR",
+        "game_time_utc": "2026-03-31 02:00:00+00:00",
+        "game_date": "2026-03-30",
+        "final": "Final/OT",
+        "outcome": "loss",
+        "location": "Home",
+        "score": [
+          4,
+          5
+        ],
+        "opponent": {
+          "id": "TOR",
+          "name": "Toronto Maple Leafs",
+          "stats": {
+            "gp": 75,
+            "w": 32,
+            "l": 30,
+            "t": 0,
+            "otl": 13,
+            "pts": 77,
+            "pct": 0.51333,
+            "stk": "W1",
+            "gf": 235,
+            "ga": 264,
+            "gd": -29
+          }
+        }
+      },
+      {
+        "game_id": "20260401-SJS-ANA",
+        "game_time_utc": "2026-04-02 01:00:00+00:00",
+        "game_date": "2026-04-01",
+        "final": "Final",
+        "location": "Away",
+        "outcome": "loss",
+        "score": [
+          3,
+          4
+        ],
+        "opponent": {
+          "id": "SJS",
+          "name": "San Jose Sharks",
+          "stats": {
+            "gp": 73,
+            "w": 35,
+            "l": 31,
+            "t": 0,
+            "otl": 7,
+            "pts": 77,
+            "pct": 0.5274,
+            "stk": "W3",
+            "gf": 224,
+            "ga": 260,
+            "gd": -36
+          }
+        }
+      }
+    ],
+    "upcoming": [
+      {
+        "game_id": "20260403-ANA-STL",
+        "game_time_utc": "2026-04-04 02:00:00+00:00",
+        "game_date": "2026-04-03",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "STL",
+          "name": "St. Louis Blues",
+          "stats": {
+            "gp": 74,
+            "w": 31,
+            "l": 31,
+            "t": 0,
+            "otl": 12,
+            "pts": 74,
+            "pct": 0.5,
+            "stk": "OT1",
+            "gf": 196,
+            "ga": 234,
+            "gd": -38
+          }
+        }
+      },
+      {
+        "game_id": "20260404-ANA-CGY",
+        "game_time_utc": "2026-04-05 02:00:00+00:00",
+        "game_date": "2026-04-04",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "CGY",
+          "name": "Calgary Flames",
+          "stats": {
+            "gp": 74,
+            "w": 31,
+            "l": 35,
+            "t": 0,
+            "otl": 8,
+            "pts": 70,
+            "pct": 0.47297,
+            "stk": "L1",
+            "gf": 191,
+            "ga": 234,
+            "gd": -43
+          }
+        }
+      },
+      {
+        "game_id": "20260407-ANA-NSH",
+        "game_time_utc": "2026-04-08 02:00:00+00:00",
+        "game_date": "2026-04-07",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "NSH",
+          "name": "Nashville Predators",
+          "stats": {
+            "gp": 74,
+            "w": 34,
+            "l": 31,
+            "t": 0,
+            "otl": 9,
+            "pts": 77,
+            "pct": 0.52027,
+            "stk": "L3",
+            "gf": 220,
+            "ga": 246,
+            "gd": -26
+          }
+        }
+      },
+      {
+        "game_id": "20260409-ANA-SJS",
+        "game_time_utc": "2026-04-10 02:00:00+00:00",
+        "game_date": "2026-04-09",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "SJS",
+          "name": "San Jose Sharks",
+          "stats": {
+            "gp": 73,
+            "w": 35,
+            "l": 31,
+            "t": 0,
+            "otl": 7,
+            "pts": 77,
+            "pct": 0.5274,
+            "stk": "W3",
+            "gf": 224,
+            "ga": 260,
+            "gd": -36
+          }
+        }
+      }
+    ]
+  },
   "standings": {
     "division": [
       {

@@ -32,106 +32,215 @@
     "dv": 6,
     "wc": 6
   },
-  "games": [
-    {
-      "game_id": "20260326-UTA-WSH",
-      "game_time_utc": "2026-03-27 01:00:00+00:00",
-      "game_date": "2026-03-26",
-      "final": "Final",
-      "outcome": "win",
-      "score": [
-        7,
-        4
-      ],
-      "opponent_id": "UTA",
-      "opponent_name": "Utah Mammoth",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260328-VGK-WSH",
-      "game_time_utc": "2026-03-29 02:30:00+00:00",
-      "game_date": "2026-03-28",
-      "final": "Final/SO",
-      "outcome": "win",
-      "score": [
-        5,
-        4
-      ],
-      "opponent_id": "VGK",
-      "opponent_name": "Vegas Golden Knights",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260331-WSH-PHI",
-      "game_time_utc": "2026-03-31 23:00:00+00:00",
-      "game_date": "2026-03-31",
-      "final": "Final",
-      "outcome": "win",
-      "score": [
-        6,
-        4
-      ],
-      "opponent_id": "PHI",
-      "opponent_name": "Philadelphia Flyers",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260402-NJD-WSH",
-      "game_time_utc": "2026-04-02 23:30:00+00:00",
-      "game_date": "2026-04-02",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "NJD",
-      "opponent_name": "New Jersey Devils",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260404-WSH-BUF",
-      "game_time_utc": "2026-04-04 23:00:00+00:00",
-      "game_date": "2026-04-04",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "BUF",
-      "opponent_name": "Buffalo Sabres",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260405-NYR-WSH",
-      "game_time_utc": "2026-04-05 23:00:00+00:00",
-      "game_date": "2026-04-05",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "NYR",
-      "opponent_name": "New York Rangers",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260408-TOR-WSH",
-      "game_time_utc": "2026-04-08 23:30:00+00:00",
-      "game_date": "2026-04-08",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "TOR",
-      "opponent_name": "Toronto Maple Leafs",
-      "location": "Away"
-    }
-  ],
+  "games": {
+    "past": [
+      {
+        "game_id": "20260326-UTA-WSH",
+        "game_time_utc": "2026-03-27 01:00:00+00:00",
+        "game_date": "2026-03-26",
+        "final": "Final",
+        "location": "Away",
+        "outcome": "win",
+        "score": [
+          7,
+          4
+        ],
+        "opponent": {
+          "id": "UTA",
+          "name": "Utah Mammoth",
+          "stats": {
+            "gp": 74,
+            "w": 38,
+            "l": 30,
+            "t": 0,
+            "otl": 6,
+            "pts": 82,
+            "pct": 0.55405,
+            "stk": "W1",
+            "gf": 235,
+            "ga": 212,
+            "gd": 23
+          }
+        }
+      },
+      {
+        "game_id": "20260328-VGK-WSH",
+        "game_time_utc": "2026-03-29 02:30:00+00:00",
+        "game_date": "2026-03-28",
+        "final": "Final/SO",
+        "location": "Away",
+        "outcome": "win",
+        "score": [
+          5,
+          4
+        ],
+        "opponent": {
+          "id": "VGK",
+          "name": "Vegas Golden Knights",
+          "stats": {
+            "gp": 75,
+            "w": 33,
+            "l": 26,
+            "t": 0,
+            "otl": 16,
+            "pts": 82,
+            "pct": 0.54667,
+            "stk": "W1",
+            "gf": 236,
+            "ga": 236,
+            "gd": 0
+          }
+        }
+      },
+      {
+        "game_id": "20260331-WSH-PHI",
+        "game_time_utc": "2026-03-31 23:00:00+00:00",
+        "game_date": "2026-03-31",
+        "final": "Final",
+        "outcome": "win",
+        "location": "Home",
+        "score": [
+          6,
+          4
+        ],
+        "opponent": {
+          "id": "PHI",
+          "name": "Philadelphia Flyers",
+          "stats": {
+            "gp": 74,
+            "w": 37,
+            "l": 25,
+            "t": 0,
+            "otl": 12,
+            "pts": 86,
+            "pct": 0.58108,
+            "stk": "L1",
+            "gf": 220,
+            "ga": 225,
+            "gd": -5
+          }
+        }
+      }
+    ],
+    "upcoming": [
+      {
+        "game_id": "20260402-NJD-WSH",
+        "game_time_utc": "2026-04-02 23:30:00+00:00",
+        "game_date": "2026-04-02",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "NJD",
+          "name": "New Jersey Devils",
+          "stats": {
+            "gp": 74,
+            "w": 38,
+            "l": 34,
+            "t": 0,
+            "otl": 2,
+            "pts": 78,
+            "pct": 0.52703,
+            "stk": "L1",
+            "gf": 205,
+            "ga": 227,
+            "gd": -22
+          }
+        }
+      },
+      {
+        "game_id": "20260404-WSH-BUF",
+        "game_time_utc": "2026-04-04 23:00:00+00:00",
+        "game_date": "2026-04-04",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "BUF",
+          "name": "Buffalo Sabres",
+          "stats": {
+            "gp": 75,
+            "w": 46,
+            "l": 21,
+            "t": 0,
+            "otl": 8,
+            "pts": 100,
+            "pct": 0.66667,
+            "stk": "W2",
+            "gf": 263,
+            "ga": 221,
+            "gd": 42
+          }
+        }
+      },
+      {
+        "game_id": "20260405-NYR-WSH",
+        "game_time_utc": "2026-04-05 23:00:00+00:00",
+        "game_date": "2026-04-05",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "NYR",
+          "name": "New York Rangers",
+          "stats": {
+            "gp": 75,
+            "w": 31,
+            "l": 35,
+            "t": 0,
+            "otl": 9,
+            "pts": 71,
+            "pct": 0.47333,
+            "stk": "W3",
+            "gf": 215,
+            "ga": 233,
+            "gd": -18
+          }
+        }
+      },
+      {
+        "game_id": "20260408-TOR-WSH",
+        "game_time_utc": "2026-04-08 23:30:00+00:00",
+        "game_date": "2026-04-08",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "TOR",
+          "name": "Toronto Maple Leafs",
+          "stats": {
+            "gp": 75,
+            "w": 32,
+            "l": 30,
+            "t": 0,
+            "otl": 13,
+            "pts": 77,
+            "pct": 0.51333,
+            "stk": "W1",
+            "gf": 235,
+            "ga": 264,
+            "gd": -29
+          }
+        }
+      }
+    ]
+  },
   "standings": {
     "division": [
       {

@@ -32,106 +32,215 @@
     "dv": 8,
     "wc": 10
   },
-  "games": [
-    {
-      "game_id": "20260328-CGY-VAN",
-      "game_time_utc": "2026-03-29 02:00:00+00:00",
-      "game_date": "2026-03-28",
-      "final": "Final",
-      "outcome": "loss",
-      "score": [
-        3,
-        7
-      ],
-      "opponent_id": "CGY",
-      "opponent_name": "Calgary Flames",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260330-VGK-VAN",
-      "game_time_utc": "2026-03-31 02:00:00+00:00",
-      "game_date": "2026-03-30",
-      "final": "Final",
-      "outcome": "loss",
-      "score": [
-        2,
-        4
-      ],
-      "opponent_id": "VGK",
-      "opponent_name": "Vegas Golden Knights",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260401-COL-VAN",
-      "game_time_utc": "2026-04-02 00:30:00+00:00",
-      "game_date": "2026-04-01",
-      "final": "Final",
-      "outcome": "win",
-      "score": [
-        8,
-        6
-      ],
-      "opponent_id": "COL",
-      "opponent_name": "Colorado Avalanche",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260402-MIN-VAN",
-      "game_time_utc": "2026-04-03 00:00:00+00:00",
-      "game_date": "2026-04-02",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "MIN",
-      "opponent_name": "Minnesota Wild",
-      "location": "Away"
-    },
-    {
-      "game_id": "20260404-VAN-UTA",
-      "game_time_utc": "2026-04-04 23:00:00+00:00",
-      "game_date": "2026-04-04",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "UTA",
-      "opponent_name": "Utah Mammoth",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260407-VAN-VGK",
-      "game_time_utc": "2026-04-08 02:00:00+00:00",
-      "game_date": "2026-04-07",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "VGK",
-      "opponent_name": "Vegas Golden Knights",
-      "location": "Home"
-    },
-    {
-      "game_id": "20260409-LAK-VAN",
-      "game_time_utc": "2026-04-10 02:30:00+00:00",
-      "game_date": "2026-04-09",
-      "final": "",
-      "outcome": "upcoming",
-      "score": [
-        "",
-        ""
-      ],
-      "opponent_id": "LAK",
-      "opponent_name": "Los Angeles Kings",
-      "location": "Away"
-    }
-  ],
+  "games": {
+    "past": [
+      {
+        "game_id": "20260328-CGY-VAN",
+        "game_time_utc": "2026-03-29 02:00:00+00:00",
+        "game_date": "2026-03-28",
+        "final": "Final",
+        "location": "Away",
+        "outcome": "loss",
+        "score": [
+          3,
+          7
+        ],
+        "opponent": {
+          "id": "CGY",
+          "name": "Calgary Flames",
+          "stats": {
+            "gp": 74,
+            "w": 31,
+            "l": 35,
+            "t": 0,
+            "otl": 8,
+            "pts": 70,
+            "pct": 0.47297,
+            "stk": "L1",
+            "gf": 191,
+            "ga": 234,
+            "gd": -43
+          }
+        }
+      },
+      {
+        "game_id": "20260330-VGK-VAN",
+        "game_time_utc": "2026-03-31 02:00:00+00:00",
+        "game_date": "2026-03-30",
+        "final": "Final",
+        "location": "Away",
+        "outcome": "loss",
+        "score": [
+          2,
+          4
+        ],
+        "opponent": {
+          "id": "VGK",
+          "name": "Vegas Golden Knights",
+          "stats": {
+            "gp": 75,
+            "w": 33,
+            "l": 26,
+            "t": 0,
+            "otl": 16,
+            "pts": 82,
+            "pct": 0.54667,
+            "stk": "W1",
+            "gf": 236,
+            "ga": 236,
+            "gd": 0
+          }
+        }
+      },
+      {
+        "game_id": "20260401-COL-VAN",
+        "game_time_utc": "2026-04-02 00:30:00+00:00",
+        "game_date": "2026-04-01",
+        "final": "Final",
+        "location": "Away",
+        "outcome": "win",
+        "score": [
+          8,
+          6
+        ],
+        "opponent": {
+          "id": "COL",
+          "name": "Colorado Avalanche",
+          "stats": {
+            "gp": 74,
+            "w": 49,
+            "l": 15,
+            "t": 0,
+            "otl": 10,
+            "pts": 108,
+            "pct": 0.72973,
+            "stk": "L1",
+            "gf": 283,
+            "ga": 193,
+            "gd": 90
+          }
+        }
+      }
+    ],
+    "upcoming": [
+      {
+        "game_id": "20260402-MIN-VAN",
+        "game_time_utc": "2026-04-03 00:00:00+00:00",
+        "game_date": "2026-04-02",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "MIN",
+          "name": "Minnesota Wild",
+          "stats": {
+            "gp": 74,
+            "w": 41,
+            "l": 21,
+            "t": 0,
+            "otl": 12,
+            "pts": 94,
+            "pct": 0.63514,
+            "stk": "L1",
+            "gf": 242,
+            "ga": 216,
+            "gd": 26
+          }
+        }
+      },
+      {
+        "game_id": "20260404-VAN-UTA",
+        "game_time_utc": "2026-04-04 23:00:00+00:00",
+        "game_date": "2026-04-04",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "UTA",
+          "name": "Utah Mammoth",
+          "stats": {
+            "gp": 74,
+            "w": 38,
+            "l": 30,
+            "t": 0,
+            "otl": 6,
+            "pts": 82,
+            "pct": 0.55405,
+            "stk": "W1",
+            "gf": 235,
+            "ga": 212,
+            "gd": 23
+          }
+        }
+      },
+      {
+        "game_id": "20260407-VAN-VGK",
+        "game_time_utc": "2026-04-08 02:00:00+00:00",
+        "game_date": "2026-04-07",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "VGK",
+          "name": "Vegas Golden Knights",
+          "stats": {
+            "gp": 75,
+            "w": 33,
+            "l": 26,
+            "t": 0,
+            "otl": 16,
+            "pts": 82,
+            "pct": 0.54667,
+            "stk": "W1",
+            "gf": 236,
+            "ga": 236,
+            "gd": 0
+          }
+        }
+      },
+      {
+        "game_id": "20260409-LAK-VAN",
+        "game_time_utc": "2026-04-10 02:30:00+00:00",
+        "game_date": "2026-04-09",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "LAK",
+          "name": "Los Angeles Kings",
+          "stats": {
+            "gp": 74,
+            "w": 30,
+            "l": 26,
+            "t": 0,
+            "otl": 18,
+            "pts": 78,
+            "pct": 0.52703,
+            "stk": "W1",
+            "gf": 197,
+            "ga": 223,
+            "gd": -26
+          }
+        }
+      }
+    ]
+  },
   "standings": {
     "division": [
       {
