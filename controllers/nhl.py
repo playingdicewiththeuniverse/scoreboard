@@ -96,13 +96,13 @@ def update_teams():
 
 
 def update_games():
+  teams_data = json_from_file(TEAMS_FILE_PATH)
+
   year = datetime.today().year + 1 if datetime.today().month > 9 else datetime.today().year
   url  = f'https://www.hockey-reference.com/leagues/NHL_{year}_games.html'
   soup = http_request(url)
   rows = soup.select('table#games tbody tr:not(.thead)')
   full_schedule = []
-
-  all_team_ids = {}
 
   if len(rows) == 0:
     return False
@@ -120,7 +120,6 @@ def update_games():
     home_outcome = "upcoming" if game_final == "" else ("win" if home_score > away_score else ("loss" if home_score < away_score else "tie"))
     away_outcome = "upcoming" if game_final == "" else ("win" if away_score > home_score else ("loss" if away_score < home_score else "tie"))
     game_id      = build_game_id( game_date, home_id, away_id )
-    all_team_ids[home_id] = home_id
 
     full_schedule.append({
       'game_id': game_id,
@@ -136,11 +135,8 @@ def update_games():
       'away_score': away_score,
       'away_outcome': away_outcome,
     })
-
-  # with open( os.path.join(OUTPUT_PATH, 'json', 'games', '_all.json'), 'w+') as f:
-  #   json.dump(full_schedule, f, indent=2)
   
-  team_schedules = {team_id: [] for team_id in all_team_ids}
+  team_schedules = {team_id: [] for team_id in teams_data}
   
   for game in full_schedule:
     team_schedules[game['home_id']].append({
@@ -149,21 +145,27 @@ def update_games():
       'game_date': game['game_date'],
       'final': game['final'],
       'outcome': game['home_outcome'],
-      'score': [game['home_score'], game['away_score']],
-      'opponent_id': game['away_id'],
-      'opponent_name': game['away_name'],
       'location': 'Home',
+      'score': [game['home_score'], game['away_score']],
+      'opponent': {
+        'id': game['away_id'],
+        'name': game['away_name'],
+        'stats': teams_data[game['away_id']]['stats']
+      },
     })
     team_schedules[game['away_id']].append({
       'game_id': game['game_id'],
       'game_time_utc': game['game_time_utc'],
       'game_date': game['game_date'],
       'final': game['final'],
+      'location': 'Away',
       'outcome': game['away_outcome'],
       'score': [game['away_score'], game['home_score']],
-      'opponent_id': game['home_id'],
-      'opponent_name': game['home_name'],
-      'location': 'Away',
+      'opponent': {
+        'id': game['home_id'],
+        'name': game['home_name'],
+        'stats': teams_data[game['home_id']]['stats']
+      },
     })
 
   for team_id in team_schedules:
@@ -228,14 +230,20 @@ def generate_team_json():
     games_ahead = 4
     total_games = games_ahead + games_back
 
+    team['games'] = {'past':[], 'upcoming': []}
+
     if num_past_games >= games_back and num_future_games >= games_ahead:
-      team['games'] = [*past_games[-games_back:]] + [*future_games[0:games_ahead]]
+      team['games']['past']     = past_games[-games_back:]
+      team['games']['upcoming'] = future_games[0:games_ahead]
     elif num_past_games < games_back and num_future_games >= games_ahead:
-      team['games'] = [*past_games] + [*future_games[0:(total_games-num_pas_games)]]
+      team['games']['past']     = past_games
+      team['games']['upcoming'] = future_games[0:(total_games-num_pas_games)]
     elif num_past_games >= games_back and num_future_games < games_ahead:
-      team['games'] = [*past_games[-(total_games-num_future_games):]] + [*future_games]
+      team['games']['past']     = past_games[-(total_games-num_future_games):]
+      team['games']['upcoming'] = future_games
     else:
-      team['games'] = [*past_games] + [*future_games]
+      team['games']['past']     = past_games
+      team['games']['upcoming'] = future_games
 
     team['standings'] = {
       'division':   json_from_file( STANDINGS_FILE_PATH.format(team['team']['div']['id']) ),
@@ -249,43 +257,8 @@ def generate_team_json():
     for g in future_games:
       if g['location'] == 'home':
         home_team = team
-        away_team = teams[g['opponent_id']]
+        away_team = teams[g['opponent']['id']]
       else:
         away_team = team
-        home_team = teams[g['opponent_id']]
-
-      next_game = {
-        'game_time_utc': g['game_time_utc'],
-        'home_team': {
-          'id':   home_team['team']['id'],
-          'city': home_team['team']['city'],
-          'nick': home_team['team']['nick'],
-          'full': home_team['team']['full'],
-          'record': {
-            'gp':  home_team['stats']['gp'],
-            'w':   home_team['stats']['w'],
-            'l':   home_team['stats']['l'],
-            'otl': home_team['stats']['otl'],
-            'pts': home_team['stats']['pts'],
-            'pct': home_team['stats']['pct'],
-          }
-        },
-        'away_team': {
-          'id':   away_team['team']['id'],
-          'city': away_team['team']['city'],
-          'nick': away_team['team']['nick'],
-          'full': away_team['team']['full'],
-          'record': {
-            'gp':  away_team['stats']['gp'],
-            'w':   away_team['stats']['w'],
-            'l':   away_team['stats']['l'],
-            'otl': away_team['stats']['otl'],
-            'pts': away_team['stats']['pts'],
-            'pct': away_team['stats']['pct'],
-          }
-        }
-      }
-      break
-
-    with open( NEXT_GAME_PATH.format(team_id), 'w+') as f:
-      json.dump(next_game, f, indent=2)      
+        home_team = teams[g['opponent']['id']]
+    
