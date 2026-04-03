@@ -34,66 +34,10 @@
   "games": {
     "past": [
       {
-        "game_id": "20260330-TOR-COL-1",
-        "game_time_utc": "2026-03-30 23:07:00+00:00",
-        "game_date": "2026-03-30",
-        "final": "final",
-        "outcome": "loss",
-        "location": "Home",
-        "score": [
-          5,
-          14
-        ],
-        "opponent": {
-          "id": "COL",
-          "name": "Colorado Rockies",
-          "stats": {
-            "gp": 6,
-            "w": 2,
-            "l": 4,
-            "gb_div": "2.0",
-            "gb_wc": "1.0",
-            "pct": ".333",
-            "stk": "W1",
-            "rf": 24,
-            "ra": 21,
-            "rd": 3
-          }
-        }
-      },
-      {
-        "game_id": "20260331-TOR-COL-1",
-        "game_time_utc": "2026-03-31 23:07:00+00:00",
-        "game_date": "2026-03-31",
-        "final": "final",
-        "outcome": "win",
-        "location": "Home",
-        "score": [
-          5,
-          1
-        ],
-        "opponent": {
-          "id": "COL",
-          "name": "Colorado Rockies",
-          "stats": {
-            "gp": 6,
-            "w": 2,
-            "l": 4,
-            "gb_div": "2.0",
-            "gb_wc": "1.0",
-            "pct": ".333",
-            "stk": "W1",
-            "rf": 24,
-            "ra": 21,
-            "rd": 3
-          }
-        }
-      },
-      {
         "game_id": "20260401-TOR-COL-1",
         "game_time_utc": "2026-04-01 17:07:00+00:00",
         "game_date": "2026-04-01",
-        "final": "final",
+        "final": "Final",
         "outcome": "loss",
         "location": "Home",
         "score": [
@@ -116,16 +60,14 @@
             "rd": 3
           }
         }
-      }
-    ],
-    "upcoming": [
+      },
       {
         "game_id": "20260403-CWS-TOR-1",
         "game_time_utc": "2026-04-02 20:10:00+00:00",
         "game_date": "2026-04-03",
         "final": "Postponed",
         "location": "Away",
-        "outcome": "upcoming",
+        "outcome": "other",
         "score": [
           null,
           null
@@ -153,10 +95,10 @@
         "game_date": "2026-04-03",
         "final": "",
         "location": "Away",
-        "outcome": "upcoming",
+        "outcome": "loss",
         "score": [
-          null,
-          null
+          0,
+          1
         ],
         "opponent": {
           "id": "CWS",
@@ -174,7 +116,9 @@
             "rd": -31
           }
         }
-      },
+      }
+    ],
+    "upcoming": [
       {
         "game_id": "20260404-CWS-TOR-1",
         "game_time_utc": "2026-04-04 18:10:00+00:00",
@@ -228,6 +172,62 @@
             "rf": 21,
             "ra": 52,
             "rd": -31
+          }
+        }
+      },
+      {
+        "game_id": "20260406-TOR-LAD-1",
+        "game_time_utc": "2026-04-06 23:07:00+00:00",
+        "game_date": "2026-04-06",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          null,
+          null
+        ],
+        "opponent": {
+          "id": "LAD",
+          "name": "Los Angeles Dodgers",
+          "stats": {
+            "gp": 6,
+            "w": 4,
+            "l": 2,
+            "gb_div": "-",
+            "gb_wc": "-",
+            "pct": ".667",
+            "stk": "L1",
+            "rf": 23,
+            "ra": 17,
+            "rd": 6
+          }
+        }
+      },
+      {
+        "game_id": "20260407-TOR-LAD-1",
+        "game_time_utc": "2026-04-07 23:07:00+00:00",
+        "game_date": "2026-04-07",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          null,
+          null
+        ],
+        "opponent": {
+          "id": "LAD",
+          "name": "Los Angeles Dodgers",
+          "stats": {
+            "gp": 6,
+            "w": 4,
+            "l": 2,
+            "gb_div": "-",
+            "gb_wc": "-",
+            "pct": ".667",
+            "stk": "L1",
+            "rf": 23,
+            "ra": 17,
+            "rd": 6
           }
         }
       }

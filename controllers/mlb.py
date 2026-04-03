@@ -164,13 +164,13 @@ def update_games():
         game_final = ''
       elif game['status']['abstractGameState'] == 'Final':
         if game['status']['statusCode'] == 'F':
-          game_final = 'final'
+          game_final = 'Final'
         else:
           game_final = game['status']['detailedState']  
       elif game['status']['abstractGameState'] == 'Live':
-        game_final = 'live'
+        game_final = ''
       else:
-        game_final = '???'
+        game_final = ''
       
       home_team  = teams_data[lookup['teams'][str(game['teams']['home']['team']['id'])]['id']]
       home_id    = home_team['team']['id']
@@ -188,8 +188,8 @@ def update_games():
       except:
         home_score = None
         away_score = None
-        home_outcome = "upcoming"
-        away_outcome = "upcoming"
+        home_outcome = "upcoming" if game['status']['statusCode'] == 'S' else "other"
+        away_outcome = "upcoming" if game['status']['statusCode'] == 'S' else "other"
 
       game_id = build_game_id( game_date.replace('-',''), home_id, away_id, game['gameNumber'] )
 

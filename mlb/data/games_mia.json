@@ -3,7 +3,7 @@
     "game_id": "20260327-MIA-COL-1",
     "game_time_utc": "2026-03-27 23:10:00+00:00",
     "game_date": "2026-03-27",
-    "final": "final",
+    "final": "Final",
     "outcome": "win",
     "location": "Home",
     "score": [
@@ -31,7 +31,7 @@
     "game_id": "20260328-MIA-COL-1",
     "game_time_utc": "2026-03-28 20:10:00+00:00",
     "game_date": "2026-03-28",
-    "final": "final",
+    "final": "Final",
     "outcome": "win",
     "location": "Home",
     "score": [
@@ -59,7 +59,7 @@
     "game_id": "20260329-MIA-COL-1",
     "game_time_utc": "2026-03-29 17:40:00+00:00",
     "game_date": "2026-03-29",
-    "final": "final",
+    "final": "Final",
     "outcome": "win",
     "location": "Home",
     "score": [
@@ -87,7 +87,7 @@
     "game_id": "20260330-MIA-CWS-1",
     "game_time_utc": "2026-03-30 22:40:00+00:00",
     "game_date": "2026-03-30",
-    "final": "final",
+    "final": "Final",
     "outcome": "loss",
     "location": "Home",
     "score": [
@@ -115,7 +115,7 @@
     "game_id": "20260331-MIA-CWS-1",
     "game_time_utc": "2026-03-31 22:40:00+00:00",
     "game_date": "2026-03-31",
-    "final": "final",
+    "final": "Final",
     "outcome": "win",
     "location": "Home",
     "score": [
@@ -143,7 +143,7 @@
     "game_id": "20260401-MIA-CWS-1",
     "game_time_utc": "2026-04-01 17:10:00+00:00",
     "game_date": "2026-04-01",
-    "final": "final",
+    "final": "Final",
     "outcome": "win",
     "location": "Home",
     "score": [
@@ -173,10 +173,10 @@
     "game_date": "2026-04-03",
     "final": "",
     "location": "Away",
-    "outcome": "upcoming",
+    "outcome": "loss",
     "score": [
-      null,
-      null
+      1,
+      4
     ],
     "opponent": {
       "id": "NYY",
