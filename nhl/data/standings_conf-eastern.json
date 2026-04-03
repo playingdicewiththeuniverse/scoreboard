@@ -15,56 +15,21 @@
       }
     },
     "stats": {
-      "gp": 74,
-      "w": 47,
+      "gp": 75,
+      "w": 48,
       "l": 21,
       "t": 0,
       "otl": 6,
-      "pts": 100,
-      "pct": 0.67568,
-      "stk": "W1",
-      "gf": 263,
-      "ga": 218,
-      "gd": 45
+      "pts": 102,
+      "pct": 0.68,
+      "stk": "W2",
+      "gf": 268,
+      "ga": 219,
+      "gd": 49
     },
     "rnk": {
       "lg": 2,
       "cf": 1,
-      "dv": 1,
-      "wc": null
-    }
-  },
-  {
-    "team": {
-      "id": "BUF",
-      "city": "Buffalo",
-      "nick": "Sabres",
-      "full": "Buffalo Sabres",
-      "div": {
-        "id": "div-atlantic",
-        "name": "Atlantic Division"
-      },
-      "conf": {
-        "id": "conf-eastern",
-        "name": "Eastern Conference"
-      }
-    },
-    "stats": {
-      "gp": 75,
-      "w": 46,
-      "l": 21,
-      "t": 0,
-      "otl": 8,
-      "pts": 100,
-      "pct": 0.66667,
-      "stk": "W2",
-      "gf": 263,
-      "ga": 221,
-      "gd": 42
-    },
-    "rnk": {
-      "lg": 3,
-      "cf": 2,
       "dv": 1,
       "wc": null
     }
@@ -85,17 +50,52 @@
       }
     },
     "stats": {
-      "gp": 74,
-      "w": 46,
+      "gp": 75,
+      "w": 47,
       "l": 22,
       "t": 0,
       "otl": 6,
-      "pts": 98,
-      "pct": 0.66216,
+      "pts": 100,
+      "pct": 0.66667,
+      "stk": "W1",
+      "gf": 274,
+      "ga": 210,
+      "gd": 64
+    },
+    "rnk": {
+      "lg": 4,
+      "cf": 2,
+      "dv": 1,
+      "wc": null
+    }
+  },
+  {
+    "team": {
+      "id": "BUF",
+      "city": "Buffalo",
+      "nick": "Sabres",
+      "full": "Buffalo Sabres",
+      "div": {
+        "id": "div-atlantic",
+        "name": "Atlantic Division"
+      },
+      "conf": {
+        "id": "conf-eastern",
+        "name": "Eastern Conference"
+      }
+    },
+    "stats": {
+      "gp": 76,
+      "w": 46,
+      "l": 22,
+      "t": 0,
+      "otl": 8,
+      "pts": 100,
+      "pct": 0.65789,
       "stk": "L1",
-      "gf": 268,
-      "ga": 207,
-      "gd": 61
+      "gf": 264,
+      "ga": 225,
+      "gd": 39
     },
     "rnk": {
       "lg": 5,
@@ -120,17 +120,17 @@
       }
     },
     "stats": {
-      "gp": 74,
-      "w": 43,
+      "gp": 75,
+      "w": 44,
       "l": 21,
       "t": 0,
       "otl": 10,
-      "pts": 96,
-      "pct": 0.64865,
-      "stk": "W6",
-      "gf": 262,
-      "ga": 234,
-      "gd": 28
+      "pts": 98,
+      "pct": 0.65333,
+      "stk": "W7",
+      "gf": 265,
+      "ga": 236,
+      "gd": 29
     },
     "rnk": {
       "lg": 6,
@@ -155,17 +155,17 @@
       }
     },
     "stats": {
-      "gp": 75,
+      "gp": 76,
       "w": 43,
-      "l": 24,
+      "l": 25,
       "t": 0,
       "otl": 8,
       "pts": 94,
-      "pct": 0.62667,
-      "stk": "W4",
-      "gf": 256,
-      "ga": 233,
-      "gd": 23
+      "pct": 0.61842,
+      "stk": "L1",
+      "gf": 257,
+      "ga": 235,
+      "gd": 22
     },
     "rnk": {
       "lg": 8,
@@ -190,17 +190,17 @@
       }
     },
     "stats": {
-      "gp": 75,
+      "gp": 76,
       "w": 38,
-      "l": 21,
+      "l": 22,
       "t": 0,
       "otl": 16,
       "pts": 92,
-      "pct": 0.61333,
-      "stk": "W2",
-      "gf": 263,
-      "ga": 238,
-      "gd": 25
+      "pct": 0.60526,
+      "stk": "L1",
+      "gf": 266,
+      "ga": 244,
+      "gd": 22
     },
     "rnk": {
       "lg": 9,
@@ -246,41 +246,6 @@
   },
   {
     "team": {
-      "id": "CBJ",
-      "city": "Columbus",
-      "nick": "Blue Jackets",
-      "full": "Columbus Blue Jackets",
-      "div": {
-        "id": "div-metropolitan",
-        "name": "Metropolitan Division"
-      },
-      "conf": {
-        "id": "conf-eastern",
-        "name": "Eastern Conference"
-      }
-    },
-    "stats": {
-      "gp": 75,
-      "w": 38,
-      "l": 25,
-      "t": 0,
-      "otl": 12,
-      "pts": 88,
-      "pct": 0.58667,
-      "stk": "L1",
-      "gf": 239,
-      "ga": 231,
-      "gd": 8
-    },
-    "rnk": {
-      "lg": 11,
-      "cf": 8,
-      "dv": 4,
-      "wc": 2
-    }
-  },
-  {
-    "team": {
       "id": "OTT",
       "city": "Ottawa",
       "nick": "Senators",
@@ -295,23 +260,23 @@
       }
     },
     "stats": {
-      "gp": 74,
-      "w": 38,
+      "gp": 75,
+      "w": 39,
       "l": 26,
       "t": 0,
       "otl": 10,
-      "pts": 86,
-      "pct": 0.58108,
-      "stk": "L2",
-      "gf": 247,
-      "ga": 230,
-      "gd": 17
+      "pts": 88,
+      "pct": 0.58667,
+      "stk": "W1",
+      "gf": 251,
+      "ga": 231,
+      "gd": 20
     },
     "rnk": {
-      "lg": 13,
-      "cf": 9,
+      "lg": 11,
+      "cf": 8,
       "dv": 5,
-      "wc": 3
+      "wc": 2
     }
   },
   {
@@ -330,22 +295,57 @@
       }
     },
     "stats": {
-      "gp": 74,
-      "w": 39,
+      "gp": 75,
+      "w": 40,
       "l": 27,
       "t": 0,
       "otl": 8,
-      "pts": 86,
-      "pct": 0.58108,
-      "stk": "L2",
-      "gf": 216,
-      "ga": 223,
-      "gd": -7
+      "pts": 88,
+      "pct": 0.58667,
+      "stk": "W1",
+      "gf": 220,
+      "ga": 225,
+      "gd": -5
     },
     "rnk": {
-      "lg": 14,
-      "cf": 10,
+      "lg": 12,
+      "cf": 9,
       "dv": 6,
+      "wc": 3
+    }
+  },
+  {
+    "team": {
+      "id": "CBJ",
+      "city": "Columbus",
+      "nick": "Blue Jackets",
+      "full": "Columbus Blue Jackets",
+      "div": {
+        "id": "div-metropolitan",
+        "name": "Metropolitan Division"
+      },
+      "conf": {
+        "id": "conf-eastern",
+        "name": "Eastern Conference"
+      }
+    },
+    "stats": {
+      "gp": 76,
+      "w": 38,
+      "l": 26,
+      "t": 0,
+      "otl": 12,
+      "pts": 88,
+      "pct": 0.57895,
+      "stk": "L2",
+      "gf": 240,
+      "ga": 236,
+      "gd": 4
+    },
+    "rnk": {
+      "lg": 13,
+      "cf": 10,
+      "dv": 4,
       "wc": 4
     }
   },
@@ -365,20 +365,20 @@
       }
     },
     "stats": {
-      "gp": 74,
+      "gp": 75,
       "w": 37,
-      "l": 25,
+      "l": 26,
       "t": 0,
       "otl": 12,
       "pts": 86,
-      "pct": 0.58108,
-      "stk": "L1",
-      "gf": 220,
-      "ga": 225,
-      "gd": -5
+      "pct": 0.57333,
+      "stk": "L2",
+      "gf": 222,
+      "ga": 229,
+      "gd": -7
     },
     "rnk": {
-      "lg": 15,
+      "lg": 16,
       "cf": 11,
       "dv": 5,
       "wc": 5
@@ -400,20 +400,20 @@
       }
     },
     "stats": {
-      "gp": 75,
+      "gp": 76,
       "w": 38,
-      "l": 28,
+      "l": 29,
       "t": 0,
       "otl": 9,
       "pts": 85,
-      "pct": 0.56667,
-      "stk": "W3",
-      "gf": 238,
-      "ga": 223,
-      "gd": 15
+      "pct": 0.55921,
+      "stk": "L1",
+      "gf": 241,
+      "ga": 230,
+      "gd": 11
     },
     "rnk": {
-      "lg": 16,
+      "lg": 17,
       "cf": 12,
       "dv": 6,
       "wc": 6
@@ -435,58 +435,23 @@
       }
     },
     "stats": {
-      "gp": 74,
-      "w": 38,
+      "gp": 75,
+      "w": 39,
       "l": 34,
       "t": 0,
       "otl": 2,
-      "pts": 78,
-      "pct": 0.52703,
-      "stk": "L1",
-      "gf": 205,
-      "ga": 227,
-      "gd": -22
+      "pts": 80,
+      "pct": 0.53333,
+      "stk": "W1",
+      "gf": 212,
+      "ga": 230,
+      "gd": -18
     },
     "rnk": {
       "lg": 20,
       "cf": 13,
       "dv": 7,
       "wc": 7
-    }
-  },
-  {
-    "team": {
-      "id": "TOR",
-      "city": "Toronto",
-      "nick": "Maple Leafs",
-      "full": "Toronto Maple Leafs",
-      "div": {
-        "id": "div-atlantic",
-        "name": "Atlantic Division"
-      },
-      "conf": {
-        "id": "conf-eastern",
-        "name": "Eastern Conference"
-      }
-    },
-    "stats": {
-      "gp": 75,
-      "w": 32,
-      "l": 30,
-      "t": 0,
-      "otl": 13,
-      "pts": 77,
-      "pct": 0.51333,
-      "stk": "W1",
-      "gf": 235,
-      "ga": 264,
-      "gd": -29
-    },
-    "rnk": {
-      "lg": 24,
-      "cf": 14,
-      "dv": 7,
-      "wc": 8
     }
   },
   {
@@ -505,20 +470,55 @@
       }
     },
     "stats": {
-      "gp": 74,
-      "w": 36,
+      "gp": 75,
+      "w": 37,
       "l": 35,
       "t": 0,
       "otl": 3,
-      "pts": 75,
-      "pct": 0.50676,
-      "stk": "W1",
-      "gf": 222,
-      "ga": 247,
-      "gd": -25
+      "pts": 77,
+      "pct": 0.51333,
+      "stk": "W2",
+      "gf": 224,
+      "ga": 248,
+      "gd": -24
     },
     "rnk": {
-      "lg": 27,
+      "lg": 24,
+      "cf": 14,
+      "dv": 7,
+      "wc": 8
+    }
+  },
+  {
+    "team": {
+      "id": "TOR",
+      "city": "Toronto",
+      "nick": "Maple Leafs",
+      "full": "Toronto Maple Leafs",
+      "div": {
+        "id": "div-atlantic",
+        "name": "Atlantic Division"
+      },
+      "conf": {
+        "id": "conf-eastern",
+        "name": "Eastern Conference"
+      }
+    },
+    "stats": {
+      "gp": 76,
+      "w": 32,
+      "l": 31,
+      "t": 0,
+      "otl": 13,
+      "pts": 77,
+      "pct": 0.50658,
+      "stk": "L1",
+      "gf": 236,
+      "ga": 268,
+      "gd": -32
+    },
+    "rnk": {
+      "lg": 25,
       "cf": 15,
       "dv": 8,
       "wc": 9
@@ -540,17 +540,17 @@
       }
     },
     "stats": {
-      "gp": 75,
+      "gp": 76,
       "w": 31,
-      "l": 35,
+      "l": 36,
       "t": 0,
       "otl": 9,
       "pts": 71,
-      "pct": 0.47333,
-      "stk": "W3",
-      "gf": 215,
-      "ga": 233,
-      "gd": -18
+      "pct": 0.46711,
+      "stk": "L1",
+      "gf": 217,
+      "ga": 236,
+      "gd": -19
     },
     "rnk": {
       "lg": 29,

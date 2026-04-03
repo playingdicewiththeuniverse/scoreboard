@@ -28,7 +28,7 @@
       "gd": -8
     },
     "rnk": {
-      "lg": 12,
+      "lg": 14,
       "cf": 4,
       "dv": 1,
       "wc": null
@@ -50,20 +50,20 @@
       }
     },
     "stats": {
-      "gp": 75,
-      "w": 38,
+      "gp": 76,
+      "w": 39,
       "l": 28,
       "t": 0,
       "otl": 9,
-      "pts": 85,
-      "pct": 0.56667,
-      "stk": "W4",
-      "gf": 261,
-      "ga": 251,
-      "gd": 10
+      "pts": 87,
+      "pct": 0.57237,
+      "stk": "W5",
+      "gf": 264,
+      "ga": 252,
+      "gd": 12
     },
     "rnk": {
-      "lg": 17,
+      "lg": 15,
       "cf": 5,
       "dv": 2,
       "wc": null
@@ -85,58 +85,23 @@
       }
     },
     "stats": {
-      "gp": 75,
-      "w": 33,
+      "gp": 76,
+      "w": 34,
       "l": 26,
       "t": 0,
       "otl": 16,
-      "pts": 82,
-      "pct": 0.54667,
-      "stk": "W1",
-      "gf": 236,
-      "ga": 236,
-      "gd": 0
+      "pts": 84,
+      "pct": 0.55263,
+      "stk": "W2",
+      "gf": 242,
+      "ga": 239,
+      "gd": 3
     },
     "rnk": {
       "lg": 19,
       "cf": 7,
       "dv": 3,
       "wc": null
-    }
-  },
-  {
-    "team": {
-      "id": "LAK",
-      "city": "Los Angeles",
-      "nick": "Kings",
-      "full": "Los Angeles Kings",
-      "div": {
-        "id": "div-pacific",
-        "name": "Pacific Division"
-      },
-      "conf": {
-        "id": "conf-western",
-        "name": "Western Conference"
-      }
-    },
-    "stats": {
-      "gp": 74,
-      "w": 30,
-      "l": 26,
-      "t": 0,
-      "otl": 18,
-      "pts": 78,
-      "pct": 0.52703,
-      "stk": "W1",
-      "gf": 197,
-      "ga": 223,
-      "gd": -26
-    },
-    "rnk": {
-      "lg": 21,
-      "cf": 8,
-      "dv": 4,
-      "wc": 2
     }
   },
   {
@@ -155,23 +120,58 @@
       }
     },
     "stats": {
-      "gp": 73,
-      "w": 35,
+      "gp": 74,
+      "w": 36,
       "l": 31,
       "t": 0,
       "otl": 7,
-      "pts": 77,
-      "pct": 0.5274,
-      "stk": "W3",
-      "gf": 224,
-      "ga": 260,
-      "gd": -36
+      "pts": 79,
+      "pct": 0.53378,
+      "stk": "W4",
+      "gf": 228,
+      "ga": 261,
+      "gd": -33
     },
     "rnk": {
-      "lg": 22,
-      "cf": 9,
+      "lg": 21,
+      "cf": 8,
+      "dv": 4,
+      "wc": 2
+    }
+  },
+  {
+    "team": {
+      "id": "LAK",
+      "city": "Los Angeles",
+      "nick": "Kings",
+      "full": "Los Angeles Kings",
+      "div": {
+        "id": "div-pacific",
+        "name": "Pacific Division"
+      },
+      "conf": {
+        "id": "conf-western",
+        "name": "Western Conference"
+      }
+    },
+    "stats": {
+      "gp": 75,
+      "w": 30,
+      "l": 26,
+      "t": 0,
+      "otl": 19,
+      "pts": 79,
+      "pct": 0.52667,
+      "stk": "OT1",
+      "gf": 201,
+      "ga": 228,
+      "gd": -27
+    },
+    "rnk": {
+      "lg": 23,
+      "cf": 10,
       "dv": 5,
-      "wc": 3
+      "wc": 4
     }
   },
   {
@@ -190,20 +190,20 @@
       }
     },
     "stats": {
-      "gp": 73,
+      "gp": 74,
       "w": 32,
-      "l": 30,
+      "l": 31,
       "t": 0,
       "otl": 11,
       "pts": 75,
-      "pct": 0.5137,
-      "stk": "L1",
-      "gf": 206,
-      "ga": 227,
-      "gd": -21
+      "pct": 0.50676,
+      "stk": "L2",
+      "gf": 208,
+      "ga": 233,
+      "gd": -25
     },
     "rnk": {
-      "lg": 26,
+      "lg": 27,
       "cf": 12,
       "dv": 6,
       "wc": 6
@@ -225,17 +225,17 @@
       }
     },
     "stats": {
-      "gp": 74,
+      "gp": 75,
       "w": 31,
-      "l": 35,
+      "l": 36,
       "t": 0,
       "otl": 8,
       "pts": 70,
-      "pct": 0.47297,
-      "stk": "L1",
-      "gf": 191,
-      "ga": 234,
-      "gd": -43
+      "pct": 0.46667,
+      "stk": "L2",
+      "gf": 194,
+      "ga": 240,
+      "gd": -46
     },
     "rnk": {
       "lg": 30,
@@ -260,17 +260,17 @@
       }
     },
     "stats": {
-      "gp": 74,
+      "gp": 75,
       "w": 22,
-      "l": 44,
+      "l": 45,
       "t": 0,
       "otl": 8,
       "pts": 52,
-      "pct": 0.35135,
-      "stk": "W1",
-      "gf": 195,
-      "ga": 283,
-      "gd": -88
+      "pct": 0.34667,
+      "stk": "L1",
+      "gf": 197,
+      "ga": 288,
+      "gd": -91
     },
     "rnk": {
       "lg": 32,
