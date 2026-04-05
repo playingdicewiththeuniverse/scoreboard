@@ -15,17 +15,17 @@
       }
     },
     "stats": {
-      "gp": 75,
-      "w": 48,
+      "gp": 76,
+      "w": 49,
       "l": 21,
       "t": 0,
       "otl": 6,
-      "pts": 102,
-      "pct": 0.68,
-      "stk": "W2",
-      "gf": 268,
-      "ga": 219,
-      "gd": 49
+      "pts": 104,
+      "pct": 0.68421,
+      "stk": "W3",
+      "gf": 272,
+      "ga": 222,
+      "gd": 50
     },
     "rnk": {
       "lg": 2,
@@ -50,21 +50,21 @@
       }
     },
     "stats": {
-      "gp": 76,
-      "w": 38,
+      "gp": 77,
+      "w": 39,
       "l": 22,
       "t": 0,
       "otl": 16,
-      "pts": 92,
-      "pct": 0.60526,
-      "stk": "L1",
-      "gf": 266,
-      "ga": 244,
-      "gd": 22
+      "pts": 94,
+      "pct": 0.61039,
+      "stk": "W1",
+      "gf": 275,
+      "ga": 248,
+      "gd": 27
     },
     "rnk": {
-      "lg": 9,
-      "cf": 6,
+      "lg": 8,
+      "cf": 5,
       "dv": 2,
       "wc": null
     }
@@ -85,58 +85,23 @@
       }
     },
     "stats": {
-      "gp": 77,
+      "gp": 78,
       "w": 42,
-      "l": 30,
+      "l": 31,
       "t": 0,
       "otl": 5,
       "pts": 89,
-      "pct": 0.57792,
-      "stk": "L3",
-      "gf": 223,
-      "ga": 225,
-      "gd": -2
+      "pct": 0.57051,
+      "stk": "L4",
+      "gf": 226,
+      "ga": 229,
+      "gd": -3
     },
     "rnk": {
       "lg": 10,
       "cf": 7,
       "dv": 3,
       "wc": null
-    }
-  },
-  {
-    "team": {
-      "id": "CBJ",
-      "city": "Columbus",
-      "nick": "Blue Jackets",
-      "full": "Columbus Blue Jackets",
-      "div": {
-        "id": "div-metropolitan",
-        "name": "Metropolitan Division"
-      },
-      "conf": {
-        "id": "conf-eastern",
-        "name": "Eastern Conference"
-      }
-    },
-    "stats": {
-      "gp": 76,
-      "w": 38,
-      "l": 26,
-      "t": 0,
-      "otl": 12,
-      "pts": 88,
-      "pct": 0.57895,
-      "stk": "L2",
-      "gf": 240,
-      "ga": 236,
-      "gd": 4
-    },
-    "rnk": {
-      "lg": 13,
-      "cf": 10,
-      "dv": 4,
-      "wc": 4
     }
   },
   {
@@ -168,6 +133,41 @@
       "gd": -4
     },
     "rnk": {
+      "lg": 13,
+      "cf": 10,
+      "dv": 4,
+      "wc": 4
+    }
+  },
+  {
+    "team": {
+      "id": "CBJ",
+      "city": "Columbus",
+      "nick": "Blue Jackets",
+      "full": "Columbus Blue Jackets",
+      "div": {
+        "id": "div-metropolitan",
+        "name": "Metropolitan Division"
+      },
+      "conf": {
+        "id": "conf-eastern",
+        "name": "Eastern Conference"
+      }
+    },
+    "stats": {
+      "gp": 77,
+      "w": 38,
+      "l": 27,
+      "t": 0,
+      "otl": 12,
+      "pts": 88,
+      "pct": 0.57143,
+      "stk": "L3",
+      "gf": 241,
+      "ga": 238,
+      "gd": 3
+    },
+    "rnk": {
       "lg": 14,
       "cf": 11,
       "dv": 5,
@@ -190,20 +190,20 @@
       }
     },
     "stats": {
-      "gp": 76,
-      "w": 38,
+      "gp": 77,
+      "w": 39,
       "l": 29,
       "t": 0,
       "otl": 9,
-      "pts": 85,
-      "pct": 0.55921,
-      "stk": "L1",
-      "gf": 241,
-      "ga": 230,
-      "gd": 11
+      "pts": 87,
+      "pct": 0.56494,
+      "stk": "W1",
+      "gf": 247,
+      "ga": 232,
+      "gd": 15
     },
     "rnk": {
-      "lg": 17,
+      "lg": 15,
       "cf": 12,
       "dv": 6,
       "wc": 6
@@ -225,17 +225,17 @@
       }
     },
     "stats": {
-      "gp": 75,
+      "gp": 76,
       "w": 39,
       "l": 34,
       "t": 0,
-      "otl": 2,
-      "pts": 80,
-      "pct": 0.53333,
-      "stk": "W1",
-      "gf": 212,
-      "ga": 230,
-      "gd": -18
+      "otl": 3,
+      "pts": 81,
+      "pct": 0.53289,
+      "stk": "OT1",
+      "gf": 215,
+      "ga": 234,
+      "gd": -19
     },
     "rnk": {
       "lg": 20,
@@ -260,17 +260,17 @@
       }
     },
     "stats": {
-      "gp": 76,
-      "w": 31,
+      "gp": 77,
+      "w": 32,
       "l": 36,
       "t": 0,
       "otl": 9,
-      "pts": 71,
-      "pct": 0.46711,
-      "stk": "L1",
-      "gf": 217,
-      "ga": 236,
-      "gd": -19
+      "pts": 73,
+      "pct": 0.47403,
+      "stk": "W1",
+      "gf": 221,
+      "ga": 237,
+      "gd": -16
     },
     "rnk": {
       "lg": 29,
