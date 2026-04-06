@@ -14,17 +14,17 @@
     }
   },
   "stats": {
-    "gp": 77,
-    "w": 39,
+    "gp": 78,
+    "w": 40,
     "l": 22,
     "t": 0,
     "otl": 16,
-    "pts": 94,
-    "pct": 0.61039,
-    "stk": "W1",
-    "gf": 275,
-    "ga": 248,
-    "gd": 27
+    "pts": 96,
+    "pct": 0.61538,
+    "stk": "W2",
+    "gf": 280,
+    "ga": 250,
+    "gd": 30
   },
   "rnk": {
     "lg": 8,
@@ -34,64 +34,6 @@
   },
   "games": {
     "past": [
-      {
-        "game_id": "20260330-NYI-PIT",
-        "game_time_utc": "2026-03-30 23:00:00+00:00",
-        "game_date": "2026-03-30",
-        "final": "Final",
-        "location": "Away",
-        "outcome": "win",
-        "score": [
-          8,
-          3
-        ],
-        "opponent": {
-          "id": "NYI",
-          "name": "New York Islanders",
-          "stats": {
-            "gp": 78,
-            "w": 42,
-            "l": 31,
-            "t": 0,
-            "otl": 5,
-            "pts": 89,
-            "pct": 0.57051,
-            "stk": "L4",
-            "gf": 226,
-            "ga": 229,
-            "gd": -3
-          }
-        }
-      },
-      {
-        "game_id": "20260331-PIT-DET",
-        "game_time_utc": "2026-03-31 23:00:00+00:00",
-        "game_date": "2026-03-31",
-        "final": "Final",
-        "outcome": "win",
-        "location": "Home",
-        "score": [
-          5,
-          1
-        ],
-        "opponent": {
-          "id": "DET",
-          "name": "Detroit Red Wings",
-          "stats": {
-            "gp": 76,
-            "w": 40,
-            "l": 28,
-            "t": 0,
-            "otl": 8,
-            "pts": 88,
-            "pct": 0.57895,
-            "stk": "L1",
-            "gf": 221,
-            "ga": 229,
-            "gd": -8
-          }
-        }
-      },
       {
         "game_id": "20260402-TBL-PIT",
         "game_time_utc": "2026-04-02 23:00:00+00:00",
@@ -120,35 +62,33 @@
             "gd": 66
           }
         }
-      }
-    ],
-    "upcoming": [
+      },
       {
         "game_id": "20260404-PIT-FLA",
         "game_time_utc": "2026-04-04 21:00:00+00:00",
         "game_date": "2026-04-04",
-        "final": "",
-        "outcome": "upcoming",
+        "final": "Final",
+        "outcome": "win",
         "location": "Home",
         "score": [
-          "",
-          ""
+          9,
+          4
         ],
         "opponent": {
           "id": "FLA",
           "name": "Florida Panthers",
           "stats": {
-            "gp": 76,
+            "gp": 77,
             "w": 37,
-            "l": 36,
+            "l": 37,
             "t": 0,
             "otl": 3,
             "pts": 77,
-            "pct": 0.50658,
-            "stk": "L1",
-            "gf": 228,
-            "ga": 257,
-            "gd": -29
+            "pct": 0.5,
+            "stk": "L2",
+            "gf": 230,
+            "ga": 262,
+            "gd": -32
           }
         }
       },
@@ -156,31 +96,33 @@
         "game_id": "20260405-PIT-FLA",
         "game_time_utc": "2026-04-05 19:00:00+00:00",
         "game_date": "2026-04-05",
-        "final": "",
-        "outcome": "upcoming",
+        "final": "Final",
+        "outcome": "win",
         "location": "Home",
         "score": [
-          "",
-          ""
+          5,
+          2
         ],
         "opponent": {
           "id": "FLA",
           "name": "Florida Panthers",
           "stats": {
-            "gp": 76,
+            "gp": 77,
             "w": 37,
-            "l": 36,
+            "l": 37,
             "t": 0,
             "otl": 3,
             "pts": 77,
-            "pct": 0.50658,
-            "stk": "L1",
-            "gf": 228,
-            "ga": 257,
-            "gd": -29
+            "pct": 0.5,
+            "stk": "L2",
+            "gf": 230,
+            "ga": 262,
+            "gd": -32
           }
         }
-      },
+      }
+    ],
+    "upcoming": [
       {
         "game_id": "20260409-NJD-PIT",
         "game_time_utc": "2026-04-09 23:00:00+00:00",
@@ -196,17 +138,17 @@
           "id": "NJD",
           "name": "New Jersey Devils",
           "stats": {
-            "gp": 76,
-            "w": 39,
+            "gp": 77,
+            "w": 40,
             "l": 34,
             "t": 0,
             "otl": 3,
-            "pts": 81,
-            "pct": 0.53289,
-            "stk": "OT1",
-            "gf": 215,
+            "pts": 83,
+            "pct": 0.53896,
+            "stk": "W1",
+            "gf": 218,
             "ga": 234,
-            "gd": -19
+            "gd": -16
           }
         }
       },
@@ -225,17 +167,75 @@
           "id": "WSH",
           "name": "Washington Capitals",
           "stats": {
-            "gp": 77,
+            "gp": 78,
             "w": 39,
-            "l": 29,
+            "l": 30,
             "t": 0,
             "otl": 9,
             "pts": 87,
-            "pct": 0.56494,
-            "stk": "W1",
-            "gf": 247,
-            "ga": 232,
-            "gd": 15
+            "pct": 0.55769,
+            "stk": "L1",
+            "gf": 248,
+            "ga": 240,
+            "gd": 8
+          }
+        }
+      },
+      {
+        "game_id": "20260412-WSH-PIT",
+        "game_time_utc": "2026-04-12 19:00:00+00:00",
+        "game_date": "2026-04-12",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "WSH",
+          "name": "Washington Capitals",
+          "stats": {
+            "gp": 78,
+            "w": 39,
+            "l": 30,
+            "t": 0,
+            "otl": 9,
+            "pts": 87,
+            "pct": 0.55769,
+            "stk": "L1",
+            "gf": 248,
+            "ga": 240,
+            "gd": 8
+          }
+        }
+      },
+      {
+        "game_id": "20260414-STL-PIT",
+        "game_time_utc": "2026-04-15 01:30:00+00:00",
+        "game_date": "2026-04-14",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "STL",
+          "name": "St. Louis Blues",
+          "stats": {
+            "gp": 76,
+            "w": 33,
+            "l": 31,
+            "t": 0,
+            "otl": 12,
+            "pts": 78,
+            "pct": 0.51316,
+            "stk": "W2",
+            "gf": 205,
+            "ga": 238,
+            "gd": -33
           }
         }
       }
@@ -259,17 +259,17 @@
           }
         },
         "stats": {
-          "gp": 76,
+          "gp": 77,
           "w": 49,
-          "l": 21,
+          "l": 22,
           "t": 0,
           "otl": 6,
           "pts": 104,
-          "pct": 0.68421,
-          "stk": "W3",
-          "gf": 272,
-          "ga": 222,
-          "gd": 50
+          "pct": 0.67532,
+          "stk": "L1",
+          "gf": 275,
+          "ga": 228,
+          "gd": 47
         },
         "rnk": {
           "lg": 2,
@@ -294,22 +294,57 @@
           }
         },
         "stats": {
-          "gp": 77,
-          "w": 39,
+          "gp": 78,
+          "w": 40,
           "l": 22,
           "t": 0,
           "otl": 16,
-          "pts": 94,
-          "pct": 0.61039,
-          "stk": "W1",
-          "gf": 275,
-          "ga": 248,
-          "gd": 27
+          "pts": 96,
+          "pct": 0.61538,
+          "stk": "W2",
+          "gf": 280,
+          "ga": 250,
+          "gd": 30
         },
         "rnk": {
           "lg": 8,
           "cf": 5,
           "dv": 2,
+          "wc": null
+        }
+      },
+      {
+        "team": {
+          "id": "PHI",
+          "city": "Philadelphia",
+          "nick": "Flyers",
+          "full": "Philadelphia Flyers",
+          "div": {
+            "id": "div-metropolitan",
+            "name": "Metropolitan Division"
+          },
+          "conf": {
+            "id": "conf-eastern",
+            "name": "Eastern Conference"
+          }
+        },
+        "stats": {
+          "gp": 77,
+          "w": 39,
+          "l": 26,
+          "t": 0,
+          "otl": 12,
+          "pts": 90,
+          "pct": 0.58442,
+          "stk": "W2",
+          "gf": 228,
+          "ga": 231,
+          "gd": -3
+        },
+        "rnk": {
+          "lg": 11,
+          "cf": 8,
+          "dv": 3,
           "wc": null
         }
       },
@@ -342,45 +377,10 @@
           "gd": -3
         },
         "rnk": {
-          "lg": 10,
-          "cf": 7,
-          "dv": 3,
-          "wc": null
-        }
-      },
-      {
-        "team": {
-          "id": "PHI",
-          "city": "Philadelphia",
-          "nick": "Flyers",
-          "full": "Philadelphia Flyers",
-          "div": {
-            "id": "div-metropolitan",
-            "name": "Metropolitan Division"
-          },
-          "conf": {
-            "id": "conf-eastern",
-            "name": "Eastern Conference"
-          }
-        },
-        "stats": {
-          "gp": 76,
-          "w": 38,
-          "l": 26,
-          "t": 0,
-          "otl": 12,
-          "pts": 88,
-          "pct": 0.57895,
-          "stk": "W1",
-          "gf": 226,
-          "ga": 230,
-          "gd": -4
-        },
-        "rnk": {
-          "lg": 13,
-          "cf": 10,
+          "lg": 12,
+          "cf": 9,
           "dv": 4,
-          "wc": 4
+          "wc": 3
         }
       },
       {
@@ -434,20 +434,20 @@
           }
         },
         "stats": {
-          "gp": 77,
+          "gp": 78,
           "w": 39,
-          "l": 29,
+          "l": 30,
           "t": 0,
           "otl": 9,
           "pts": 87,
-          "pct": 0.56494,
-          "stk": "W1",
-          "gf": 247,
-          "ga": 232,
-          "gd": 15
+          "pct": 0.55769,
+          "stk": "L1",
+          "gf": 248,
+          "ga": 240,
+          "gd": 8
         },
         "rnk": {
-          "lg": 15,
+          "lg": 17,
           "cf": 12,
           "dv": 6,
           "wc": 6
@@ -469,17 +469,17 @@
           }
         },
         "stats": {
-          "gp": 76,
-          "w": 39,
+          "gp": 77,
+          "w": 40,
           "l": 34,
           "t": 0,
           "otl": 3,
-          "pts": 81,
-          "pct": 0.53289,
-          "stk": "OT1",
-          "gf": 215,
+          "pts": 83,
+          "pct": 0.53896,
+          "stk": "W1",
+          "gf": 218,
           "ga": 234,
-          "gd": -19
+          "gd": -16
         },
         "rnk": {
           "lg": 20,
@@ -504,17 +504,17 @@
           }
         },
         "stats": {
-          "gp": 77,
-          "w": 32,
+          "gp": 78,
+          "w": 33,
           "l": 36,
           "t": 0,
           "otl": 9,
-          "pts": 73,
-          "pct": 0.47403,
-          "stk": "W1",
-          "gf": 221,
-          "ga": 237,
-          "gd": -16
+          "pts": 75,
+          "pct": 0.48077,
+          "stk": "W2",
+          "gf": 229,
+          "ga": 238,
+          "gd": -9
         },
         "rnk": {
           "lg": 29,
@@ -541,17 +541,17 @@
           }
         },
         "stats": {
-          "gp": 76,
+          "gp": 77,
           "w": 49,
-          "l": 21,
+          "l": 22,
           "t": 0,
           "otl": 6,
           "pts": 104,
-          "pct": 0.68421,
-          "stk": "W3",
-          "gf": 272,
-          "ga": 222,
-          "gd": 50
+          "pct": 0.67532,
+          "stk": "L1",
+          "gf": 275,
+          "ga": 228,
+          "gd": 47
         },
         "rnk": {
           "lg": 2,
@@ -597,41 +597,6 @@
       },
       {
         "team": {
-          "id": "MTL",
-          "city": "Montr\u00e9al",
-          "nick": "Canadiens",
-          "full": "Montr\u00e9al Canadiens",
-          "div": {
-            "id": "div-atlantic",
-            "name": "Atlantic Division"
-          },
-          "conf": {
-            "id": "conf-eastern",
-            "name": "Eastern Conference"
-          }
-        },
-        "stats": {
-          "gp": 76,
-          "w": 45,
-          "l": 21,
-          "t": 0,
-          "otl": 10,
-          "pts": 100,
-          "pct": 0.65789,
-          "stk": "W8",
-          "gf": 269,
-          "ga": 239,
-          "gd": 30
-        },
-        "rnk": {
-          "lg": 5,
-          "cf": 3,
-          "dv": 2,
-          "wc": null
-        }
-      },
-      {
-        "team": {
           "id": "BUF",
           "city": "Buffalo",
           "nick": "Sabres",
@@ -659,6 +624,41 @@
           "gd": 35
         },
         "rnk": {
+          "lg": 5,
+          "cf": 3,
+          "dv": 2,
+          "wc": null
+        }
+      },
+      {
+        "team": {
+          "id": "MTL",
+          "city": "Montr\u00e9al",
+          "nick": "Canadiens",
+          "full": "Montr\u00e9al Canadiens",
+          "div": {
+            "id": "div-atlantic",
+            "name": "Atlantic Division"
+          },
+          "conf": {
+            "id": "conf-eastern",
+            "name": "Eastern Conference"
+          }
+        },
+        "stats": {
+          "gp": 77,
+          "w": 45,
+          "l": 22,
+          "t": 0,
+          "otl": 10,
+          "pts": 100,
+          "pct": 0.64935,
+          "stk": "L1",
+          "gf": 269,
+          "ga": 242,
+          "gd": 27
+        },
+        "rnk": {
           "lg": 6,
           "cf": 4,
           "dv": 3,
@@ -681,17 +681,17 @@
           }
         },
         "stats": {
-          "gp": 77,
-          "w": 39,
+          "gp": 78,
+          "w": 40,
           "l": 22,
           "t": 0,
           "otl": 16,
-          "pts": 94,
-          "pct": 0.61039,
-          "stk": "W1",
-          "gf": 275,
-          "ga": 248,
-          "gd": 27
+          "pts": 96,
+          "pct": 0.61538,
+          "stk": "W2",
+          "gf": 280,
+          "ga": 250,
+          "gd": 30
         },
         "rnk": {
           "lg": 8,
@@ -716,23 +716,93 @@
           }
         },
         "stats": {
-          "gp": 77,
+          "gp": 78,
           "w": 43,
           "l": 26,
           "t": 0,
-          "otl": 8,
-          "pts": 94,
-          "pct": 0.61039,
-          "stk": "L2",
-          "gf": 258,
-          "ga": 238,
-          "gd": 20
+          "otl": 9,
+          "pts": 95,
+          "pct": 0.60897,
+          "stk": "OT1",
+          "gf": 259,
+          "ga": 240,
+          "gd": 19
         },
         "rnk": {
           "lg": 9,
           "cf": 6,
           "dv": 4,
           "wc": 1
+        }
+      },
+      {
+        "team": {
+          "id": "OTT",
+          "city": "Ottawa",
+          "nick": "Senators",
+          "full": "Ottawa Senators",
+          "div": {
+            "id": "div-atlantic",
+            "name": "Atlantic Division"
+          },
+          "conf": {
+            "id": "conf-eastern",
+            "name": "Eastern Conference"
+          }
+        },
+        "stats": {
+          "gp": 77,
+          "w": 40,
+          "l": 27,
+          "t": 0,
+          "otl": 10,
+          "pts": 90,
+          "pct": 0.58442,
+          "stk": "W1",
+          "gf": 258,
+          "ga": 238,
+          "gd": 20
+        },
+        "rnk": {
+          "lg": 10,
+          "cf": 7,
+          "dv": 5,
+          "wc": 2
+        }
+      },
+      {
+        "team": {
+          "id": "PHI",
+          "city": "Philadelphia",
+          "nick": "Flyers",
+          "full": "Philadelphia Flyers",
+          "div": {
+            "id": "div-metropolitan",
+            "name": "Metropolitan Division"
+          },
+          "conf": {
+            "id": "conf-eastern",
+            "name": "Eastern Conference"
+          }
+        },
+        "stats": {
+          "gp": 77,
+          "w": 39,
+          "l": 26,
+          "t": 0,
+          "otl": 12,
+          "pts": 90,
+          "pct": 0.58442,
+          "stk": "W2",
+          "gf": 228,
+          "ga": 231,
+          "gd": -3
+        },
+        "rnk": {
+          "lg": 11,
+          "cf": 8,
+          "dv": 3,
+          "wc": null
         }
       },
       {
@@ -764,45 +834,10 @@
           "gd": -3
         },
         "rnk": {
-          "lg": 10,
-          "cf": 7,
-          "dv": 3,
-          "wc": null
-        }
-      },
-      {
-        "team": {
-          "id": "OTT",
-          "city": "Ottawa",
-          "nick": "Senators",
-          "full": "Ottawa Senators",
-          "div": {
-            "id": "div-atlantic",
-            "name": "Atlantic Division"
-          },
-          "conf": {
-            "id": "conf-eastern",
-            "name": "Eastern Conference"
-          }
-        },
-        "stats": {
-          "gp": 76,
-          "w": 39,
-          "l": 27,
-          "t": 0,
-          "otl": 10,
-          "pts": 88,
-          "pct": 0.57895,
-          "stk": "L1",
-          "gf": 252,
-          "ga": 235,
-          "gd": 17
-        },
-        "rnk": {
-          "lg": 11,
-          "cf": 8,
-          "dv": 5,
-          "wc": 2
+          "lg": 12,
+          "cf": 9,
+          "dv": 4,
+          "wc": 3
         }
       },
       {
@@ -821,57 +856,22 @@
           }
         },
         "stats": {
-          "gp": 76,
+          "gp": 77,
           "w": 40,
-          "l": 28,
+          "l": 29,
           "t": 0,
           "otl": 8,
           "pts": 88,
-          "pct": 0.57895,
-          "stk": "L1",
-          "gf": 221,
-          "ga": 229,
-          "gd": -8
-        },
-        "rnk": {
-          "lg": 12,
-          "cf": 9,
-          "dv": 6,
-          "wc": 3
-        }
-      },
-      {
-        "team": {
-          "id": "PHI",
-          "city": "Philadelphia",
-          "nick": "Flyers",
-          "full": "Philadelphia Flyers",
-          "div": {
-            "id": "div-metropolitan",
-            "name": "Metropolitan Division"
-          },
-          "conf": {
-            "id": "conf-eastern",
-            "name": "Eastern Conference"
-          }
-        },
-        "stats": {
-          "gp": 76,
-          "w": 38,
-          "l": 26,
-          "t": 0,
-          "otl": 12,
-          "pts": 88,
-          "pct": 0.57895,
-          "stk": "W1",
-          "gf": 226,
-          "ga": 230,
-          "gd": -4
+          "pct": 0.57143,
+          "stk": "L2",
+          "gf": 225,
+          "ga": 234,
+          "gd": -9
         },
         "rnk": {
           "lg": 13,
           "cf": 10,
-          "dv": 4,
+          "dv": 6,
           "wc": 4
         }
       },
@@ -926,20 +926,20 @@
           }
         },
         "stats": {
-          "gp": 77,
+          "gp": 78,
           "w": 39,
-          "l": 29,
+          "l": 30,
           "t": 0,
           "otl": 9,
           "pts": 87,
-          "pct": 0.56494,
-          "stk": "W1",
-          "gf": 247,
-          "ga": 232,
-          "gd": 15
+          "pct": 0.55769,
+          "stk": "L1",
+          "gf": 248,
+          "ga": 240,
+          "gd": 8
         },
         "rnk": {
-          "lg": 15,
+          "lg": 17,
           "cf": 12,
           "dv": 6,
           "wc": 6
@@ -961,17 +961,17 @@
           }
         },
         "stats": {
-          "gp": 76,
-          "w": 39,
+          "gp": 77,
+          "w": 40,
           "l": 34,
           "t": 0,
           "otl": 3,
-          "pts": 81,
-          "pct": 0.53289,
-          "stk": "OT1",
-          "gf": 215,
+          "pts": 83,
+          "pct": 0.53896,
+          "stk": "W1",
+          "gf": 218,
           "ga": 234,
-          "gd": -19
+          "gd": -16
         },
         "rnk": {
           "lg": 20,
@@ -1009,7 +1009,7 @@
           "gd": -33
         },
         "rnk": {
-          "lg": 25,
+          "lg": 26,
           "cf": 14,
           "dv": 7,
           "wc": 8
@@ -1031,20 +1031,20 @@
           }
         },
         "stats": {
-          "gp": 76,
+          "gp": 77,
           "w": 37,
-          "l": 36,
+          "l": 37,
           "t": 0,
           "otl": 3,
           "pts": 77,
-          "pct": 0.50658,
-          "stk": "L1",
-          "gf": 228,
-          "ga": 257,
-          "gd": -29
+          "pct": 0.5,
+          "stk": "L2",
+          "gf": 230,
+          "ga": 262,
+          "gd": -32
         },
         "rnk": {
-          "lg": 26,
+          "lg": 27,
           "cf": 15,
           "dv": 8,
           "wc": 9
@@ -1066,17 +1066,17 @@
           }
         },
         "stats": {
-          "gp": 77,
-          "w": 32,
+          "gp": 78,
+          "w": 33,
           "l": 36,
           "t": 0,
           "otl": 9,
-          "pts": 73,
-          "pct": 0.47403,
-          "stk": "W1",
-          "gf": 221,
-          "ga": 237,
-          "gd": -16
+          "pts": 75,
+          "pct": 0.48077,
+          "stk": "W2",
+          "gf": 229,
+          "ga": 238,
+          "gd": -9
         },
         "rnk": {
           "lg": 29,

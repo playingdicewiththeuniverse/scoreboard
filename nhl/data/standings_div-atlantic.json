@@ -36,41 +36,6 @@
   },
   {
     "team": {
-      "id": "MTL",
-      "city": "Montr\u00e9al",
-      "nick": "Canadiens",
-      "full": "Montr\u00e9al Canadiens",
-      "div": {
-        "id": "div-atlantic",
-        "name": "Atlantic Division"
-      },
-      "conf": {
-        "id": "conf-eastern",
-        "name": "Eastern Conference"
-      }
-    },
-    "stats": {
-      "gp": 76,
-      "w": 45,
-      "l": 21,
-      "t": 0,
-      "otl": 10,
-      "pts": 100,
-      "pct": 0.65789,
-      "stk": "W8",
-      "gf": 269,
-      "ga": 239,
-      "gd": 30
-    },
-    "rnk": {
-      "lg": 5,
-      "cf": 3,
-      "dv": 2,
-      "wc": null
-    }
-  },
-  {
-    "team": {
       "id": "BUF",
       "city": "Buffalo",
       "nick": "Sabres",
@@ -98,6 +63,41 @@
       "gd": 35
     },
     "rnk": {
+      "lg": 5,
+      "cf": 3,
+      "dv": 2,
+      "wc": null
+    }
+  },
+  {
+    "team": {
+      "id": "MTL",
+      "city": "Montr\u00e9al",
+      "nick": "Canadiens",
+      "full": "Montr\u00e9al Canadiens",
+      "div": {
+        "id": "div-atlantic",
+        "name": "Atlantic Division"
+      },
+      "conf": {
+        "id": "conf-eastern",
+        "name": "Eastern Conference"
+      }
+    },
+    "stats": {
+      "gp": 77,
+      "w": 45,
+      "l": 22,
+      "t": 0,
+      "otl": 10,
+      "pts": 100,
+      "pct": 0.64935,
+      "stk": "L1",
+      "gf": 269,
+      "ga": 242,
+      "gd": 27
+    },
+    "rnk": {
       "lg": 6,
       "cf": 4,
       "dv": 3,
@@ -120,17 +120,17 @@
       }
     },
     "stats": {
-      "gp": 77,
+      "gp": 78,
       "w": 43,
       "l": 26,
       "t": 0,
-      "otl": 8,
-      "pts": 94,
-      "pct": 0.61039,
-      "stk": "L2",
-      "gf": 258,
-      "ga": 238,
-      "gd": 20
+      "otl": 9,
+      "pts": 95,
+      "pct": 0.60897,
+      "stk": "OT1",
+      "gf": 259,
+      "ga": 240,
+      "gd": 19
     },
     "rnk": {
       "lg": 9,
@@ -155,21 +155,21 @@
       }
     },
     "stats": {
-      "gp": 76,
-      "w": 39,
+      "gp": 77,
+      "w": 40,
       "l": 27,
       "t": 0,
       "otl": 10,
-      "pts": 88,
-      "pct": 0.57895,
-      "stk": "L1",
-      "gf": 252,
-      "ga": 235,
-      "gd": 17
+      "pts": 90,
+      "pct": 0.58442,
+      "stk": "W1",
+      "gf": 258,
+      "ga": 238,
+      "gd": 20
     },
     "rnk": {
-      "lg": 11,
-      "cf": 8,
+      "lg": 10,
+      "cf": 7,
       "dv": 5,
       "wc": 2
     }
@@ -190,23 +190,23 @@
       }
     },
     "stats": {
-      "gp": 76,
+      "gp": 77,
       "w": 40,
-      "l": 28,
+      "l": 29,
       "t": 0,
       "otl": 8,
       "pts": 88,
-      "pct": 0.57895,
-      "stk": "L1",
-      "gf": 221,
-      "ga": 229,
-      "gd": -8
+      "pct": 0.57143,
+      "stk": "L2",
+      "gf": 225,
+      "ga": 234,
+      "gd": -9
     },
     "rnk": {
-      "lg": 12,
-      "cf": 9,
+      "lg": 13,
+      "cf": 10,
       "dv": 6,
-      "wc": 3
+      "wc": 4
     }
   },
   {
@@ -238,7 +238,7 @@
       "gd": -33
     },
     "rnk": {
-      "lg": 25,
+      "lg": 26,
       "cf": 14,
       "dv": 7,
       "wc": 8
@@ -260,20 +260,20 @@
       }
     },
     "stats": {
-      "gp": 76,
+      "gp": 77,
       "w": 37,
-      "l": 36,
+      "l": 37,
       "t": 0,
       "otl": 3,
       "pts": 77,
-      "pct": 0.50658,
-      "stk": "L1",
-      "gf": 228,
-      "ga": 257,
-      "gd": -29
+      "pct": 0.5,
+      "stk": "L2",
+      "gf": 230,
+      "ga": 262,
+      "gd": -32
     },
     "rnk": {
-      "lg": 26,
+      "lg": 27,
       "cf": 15,
       "dv": 8,
       "wc": 9

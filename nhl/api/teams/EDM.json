@@ -27,42 +27,13 @@
     "gd": 8
   },
   "rnk": {
-    "lg": 16,
+    "lg": 15,
     "cf": 4,
     "dv": 1,
     "wc": null
   },
   "games": {
     "past": [
-      {
-        "game_id": "20260328-EDM-ANA",
-        "game_time_utc": "2026-03-28 19:30:00+00:00",
-        "game_date": "2026-03-28",
-        "final": "Final",
-        "outcome": "win",
-        "location": "Home",
-        "score": [
-          4,
-          2
-        ],
-        "opponent": {
-          "id": "ANA",
-          "name": "Anaheim Ducks",
-          "stats": {
-            "gp": 77,
-            "w": 41,
-            "l": 31,
-            "t": 0,
-            "otl": 5,
-            "pts": 87,
-            "pct": 0.56494,
-            "stk": "L3",
-            "gf": 257,
-            "ga": 271,
-            "gd": -14
-          }
-        }
-      },
       {
         "game_id": "20260331-EDM-SEA",
         "game_time_utc": "2026-04-01 01:00:00+00:00",
@@ -120,19 +91,17 @@
             "gd": -53
           }
         }
-      }
-    ],
-    "upcoming": [
+      },
       {
         "game_id": "20260404-EDM-VGK",
         "game_time_utc": "2026-04-05 02:00:00+00:00",
         "game_date": "2026-04-04",
-        "final": "",
-        "outcome": "upcoming",
+        "final": "Final",
+        "outcome": "loss",
         "location": "Home",
         "score": [
-          "",
-          ""
+          1,
+          5
         ],
         "opponent": {
           "id": "VGK",
@@ -151,7 +120,9 @@
             "gd": 7
           }
         }
-      },
+      }
+    ],
+    "upcoming": [
       {
         "game_id": "20260407-UTA-EDM",
         "game_time_utc": "2026-04-08 01:30:00+00:00",
@@ -238,6 +209,35 @@
             "gd": -26
           }
         }
+      },
+      {
+        "game_id": "20260413-EDM-COL",
+        "game_time_utc": "2026-04-14 01:30:00+00:00",
+        "game_date": "2026-04-13",
+        "final": "",
+        "outcome": "upcoming",
+        "location": "Home",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "COL",
+          "name": "Colorado Avalanche",
+          "stats": {
+            "gp": 76,
+            "w": 50,
+            "l": 16,
+            "t": 0,
+            "otl": 10,
+            "pts": 110,
+            "pct": 0.72368,
+            "stk": "L1",
+            "gf": 287,
+            "ga": 196,
+            "gd": 91
+          }
+        }
       }
     ]
   },
@@ -272,7 +272,7 @@
           "gd": 8
         },
         "rnk": {
-          "lg": 16,
+          "lg": 15,
           "cf": 4,
           "dv": 1,
           "wc": null
@@ -307,7 +307,7 @@
           "gd": -14
         },
         "rnk": {
-          "lg": 17,
+          "lg": 16,
           "cf": 5,
           "dv": 2,
           "wc": null
@@ -541,17 +541,17 @@
           }
         },
         "stats": {
-          "gp": 75,
+          "gp": 76,
           "w": 50,
-          "l": 15,
+          "l": 16,
           "t": 0,
           "otl": 10,
           "pts": 110,
-          "pct": 0.73333,
-          "stk": "W1",
-          "gf": 285,
-          "ga": 193,
-          "gd": 92
+          "pct": 0.72368,
+          "stk": "L1",
+          "gf": 287,
+          "ga": 196,
+          "gd": 91
         },
         "rnk": {
           "lg": 1,
@@ -611,17 +611,17 @@
           }
         },
         "stats": {
-          "gp": 76,
-          "w": 43,
+          "gp": 77,
+          "w": 44,
           "l": 21,
           "t": 0,
           "otl": 12,
-          "pts": 98,
-          "pct": 0.64474,
-          "stk": "W2",
-          "gf": 251,
-          "ga": 219,
-          "gd": 32
+          "pts": 100,
+          "pct": 0.64935,
+          "stk": "W3",
+          "gf": 256,
+          "ga": 223,
+          "gd": 33
         },
         "rnk": {
           "lg": 7,
@@ -659,7 +659,7 @@
           "gd": 8
         },
         "rnk": {
-          "lg": 16,
+          "lg": 15,
           "cf": 4,
           "dv": 1,
           "wc": null
@@ -694,7 +694,7 @@
           "gd": -14
         },
         "rnk": {
-          "lg": 17,
+          "lg": 16,
           "cf": 5,
           "dv": 2,
           "wc": null
@@ -877,6 +877,41 @@
       },
       {
         "team": {
+          "id": "STL",
+          "city": "St. Louis",
+          "nick": "Blues",
+          "full": "St. Louis Blues",
+          "div": {
+            "id": "div-central",
+            "name": "Central Division"
+          },
+          "conf": {
+            "id": "conf-western",
+            "name": "Western Conference"
+          }
+        },
+        "stats": {
+          "gp": 76,
+          "w": 33,
+          "l": 31,
+          "t": 0,
+          "otl": 12,
+          "pts": 78,
+          "pct": 0.51316,
+          "stk": "W2",
+          "gf": 205,
+          "ga": 238,
+          "gd": -33
+        },
+        "rnk": {
+          "lg": 24,
+          "cf": 11,
+          "dv": 6,
+          "wc": 5
+        }
+      },
+      {
+        "team": {
           "id": "WPG",
           "city": "Winnipeg",
           "nick": "Jets",
@@ -904,42 +939,7 @@
           "gd": -17
         },
         "rnk": {
-          "lg": 24,
-          "cf": 11,
-          "dv": 6,
-          "wc": 5
-        }
-      },
-      {
-        "team": {
-          "id": "STL",
-          "city": "St. Louis",
-          "nick": "Blues",
-          "full": "St. Louis Blues",
-          "div": {
-            "id": "div-central",
-            "name": "Central Division"
-          },
-          "conf": {
-            "id": "conf-western",
-            "name": "Western Conference"
-          }
-        },
-        "stats": {
-          "gp": 75,
-          "w": 32,
-          "l": 31,
-          "t": 0,
-          "otl": 12,
-          "pts": 76,
-          "pct": 0.50667,
-          "stk": "W1",
-          "gf": 202,
-          "ga": 236,
-          "gd": -34
-        },
-        "rnk": {
-          "lg": 27,
+          "lg": 25,
           "cf": 12,
           "dv": 7,
           "wc": 6

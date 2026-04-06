@@ -27,42 +27,13 @@
     "gd": -17
   },
   "rnk": {
-    "lg": 24,
-    "cf": 11,
-    "dv": 6,
-    "wc": 5
+    "lg": 25,
+    "cf": 12,
+    "dv": 7,
+    "wc": 6
   },
   "games": {
     "past": [
-      {
-        "game_id": "20260328-COL-WPG",
-        "game_time_utc": "2026-03-28 23:00:00+00:00",
-        "game_date": "2026-03-28",
-        "final": "Final",
-        "location": "Away",
-        "outcome": "win",
-        "score": [
-          4,
-          2
-        ],
-        "opponent": {
-          "id": "COL",
-          "name": "Colorado Avalanche",
-          "stats": {
-            "gp": 75,
-            "w": 50,
-            "l": 15,
-            "t": 0,
-            "otl": 10,
-            "pts": 110,
-            "pct": 0.73333,
-            "stk": "W1",
-            "gf": 285,
-            "ga": 193,
-            "gd": 92
-          }
-        }
-      },
       {
         "game_id": "20260331-CHI-WPG",
         "game_time_utc": "2026-04-01 00:30:00+00:00",
@@ -120,19 +91,17 @@
             "gd": 47
           }
         }
-      }
-    ],
-    "upcoming": [
+      },
       {
         "game_id": "20260404-CBJ-WPG",
         "game_time_utc": "2026-04-04 23:00:00+00:00",
         "game_date": "2026-04-04",
-        "final": "",
+        "final": "Final",
         "location": "Away",
-        "outcome": "upcoming",
+        "outcome": "win",
         "score": [
-          "",
-          ""
+          2,
+          1
         ],
         "opponent": {
           "id": "CBJ",
@@ -151,7 +120,9 @@
             "gd": 3
           }
         }
-      },
+      }
+    ],
+    "upcoming": [
       {
         "game_id": "20260406-WPG-SEA",
         "game_time_utc": "2026-04-06 23:30:00+00:00",
@@ -196,17 +167,17 @@
           "id": "STL",
           "name": "St. Louis Blues",
           "stats": {
-            "gp": 75,
-            "w": 32,
+            "gp": 76,
+            "w": 33,
             "l": 31,
             "t": 0,
             "otl": 12,
-            "pts": 76,
-            "pct": 0.50667,
-            "stk": "W1",
-            "gf": 202,
-            "ga": 236,
-            "gd": -34
+            "pts": 78,
+            "pct": 0.51316,
+            "stk": "W2",
+            "gf": 205,
+            "ga": 238,
+            "gd": -33
           }
         }
       },
@@ -225,17 +196,46 @@
           "id": "PHI",
           "name": "Philadelphia Flyers",
           "stats": {
-            "gp": 76,
-            "w": 38,
+            "gp": 77,
+            "w": 39,
             "l": 26,
             "t": 0,
             "otl": 12,
-            "pts": 88,
-            "pct": 0.57895,
-            "stk": "W1",
-            "gf": 226,
-            "ga": 230,
-            "gd": -4
+            "pts": 90,
+            "pct": 0.58442,
+            "stk": "W2",
+            "gf": 228,
+            "ga": 231,
+            "gd": -3
+          }
+        }
+      },
+      {
+        "game_id": "20260413-VGK-WPG",
+        "game_time_utc": "2026-04-14 02:00:00+00:00",
+        "game_date": "2026-04-13",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          "",
+          ""
+        ],
+        "opponent": {
+          "id": "VGK",
+          "name": "Vegas Golden Knights",
+          "stats": {
+            "gp": 77,
+            "w": 35,
+            "l": 26,
+            "t": 0,
+            "otl": 16,
+            "pts": 86,
+            "pct": 0.55844,
+            "stk": "W3",
+            "gf": 247,
+            "ga": 240,
+            "gd": 7
           }
         }
       }
@@ -259,17 +259,17 @@
           }
         },
         "stats": {
-          "gp": 75,
+          "gp": 76,
           "w": 50,
-          "l": 15,
+          "l": 16,
           "t": 0,
           "otl": 10,
           "pts": 110,
-          "pct": 0.73333,
-          "stk": "W1",
-          "gf": 285,
-          "ga": 193,
-          "gd": 92
+          "pct": 0.72368,
+          "stk": "L1",
+          "gf": 287,
+          "ga": 196,
+          "gd": 91
         },
         "rnk": {
           "lg": 1,
@@ -329,17 +329,17 @@
           }
         },
         "stats": {
-          "gp": 76,
-          "w": 43,
+          "gp": 77,
+          "w": 44,
           "l": 21,
           "t": 0,
           "otl": 12,
-          "pts": 98,
-          "pct": 0.64474,
-          "stk": "W2",
-          "gf": 251,
-          "ga": 219,
-          "gd": 32
+          "pts": 100,
+          "pct": 0.64935,
+          "stk": "W3",
+          "gf": 256,
+          "ga": 223,
+          "gd": 33
         },
         "rnk": {
           "lg": 7,
@@ -420,6 +420,41 @@
       },
       {
         "team": {
+          "id": "STL",
+          "city": "St. Louis",
+          "nick": "Blues",
+          "full": "St. Louis Blues",
+          "div": {
+            "id": "div-central",
+            "name": "Central Division"
+          },
+          "conf": {
+            "id": "conf-western",
+            "name": "Western Conference"
+          }
+        },
+        "stats": {
+          "gp": 76,
+          "w": 33,
+          "l": 31,
+          "t": 0,
+          "otl": 12,
+          "pts": 78,
+          "pct": 0.51316,
+          "stk": "W2",
+          "gf": 205,
+          "ga": 238,
+          "gd": -33
+        },
+        "rnk": {
+          "lg": 24,
+          "cf": 11,
+          "dv": 6,
+          "wc": 5
+        }
+      },
+      {
+        "team": {
           "id": "WPG",
           "city": "Winnipeg",
           "nick": "Jets",
@@ -447,42 +482,7 @@
           "gd": -17
         },
         "rnk": {
-          "lg": 24,
-          "cf": 11,
-          "dv": 6,
-          "wc": 5
-        }
-      },
-      {
-        "team": {
-          "id": "STL",
-          "city": "St. Louis",
-          "nick": "Blues",
-          "full": "St. Louis Blues",
-          "div": {
-            "id": "div-central",
-            "name": "Central Division"
-          },
-          "conf": {
-            "id": "conf-western",
-            "name": "Western Conference"
-          }
-        },
-        "stats": {
-          "gp": 75,
-          "w": 32,
-          "l": 31,
-          "t": 0,
-          "otl": 12,
-          "pts": 76,
-          "pct": 0.50667,
-          "stk": "W1",
-          "gf": 202,
-          "ga": 236,
-          "gd": -34
-        },
-        "rnk": {
-          "lg": 27,
+          "lg": 25,
           "cf": 12,
           "dv": 7,
           "wc": 6
@@ -541,17 +541,17 @@
           }
         },
         "stats": {
-          "gp": 75,
+          "gp": 76,
           "w": 50,
-          "l": 15,
+          "l": 16,
           "t": 0,
           "otl": 10,
           "pts": 110,
-          "pct": 0.73333,
-          "stk": "W1",
-          "gf": 285,
-          "ga": 193,
-          "gd": 92
+          "pct": 0.72368,
+          "stk": "L1",
+          "gf": 287,
+          "ga": 196,
+          "gd": 91
         },
         "rnk": {
           "lg": 1,
@@ -611,17 +611,17 @@
           }
         },
         "stats": {
-          "gp": 76,
-          "w": 43,
+          "gp": 77,
+          "w": 44,
           "l": 21,
           "t": 0,
           "otl": 12,
-          "pts": 98,
-          "pct": 0.64474,
-          "stk": "W2",
-          "gf": 251,
-          "ga": 219,
-          "gd": 32
+          "pts": 100,
+          "pct": 0.64935,
+          "stk": "W3",
+          "gf": 256,
+          "ga": 223,
+          "gd": 33
         },
         "rnk": {
           "lg": 7,
@@ -659,7 +659,7 @@
           "gd": 8
         },
         "rnk": {
-          "lg": 16,
+          "lg": 15,
           "cf": 4,
           "dv": 1,
           "wc": null
@@ -694,7 +694,7 @@
           "gd": -14
         },
         "rnk": {
-          "lg": 17,
+          "lg": 16,
           "cf": 5,
           "dv": 2,
           "wc": null
@@ -877,6 +877,41 @@
       },
       {
         "team": {
+          "id": "STL",
+          "city": "St. Louis",
+          "nick": "Blues",
+          "full": "St. Louis Blues",
+          "div": {
+            "id": "div-central",
+            "name": "Central Division"
+          },
+          "conf": {
+            "id": "conf-western",
+            "name": "Western Conference"
+          }
+        },
+        "stats": {
+          "gp": 76,
+          "w": 33,
+          "l": 31,
+          "t": 0,
+          "otl": 12,
+          "pts": 78,
+          "pct": 0.51316,
+          "stk": "W2",
+          "gf": 205,
+          "ga": 238,
+          "gd": -33
+        },
+        "rnk": {
+          "lg": 24,
+          "cf": 11,
+          "dv": 6,
+          "wc": 5
+        }
+      },
+      {
+        "team": {
           "id": "WPG",
           "city": "Winnipeg",
           "nick": "Jets",
@@ -904,42 +939,7 @@
           "gd": -17
         },
         "rnk": {
-          "lg": 24,
-          "cf": 11,
-          "dv": 6,
-          "wc": 5
-        }
-      },
-      {
-        "team": {
-          "id": "STL",
-          "city": "St. Louis",
-          "nick": "Blues",
-          "full": "St. Louis Blues",
-          "div": {
-            "id": "div-central",
-            "name": "Central Division"
-          },
-          "conf": {
-            "id": "conf-western",
-            "name": "Western Conference"
-          }
-        },
-        "stats": {
-          "gp": 75,
-          "w": 32,
-          "l": 31,
-          "t": 0,
-          "otl": 12,
-          "pts": 76,
-          "pct": 0.50667,
-          "stk": "W1",
-          "gf": 202,
-          "ga": 236,
-          "gd": -34
-        },
-        "rnk": {
-          "lg": 27,
+          "lg": 25,
           "cf": 12,
           "dv": 7,
           "wc": 6
