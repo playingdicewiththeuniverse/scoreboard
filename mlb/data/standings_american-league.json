@@ -15,55 +15,21 @@
       }
     },
     "stats": {
-      "gp": 8,
+      "gp": 9,
       "w": 7,
-      "l": 1,
+      "l": 2,
       "gb_div": "-",
       "gb_wc": "-",
-      "pct": ".875",
-      "stk": "W4",
-      "rf": 41,
-      "ra": 15,
-      "rd": 26
+      "pct": ".778",
+      "stk": "L1",
+      "rf": 47,
+      "ra": 22,
+      "rd": 25
     },
     "rnk": {
       "lg": "1",
       "cf": "1",
       "dv": "1",
-      "clinch": ""
-    }
-  },
-  {
-    "team": {
-      "id": "TOR",
-      "city": "Toronto",
-      "nick": "Blue Jays",
-      "full": "Toronto Blue Jays",
-      "div": {
-        "id": "american-league-east",
-        "name": "American League East"
-      },
-      "conf": {
-        "id": "american-league",
-        "name": "American League"
-      }
-    },
-    "stats": {
-      "gp": 8,
-      "w": 4,
-      "l": 4,
-      "gb_div": "3.0",
-      "gb_wc": "-",
-      "pct": ".500",
-      "stk": "L3",
-      "rf": 34,
-      "ra": 39,
-      "rd": -5
-    },
-    "rnk": {
-      "lg": "4",
-      "cf": "4",
-      "dv": "2",
       "clinch": ""
     }
   },
@@ -83,20 +49,54 @@
       }
     },
     "stats": {
-      "gp": 8,
-      "w": 3,
+      "gp": 9,
+      "w": 4,
       "l": 5,
-      "gb_div": "4.0",
-      "gb_wc": "1.0",
-      "pct": ".375",
-      "stk": "W1",
-      "rf": 41,
-      "ra": 49,
+      "gb_div": "3.0",
+      "gb_wc": "-",
+      "pct": ".444",
+      "stk": "W2",
+      "rf": 45,
+      "ra": 50,
+      "rd": -5
+    },
+    "rnk": {
+      "lg": "7",
+      "cf": "7",
+      "dv": "2",
+      "clinch": ""
+    }
+  },
+  {
+    "team": {
+      "id": "TOR",
+      "city": "Toronto",
+      "nick": "Blue Jays",
+      "full": "Toronto Blue Jays",
+      "div": {
+        "id": "american-league-east",
+        "name": "American League East"
+      },
+      "conf": {
+        "id": "american-league",
+        "name": "American League"
+      }
+    },
+    "stats": {
+      "gp": 9,
+      "w": 4,
+      "l": 5,
+      "gb_div": "3.0",
+      "gb_wc": "-",
+      "pct": ".444",
+      "stk": "L4",
+      "rf": 34,
+      "ra": 42,
       "rd": -8
     },
     "rnk": {
-      "lg": "10",
-      "cf": "10",
+      "lg": "5",
+      "cf": "5",
       "dv": "3",
       "clinch": ""
     }
@@ -120,8 +120,8 @@
       "gp": 9,
       "w": 3,
       "l": 6,
-      "gb_div": "4.5",
-      "gb_wc": "1.5",
+      "gb_div": "4.0",
+      "gb_wc": "1.0",
       "pct": ".333",
       "stk": "L3",
       "rf": 34,
@@ -151,16 +151,16 @@
       }
     },
     "stats": {
-      "gp": 8,
+      "gp": 9,
       "w": 2,
-      "l": 6,
+      "l": 7,
       "gb_div": "5.0",
       "gb_wc": "2.0",
-      "pct": ".250",
-      "stk": "L1",
-      "rf": 24,
-      "ra": 37,
-      "rd": -13
+      "pct": ".222",
+      "stk": "L2",
+      "rf": 30,
+      "ra": 45,
+      "rd": -15
     },
     "rnk": {
       "lg": "15",
@@ -185,16 +185,16 @@
       }
     },
     "stats": {
-      "gp": 9,
-      "w": 5,
+      "gp": 10,
+      "w": 6,
       "l": 4,
       "gb_div": "-",
       "gb_wc": "-",
-      "pct": ".556",
-      "stk": "L1",
-      "rf": 26,
-      "ra": 31,
-      "rd": -5
+      "pct": ".600",
+      "stk": "W1",
+      "rf": 32,
+      "ra": 36,
+      "rd": -4
     },
     "rnk": {
       "lg": "3",
@@ -219,89 +219,21 @@
       }
     },
     "stats": {
-      "gp": 8,
+      "gp": 9,
       "w": 4,
-      "l": 4,
-      "gb_div": "0.5",
-      "gb_wc": "-",
-      "pct": ".500",
-      "stk": "W1",
-      "rf": 33,
-      "ra": 35,
-      "rd": -2
-    },
-    "rnk": {
-      "lg": "6",
-      "cf": "6",
-      "dv": "2",
-      "clinch": ""
-    }
-  },
-  {
-    "team": {
-      "id": "DET",
-      "city": "Detroit",
-      "nick": "Tigers",
-      "full": "Detroit Tigers",
-      "div": {
-        "id": "american-league-central",
-        "name": "American League Central"
-      },
-      "conf": {
-        "id": "american-league",
-        "name": "American League"
-      }
-    },
-    "stats": {
-      "gp": 8,
-      "w": 4,
-      "l": 4,
-      "gb_div": "0.5",
-      "gb_wc": "-",
-      "pct": ".500",
-      "stk": "W2",
-      "rf": 39,
-      "ra": 30,
-      "rd": 9
-    },
-    "rnk": {
-      "lg": "7",
-      "cf": "7",
-      "dv": "3",
-      "clinch": ""
-    }
-  },
-  {
-    "team": {
-      "id": "MIN",
-      "city": "Minnesota",
-      "nick": "Twins",
-      "full": "Minnesota Twins",
-      "div": {
-        "id": "american-league-central",
-        "name": "American League Central"
-      },
-      "conf": {
-        "id": "american-league",
-        "name": "American League"
-      }
-    },
-    "stats": {
-      "gp": 8,
-      "w": 3,
       "l": 5,
       "gb_div": "1.5",
-      "gb_wc": "1.0",
-      "pct": ".375",
+      "gb_wc": "-",
+      "pct": ".444",
       "stk": "L1",
-      "rf": 37,
-      "ra": 39,
-      "rd": -2
+      "rf": 38,
+      "ra": 43,
+      "rd": -5
     },
     "rnk": {
-      "lg": "11",
-      "cf": "11",
-      "dv": "4",
+      "lg": "8",
+      "cf": "8",
+      "dv": "2",
       "clinch": ""
     }
   },
@@ -321,20 +253,88 @@
       }
     },
     "stats": {
-      "gp": 8,
-      "w": 3,
+      "gp": 9,
+      "w": 4,
       "l": 5,
       "gb_div": "1.5",
-      "gb_wc": "1.0",
-      "pct": ".375",
-      "stk": "W2",
-      "rf": 32,
+      "gb_wc": "-",
+      "pct": ".444",
+      "stk": "W3",
+      "rf": 35,
       "ra": 59,
-      "rd": -27
+      "rd": -24
     },
     "rnk": {
-      "lg": "12",
-      "cf": "12",
+      "lg": "10",
+      "cf": "10",
+      "dv": "3",
+      "clinch": ""
+    }
+  },
+  {
+    "team": {
+      "id": "DET",
+      "city": "Detroit",
+      "nick": "Tigers",
+      "full": "Detroit Tigers",
+      "div": {
+        "id": "american-league-central",
+        "name": "American League Central"
+      },
+      "conf": {
+        "id": "american-league",
+        "name": "American League"
+      }
+    },
+    "stats": {
+      "gp": 9,
+      "w": 4,
+      "l": 5,
+      "gb_div": "1.5",
+      "gb_wc": "-",
+      "pct": ".444",
+      "stk": "L1",
+      "rf": 42,
+      "ra": 35,
+      "rd": 7
+    },
+    "rnk": {
+      "lg": "9",
+      "cf": "9",
+      "dv": "4",
+      "clinch": ""
+    }
+  },
+  {
+    "team": {
+      "id": "MIN",
+      "city": "Minnesota",
+      "nick": "Twins",
+      "full": "Minnesota Twins",
+      "div": {
+        "id": "american-league-central",
+        "name": "American League Central"
+      },
+      "conf": {
+        "id": "american-league",
+        "name": "American League"
+      }
+    },
+    "stats": {
+      "gp": 9,
+      "w": 3,
+      "l": 6,
+      "gb_div": "2.5",
+      "gb_wc": "1.0",
+      "pct": ".333",
+      "stk": "L2",
+      "rf": 38,
+      "ra": 43,
+      "rd": -5
+    },
+    "rnk": {
+      "lg": "14",
+      "cf": "14",
       "dv": "5",
       "clinch": ""
     }
@@ -355,55 +355,21 @@
       }
     },
     "stats": {
-      "gp": 9,
+      "gp": 10,
       "w": 6,
-      "l": 3,
+      "l": 4,
       "gb_div": "-",
       "gb_wc": "-",
-      "pct": ".667",
-      "stk": "W1",
-      "rf": 60,
-      "ra": 43,
-      "rd": 17
+      "pct": ".600",
+      "stk": "L1",
+      "rf": 70,
+      "ra": 55,
+      "rd": 15
     },
     "rnk": {
       "lg": "2",
       "cf": "2",
       "dv": "1",
-      "clinch": ""
-    }
-  },
-  {
-    "team": {
-      "id": "TEX",
-      "city": "Texas",
-      "nick": "Rangers",
-      "full": "Texas Rangers",
-      "div": {
-        "id": "american-league-west",
-        "name": "American League West"
-      },
-      "conf": {
-        "id": "american-league",
-        "name": "American League"
-      }
-    },
-    "stats": {
-      "gp": 8,
-      "w": 4,
-      "l": 4,
-      "gb_div": "1.5",
-      "gb_wc": "-",
-      "pct": ".500",
-      "stk": "L3",
-      "rf": 35,
-      "ra": 34,
-      "rd": 1
-    },
-    "rnk": {
-      "lg": "5",
-      "cf": "5",
-      "dv": "2",
       "clinch": ""
     }
   },
@@ -423,20 +389,54 @@
       }
     },
     "stats": {
+      "gp": 10,
+      "w": 5,
+      "l": 5,
+      "gb_div": "1.0",
+      "gb_wc": "+0.5",
+      "pct": ".500",
+      "stk": "W2",
+      "rf": 41,
+      "ra": 45,
+      "rd": -4
+    },
+    "rnk": {
+      "lg": "4",
+      "cf": "4",
+      "dv": "2",
+      "clinch": ""
+    }
+  },
+  {
+    "team": {
+      "id": "TEX",
+      "city": "Texas",
+      "nick": "Rangers",
+      "full": "Texas Rangers",
+      "div": {
+        "id": "american-league-west",
+        "name": "American League West"
+      },
+      "conf": {
+        "id": "american-league",
+        "name": "American League"
+      }
+    },
+    "stats": {
       "gp": 9,
       "w": 4,
       "l": 5,
-      "gb_div": "2.0",
-      "gb_wc": "0.5",
+      "gb_div": "1.5",
+      "gb_wc": "-",
       "pct": ".444",
-      "stk": "W1",
-      "rf": 33,
-      "ra": 38,
-      "rd": -5
+      "stk": "L4",
+      "rf": 36,
+      "ra": 36,
+      "rd": 0
     },
     "rnk": {
-      "lg": "8",
-      "cf": "8",
+      "lg": "6",
+      "cf": "6",
       "dv": "3",
       "clinch": ""
     }
@@ -457,20 +457,20 @@
       }
     },
     "stats": {
-      "gp": 9,
+      "gp": 10,
       "w": 4,
-      "l": 5,
+      "l": 6,
       "gb_div": "2.0",
       "gb_wc": "0.5",
-      "pct": ".444",
-      "stk": "L1",
-      "rf": 30,
-      "ra": 26,
-      "rd": 4
+      "pct": ".400",
+      "stk": "L2",
+      "rf": 37,
+      "ra": 34,
+      "rd": 3
     },
     "rnk": {
-      "lg": "9",
-      "cf": "9",
+      "lg": "11",
+      "cf": "11",
       "dv": "4",
       "clinch": ""
     }
@@ -491,20 +491,20 @@
       }
     },
     "stats": {
-      "gp": 8,
-      "w": 2,
+      "gp": 9,
+      "w": 3,
       "l": 6,
-      "gb_div": "3.5",
-      "gb_wc": "2.0",
-      "pct": ".250",
-      "stk": "L1",
-      "rf": 28,
-      "ra": 42,
-      "rd": -14
+      "gb_div": "2.5",
+      "gb_wc": "1.0",
+      "pct": ".333",
+      "stk": "W1",
+      "rf": 40,
+      "ra": 52,
+      "rd": -12
     },
     "rnk": {
-      "lg": "14",
-      "cf": "14",
+      "lg": "12",
+      "cf": "12",
       "dv": "5",
       "clinch": ""
     }

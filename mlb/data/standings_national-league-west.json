@@ -15,16 +15,16 @@
       }
     },
     "stats": {
-      "gp": 8,
-      "w": 6,
+      "gp": 9,
+      "w": 7,
       "l": 2,
       "gb_div": "-",
       "gb_wc": "-",
-      "pct": ".750",
-      "stk": "W2",
-      "rf": 46,
-      "ra": 28,
-      "rd": 18
+      "pct": ".778",
+      "stk": "W3",
+      "rf": 54,
+      "ra": 34,
+      "rd": 20
     },
     "rnk": {
       "lg": "2",
@@ -49,20 +49,20 @@
       }
     },
     "stats": {
-      "gp": 9,
-      "w": 4,
+      "gp": 10,
+      "w": 5,
       "l": 5,
       "gb_div": "2.5",
-      "gb_wc": "1.5",
-      "pct": ".444",
-      "stk": "W1",
-      "rf": 29,
-      "ra": 47,
-      "rd": -18
+      "gb_wc": "1.0",
+      "pct": ".500",
+      "stk": "W2",
+      "rf": 35,
+      "ra": 52,
+      "rd": -17
     },
     "rnk": {
-      "lg": "11",
-      "cf": "11",
+      "lg": "10",
+      "cf": "10",
       "dv": "2",
       "clinch": ""
     }
@@ -83,55 +83,21 @@
       }
     },
     "stats": {
-      "gp": 8,
-      "w": 3,
+      "gp": 9,
+      "w": 4,
       "l": 5,
       "gb_div": "3.0",
-      "gb_wc": "2.0",
-      "pct": ".375",
-      "stk": "W1",
-      "rf": 24,
-      "ra": 33,
-      "rd": -9
+      "gb_wc": "1.5",
+      "pct": ".444",
+      "stk": "W2",
+      "rf": 32,
+      "ra": 39,
+      "rd": -7
     },
     "rnk": {
-      "lg": "13",
-      "cf": "13",
+      "lg": "12",
+      "cf": "12",
       "dv": "3",
-      "clinch": ""
-    }
-  },
-  {
-    "team": {
-      "id": "SF",
-      "city": "San Francisco",
-      "nick": "Giants",
-      "full": "San Francisco Giants",
-      "div": {
-        "id": "national-league-west",
-        "name": "National League West"
-      },
-      "conf": {
-        "id": "national-league",
-        "name": "National League"
-      }
-    },
-    "stats": {
-      "gp": 9,
-      "w": 3,
-      "l": 6,
-      "gb_div": "3.5",
-      "gb_wc": "2.5",
-      "pct": ".333",
-      "stk": "L2",
-      "rf": 24,
-      "ra": 46,
-      "rd": -22
-    },
-    "rnk": {
-      "lg": "14",
-      "cf": "14",
-      "dv": "4",
       "clinch": ""
     }
   },
@@ -151,16 +117,50 @@
       }
     },
     "stats": {
-      "gp": 8,
-      "w": 2,
+      "gp": 9,
+      "w": 3,
       "l": 6,
       "gb_div": "4.0",
+      "gb_wc": "2.5",
+      "pct": ".333",
+      "stk": "W1",
+      "rf": 30,
+      "ra": 34,
+      "rd": -4
+    },
+    "rnk": {
+      "lg": "14",
+      "cf": "14",
+      "dv": "4",
+      "clinch": ""
+    }
+  },
+  {
+    "team": {
+      "id": "SF",
+      "city": "San Francisco",
+      "nick": "Giants",
+      "full": "San Francisco Giants",
+      "div": {
+        "id": "national-league-west",
+        "name": "National League West"
+      },
+      "conf": {
+        "id": "national-league",
+        "name": "National League"
+      }
+    },
+    "stats": {
+      "gp": 10,
+      "w": 3,
+      "l": 7,
+      "gb_div": "4.5",
       "gb_wc": "3.0",
-      "pct": ".250",
-      "stk": "L2",
+      "pct": ".300",
+      "stk": "L3",
       "rf": 26,
-      "ra": 33,
-      "rd": -7
+      "ra": 51,
+      "rd": -25
     },
     "rnk": {
       "lg": "15",

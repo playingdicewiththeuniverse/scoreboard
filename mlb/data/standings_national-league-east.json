@@ -1,10 +1,10 @@
 [
   {
     "team": {
-      "id": "ATL",
-      "city": "Atlanta",
-      "nick": "Braves",
-      "full": "Atlanta Braves",
+      "id": "MIA",
+      "city": "Miami",
+      "nick": "Marlins",
+      "full": "Miami Marlins",
       "div": {
         "id": "national-league-east",
         "name": "National League East"
@@ -21,83 +21,15 @@
       "gb_div": "-",
       "gb_wc": "-",
       "pct": ".667",
-      "stk": "L1",
-      "rf": 44,
-      "ra": 16,
-      "rd": 28
+      "stk": "W1",
+      "rf": 49,
+      "ra": 41,
+      "rd": 8
     },
     "rnk": {
       "lg": "3",
       "cf": "3",
       "dv": "1",
-      "clinch": ""
-    }
-  },
-  {
-    "team": {
-      "id": "PHI",
-      "city": "Philadelphia",
-      "nick": "Phillies",
-      "full": "Philadelphia Phillies",
-      "div": {
-        "id": "national-league-east",
-        "name": "National League East"
-      },
-      "conf": {
-        "id": "national-league",
-        "name": "National League"
-      }
-    },
-    "stats": {
-      "gp": 8,
-      "w": 5,
-      "l": 3,
-      "gb_div": "0.5",
-      "gb_wc": "-",
-      "pct": ".625",
-      "stk": "W4",
-      "rf": 35,
-      "ra": 38,
-      "rd": -3
-    },
-    "rnk": {
-      "lg": "6",
-      "cf": "6",
-      "dv": "2",
-      "clinch": ""
-    }
-  },
-  {
-    "team": {
-      "id": "MIA",
-      "city": "Miami",
-      "nick": "Marlins",
-      "full": "Miami Marlins",
-      "div": {
-        "id": "national-league-east",
-        "name": "National League East"
-      },
-      "conf": {
-        "id": "national-league",
-        "name": "National League"
-      }
-    },
-    "stats": {
-      "gp": 8,
-      "w": 5,
-      "l": 3,
-      "gb_div": "0.5",
-      "gb_wc": "-",
-      "pct": ".625",
-      "stk": "L2",
-      "rf": 42,
-      "ra": 35,
-      "rd": 7
-    },
-    "rnk": {
-      "lg": "5",
-      "cf": "5",
-      "dv": "3",
       "clinch": ""
     }
   },
@@ -117,20 +49,88 @@
       }
     },
     "stats": {
+      "gp": 10,
+      "w": 6,
+      "l": 4,
+      "gb_div": "0.5",
+      "gb_wc": "-",
+      "pct": ".600",
+      "stk": "W3",
+      "rf": 49,
+      "ra": 32,
+      "rd": 17
+    },
+    "rnk": {
+      "lg": "7",
+      "cf": "7",
+      "dv": "2",
+      "clinch": ""
+    }
+  },
+  {
+    "team": {
+      "id": "ATL",
+      "city": "Atlanta",
+      "nick": "Braves",
+      "full": "Atlanta Braves",
+      "div": {
+        "id": "national-league-east",
+        "name": "National League East"
+      },
+      "conf": {
+        "id": "national-league",
+        "name": "National League"
+      }
+    },
+    "stats": {
+      "gp": 10,
+      "w": 6,
+      "l": 4,
+      "gb_div": "0.5",
+      "gb_wc": "-",
+      "pct": ".600",
+      "stk": "L2",
+      "rf": 49,
+      "ra": 22,
+      "rd": 27
+    },
+    "rnk": {
+      "lg": "6",
+      "cf": "6",
+      "dv": "3",
+      "clinch": ""
+    }
+  },
+  {
+    "team": {
+      "id": "PHI",
+      "city": "Philadelphia",
+      "nick": "Phillies",
+      "full": "Philadelphia Phillies",
+      "div": {
+        "id": "national-league-east",
+        "name": "National League East"
+      },
+      "conf": {
+        "id": "national-league",
+        "name": "National League"
+      }
+    },
+    "stats": {
       "gp": 9,
       "w": 5,
       "l": 4,
       "gb_div": "1.0",
       "gb_wc": "0.5",
       "pct": ".556",
-      "stk": "W2",
-      "rf": 44,
-      "ra": 30,
-      "rd": 14
+      "stk": "L1",
+      "rf": 36,
+      "ra": 42,
+      "rd": -6
     },
     "rnk": {
-      "lg": "8",
-      "cf": "8",
+      "lg": "9",
+      "cf": "9",
       "dv": "4",
       "clinch": ""
     }
@@ -151,20 +151,20 @@
       }
     },
     "stats": {
-      "gp": 8,
+      "gp": 9,
       "w": 3,
-      "l": 5,
-      "gb_div": "2.5",
-      "gb_wc": "2.0",
-      "pct": ".375",
-      "stk": "L4",
-      "rf": 49,
-      "ra": 51,
-      "rd": -2
+      "l": 6,
+      "gb_div": "3.0",
+      "gb_wc": "2.5",
+      "pct": ".333",
+      "stk": "L5",
+      "rf": 55,
+      "ra": 59,
+      "rd": -4
     },
     "rnk": {
-      "lg": "12",
-      "cf": "12",
+      "lg": "13",
+      "cf": "13",
       "dv": "5",
       "clinch": ""
     }
