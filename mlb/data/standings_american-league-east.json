@@ -49,55 +49,21 @@
       }
     },
     "stats": {
-      "gp": 9,
-      "w": 4,
+      "gp": 10,
+      "w": 5,
       "l": 5,
-      "gb_div": "3.0",
+      "gb_div": "2.5",
       "gb_wc": "-",
-      "pct": ".444",
-      "stk": "W2",
-      "rf": 45,
-      "ra": 50,
-      "rd": -5
+      "pct": ".500",
+      "stk": "W3",
+      "rf": 51,
+      "ra": 54,
+      "rd": -3
     },
     "rnk": {
-      "lg": "7",
-      "cf": "7",
+      "lg": "6",
+      "cf": "6",
       "dv": "2",
-      "clinch": ""
-    }
-  },
-  {
-    "team": {
-      "id": "TOR",
-      "city": "Toronto",
-      "nick": "Blue Jays",
-      "full": "Toronto Blue Jays",
-      "div": {
-        "id": "american-league-east",
-        "name": "American League East"
-      },
-      "conf": {
-        "id": "american-league",
-        "name": "American League"
-      }
-    },
-    "stats": {
-      "gp": 9,
-      "w": 4,
-      "l": 5,
-      "gb_div": "3.0",
-      "gb_wc": "-",
-      "pct": ".444",
-      "stk": "L4",
-      "rf": 34,
-      "ra": 42,
-      "rd": -8
-    },
-    "rnk": {
-      "lg": "5",
-      "cf": "5",
-      "dv": "3",
       "clinch": ""
     }
   },
@@ -117,20 +83,54 @@
       }
     },
     "stats": {
-      "gp": 9,
-      "w": 3,
+      "gp": 10,
+      "w": 4,
       "l": 6,
-      "gb_div": "4.0",
+      "gb_div": "3.5",
       "gb_wc": "1.0",
-      "pct": ".333",
-      "stk": "L3",
-      "rf": 34,
-      "ra": 43,
-      "rd": -9
+      "pct": ".400",
+      "stk": "W1",
+      "rf": 36,
+      "ra": 44,
+      "rd": -8
     },
     "rnk": {
-      "lg": "13",
-      "cf": "13",
+      "lg": "9",
+      "cf": "9",
+      "dv": "3",
+      "clinch": ""
+    }
+  },
+  {
+    "team": {
+      "id": "TOR",
+      "city": "Toronto",
+      "nick": "Blue Jays",
+      "full": "Toronto Blue Jays",
+      "div": {
+        "id": "american-league-east",
+        "name": "American League East"
+      },
+      "conf": {
+        "id": "american-league",
+        "name": "American League"
+      }
+    },
+    "stats": {
+      "gp": 10,
+      "w": 4,
+      "l": 6,
+      "gb_div": "3.5",
+      "gb_wc": "1.0",
+      "pct": ".400",
+      "stk": "L5",
+      "rf": 36,
+      "ra": 56,
+      "rd": -20
+    },
+    "rnk": {
+      "lg": "8",
+      "cf": "8",
       "dv": "4",
       "clinch": ""
     }
@@ -151,16 +151,16 @@
       }
     },
     "stats": {
-      "gp": 9,
+      "gp": 10,
       "w": 2,
-      "l": 7,
-      "gb_div": "5.0",
-      "gb_wc": "2.0",
-      "pct": ".222",
-      "stk": "L2",
-      "rf": 30,
-      "ra": 45,
-      "rd": -15
+      "l": 8,
+      "gb_div": "5.5",
+      "gb_wc": "3.0",
+      "pct": ".200",
+      "stk": "L3",
+      "rf": 36,
+      "ra": 53,
+      "rd": -17
     },
     "rnk": {
       "lg": "15",

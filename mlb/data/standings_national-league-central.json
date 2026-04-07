@@ -15,55 +15,21 @@
       }
     },
     "stats": {
-      "gp": 9,
-      "w": 7,
+      "gp": 10,
+      "w": 8,
       "l": 2,
       "gb_div": "-",
       "gb_wc": "-",
-      "pct": ".778",
-      "stk": "W1",
-      "rf": 60,
-      "ra": 32,
-      "rd": 28
+      "pct": ".800",
+      "stk": "W2",
+      "rf": 68,
+      "ra": 38,
+      "rd": 30
     },
     "rnk": {
       "lg": "1",
       "cf": "1",
       "dv": "1",
-      "clinch": ""
-    }
-  },
-  {
-    "team": {
-      "id": "PIT",
-      "city": "Pittsburgh",
-      "nick": "Pirates",
-      "full": "Pittsburgh Pirates",
-      "div": {
-        "id": "national-league-central",
-        "name": "National League Central"
-      },
-      "conf": {
-        "id": "national-league",
-        "name": "National League"
-      }
-    },
-    "stats": {
-      "gp": 9,
-      "w": 6,
-      "l": 3,
-      "gb_div": "1.0",
-      "gb_wc": "+0.5",
-      "pct": ".667",
-      "stk": "W5",
-      "rf": 45,
-      "ra": 34,
-      "rd": 11
-    },
-    "rnk": {
-      "lg": "4",
-      "cf": "4",
-      "dv": "2",
       "clinch": ""
     }
   },
@@ -83,20 +49,54 @@
       }
     },
     "stats": {
-      "gp": 9,
-      "w": 6,
+      "gp": 10,
+      "w": 7,
       "l": 3,
       "gb_div": "1.0",
-      "gb_wc": "+0.5",
-      "pct": ".667",
-      "stk": "W3",
-      "rf": 26,
+      "gb_wc": "+1.0",
+      "pct": ".700",
+      "stk": "W4",
+      "rf": 28,
       "ra": 30,
-      "rd": -4
+      "rd": -2
     },
     "rnk": {
-      "lg": "5",
-      "cf": "5",
+      "lg": "3",
+      "cf": "3",
+      "dv": "2",
+      "clinch": ""
+    }
+  },
+  {
+    "team": {
+      "id": "PIT",
+      "city": "Pittsburgh",
+      "nick": "Pirates",
+      "full": "Pittsburgh Pirates",
+      "div": {
+        "id": "national-league-central",
+        "name": "National League Central"
+      },
+      "conf": {
+        "id": "national-league",
+        "name": "National League"
+      }
+    },
+    "stats": {
+      "gp": 10,
+      "w": 6,
+      "l": 4,
+      "gb_div": "2.0",
+      "gb_wc": "-",
+      "pct": ".600",
+      "stk": "L1",
+      "rf": 45,
+      "ra": 39,
+      "rd": 6
+    },
+    "rnk": {
+      "lg": "7",
+      "cf": "7",
       "dv": "3",
       "clinch": ""
     }
@@ -117,20 +117,20 @@
       }
     },
     "stats": {
-      "gp": 9,
+      "gp": 10,
       "w": 5,
-      "l": 4,
-      "gb_div": "2.0",
-      "gb_wc": "0.5",
-      "pct": ".556",
-      "stk": "W1",
-      "rf": 40,
-      "ra": 46,
-      "rd": -6
+      "l": 5,
+      "gb_div": "3.0",
+      "gb_wc": "1.0",
+      "pct": ".500",
+      "stk": "L1",
+      "rf": 46,
+      "ra": 55,
+      "rd": -9
     },
     "rnk": {
-      "lg": "8",
-      "cf": "8",
+      "lg": "9",
+      "cf": "9",
       "dv": "4",
       "clinch": ""
     }
@@ -151,20 +151,20 @@
       }
     },
     "stats": {
-      "gp": 9,
+      "gp": 10,
       "w": 4,
-      "l": 5,
-      "gb_div": "3.0",
-      "gb_wc": "1.5",
-      "pct": ".444",
-      "stk": "L1",
-      "rf": 37,
-      "ra": 34,
-      "rd": 3
+      "l": 6,
+      "gb_div": "4.0",
+      "gb_wc": "2.0",
+      "pct": ".400",
+      "stk": "L2",
+      "rf": 41,
+      "ra": 40,
+      "rd": 1
     },
     "rnk": {
-      "lg": "11",
-      "cf": "11",
+      "lg": "12",
+      "cf": "12",
       "dv": "5",
       "clinch": ""
     }
