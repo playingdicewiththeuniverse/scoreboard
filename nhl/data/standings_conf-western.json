@@ -246,41 +246,6 @@
   },
   {
     "team": {
-      "id": "NSH",
-      "city": "Nashville",
-      "nick": "Predators",
-      "full": "Nashville Predators",
-      "div": {
-        "id": "div-central",
-        "name": "Central Division"
-      },
-      "conf": {
-        "id": "conf-western",
-        "name": "Western Conference"
-      }
-    },
-    "stats": {
-      "gp": 76,
-      "w": 36,
-      "l": 31,
-      "t": 0,
-      "otl": 9,
-      "pts": 81,
-      "pct": 0.53289,
-      "stk": "W2",
-      "gf": 231,
-      "ga": 253,
-      "gd": -22
-    },
-    "rnk": {
-      "lg": 21,
-      "cf": 8,
-      "dv": 5,
-      "wc": 2
-    }
-  },
-  {
-    "team": {
       "id": "LAK",
       "city": "Los Angeles",
       "nick": "Kings",
@@ -295,22 +260,57 @@
       }
     },
     "stats": {
-      "gp": 76,
-      "w": 31,
+      "gp": 77,
+      "w": 32,
       "l": 26,
       "t": 0,
       "otl": 19,
-      "pts": 81,
-      "pct": 0.53289,
-      "stk": "W1",
-      "gf": 208,
-      "ga": 234,
-      "gd": -26
+      "pts": 83,
+      "pct": 0.53896,
+      "stk": "W2",
+      "gf": 211,
+      "ga": 236,
+      "gd": -25
+    },
+    "rnk": {
+      "lg": 21,
+      "cf": 8,
+      "dv": 4,
+      "wc": 2
+    }
+  },
+  {
+    "team": {
+      "id": "NSH",
+      "city": "Nashville",
+      "nick": "Predators",
+      "full": "Nashville Predators",
+      "div": {
+        "id": "div-central",
+        "name": "Central Division"
+      },
+      "conf": {
+        "id": "conf-western",
+        "name": "Western Conference"
+      }
+    },
+    "stats": {
+      "gp": 77,
+      "w": 36,
+      "l": 31,
+      "t": 0,
+      "otl": 10,
+      "pts": 82,
+      "pct": 0.53247,
+      "stk": "OT1",
+      "gf": 233,
+      "ga": 256,
+      "gd": -23
     },
     "rnk": {
       "lg": 22,
       "cf": 9,
-      "dv": 4,
+      "dv": 5,
       "wc": 3
     }
   },
@@ -330,23 +330,58 @@
       }
     },
     "stats": {
-      "gp": 75,
-      "w": 36,
+      "gp": 76,
+      "w": 37,
       "l": 32,
       "t": 0,
       "otl": 7,
-      "pts": 79,
-      "pct": 0.52667,
-      "stk": "L1",
-      "gf": 231,
-      "ga": 267,
-      "gd": -36
+      "pts": 81,
+      "pct": 0.53289,
+      "stk": "W1",
+      "gf": 234,
+      "ga": 269,
+      "gd": -35
     },
     "rnk": {
       "lg": 23,
       "cf": 10,
       "dv": 5,
       "wc": 4
+    }
+  },
+  {
+    "team": {
+      "id": "WPG",
+      "city": "Winnipeg",
+      "nick": "Jets",
+      "full": "Winnipeg Jets",
+      "div": {
+        "id": "div-central",
+        "name": "Central Division"
+      },
+      "conf": {
+        "id": "conf-western",
+        "name": "Western Conference"
+      }
+    },
+    "stats": {
+      "gp": 77,
+      "w": 34,
+      "l": 31,
+      "t": 0,
+      "otl": 12,
+      "pts": 80,
+      "pct": 0.51948,
+      "stk": "W2",
+      "gf": 221,
+      "ga": 234,
+      "gd": -13
+    },
+    "rnk": {
+      "lg": 24,
+      "cf": 11,
+      "dv": 6,
+      "wc": 5
     }
   },
   {
@@ -378,41 +413,6 @@
       "gd": -33
     },
     "rnk": {
-      "lg": 24,
-      "cf": 11,
-      "dv": 6,
-      "wc": 5
-    }
-  },
-  {
-    "team": {
-      "id": "WPG",
-      "city": "Winnipeg",
-      "nick": "Jets",
-      "full": "Winnipeg Jets",
-      "div": {
-        "id": "div-central",
-        "name": "Central Division"
-      },
-      "conf": {
-        "id": "conf-western",
-        "name": "Western Conference"
-      }
-    },
-    "stats": {
-      "gp": 76,
-      "w": 33,
-      "l": 31,
-      "t": 0,
-      "otl": 12,
-      "pts": 78,
-      "pct": 0.51316,
-      "stk": "W1",
-      "gf": 215,
-      "ga": 232,
-      "gd": -17
-    },
-    "rnk": {
       "lg": 25,
       "cf": 12,
       "dv": 7,
@@ -435,17 +435,17 @@
       }
     },
     "stats": {
-      "gp": 75,
+      "gp": 76,
       "w": 32,
-      "l": 32,
+      "l": 33,
       "t": 0,
       "otl": 11,
       "pts": 75,
-      "pct": 0.5,
-      "stk": "L3",
-      "gf": 210,
-      "ga": 237,
-      "gd": -27
+      "pct": 0.49342,
+      "stk": "L4",
+      "gf": 212,
+      "ga": 243,
+      "gd": -31
     },
     "rnk": {
       "lg": 28,
@@ -505,17 +505,17 @@
       }
     },
     "stats": {
-      "gp": 77,
+      "gp": 78,
       "w": 28,
-      "l": 35,
+      "l": 36,
       "t": 0,
       "otl": 14,
       "pts": 70,
-      "pct": 0.45455,
-      "stk": "W1",
-      "gf": 200,
-      "ga": 253,
-      "gd": -53
+      "pct": 0.44872,
+      "stk": "L1",
+      "gf": 202,
+      "ga": 256,
+      "gd": -54
     },
     "rnk": {
       "lg": 31,
