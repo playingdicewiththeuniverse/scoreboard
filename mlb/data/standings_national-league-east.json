@@ -1,40 +1,6 @@
 [
   {
     "team": {
-      "id": "NYM",
-      "city": "New York",
-      "nick": "Mets",
-      "full": "New York Mets",
-      "div": {
-        "id": "national-league-east",
-        "name": "National League East"
-      },
-      "conf": {
-        "id": "national-league",
-        "name": "National League"
-      }
-    },
-    "stats": {
-      "gp": 11,
-      "w": 7,
-      "l": 4,
-      "gb_div": "-",
-      "gb_wc": "-",
-      "pct": ".636",
-      "stk": "W4",
-      "rf": 53,
-      "ra": 35,
-      "rd": 18
-    },
-    "rnk": {
-      "lg": "4",
-      "cf": "4",
-      "dv": "1",
-      "clinch": ""
-    }
-  },
-  {
-    "team": {
       "id": "ATL",
       "city": "Atlanta",
       "nick": "Braves",
@@ -49,55 +15,21 @@
       }
     },
     "stats": {
-      "gp": 12,
-      "w": 7,
+      "gp": 13,
+      "w": 8,
       "l": 5,
-      "gb_div": "0.5",
+      "gb_div": "-",
       "gb_wc": "-",
-      "pct": ".583",
-      "stk": "W1",
-      "rf": 58,
-      "ra": 30,
-      "rd": 28
+      "pct": ".615",
+      "stk": "W2",
+      "rf": 66,
+      "ra": 32,
+      "rd": 34
     },
     "rnk": {
-      "lg": "6",
-      "cf": "6",
-      "dv": "2",
-      "clinch": ""
-    }
-  },
-  {
-    "team": {
-      "id": "PHI",
-      "city": "Philadelphia",
-      "nick": "Phillies",
-      "full": "Philadelphia Phillies",
-      "div": {
-        "id": "national-league-east",
-        "name": "National League East"
-      },
-      "conf": {
-        "id": "national-league",
-        "name": "National League"
-      }
-    },
-    "stats": {
-      "gp": 11,
-      "w": 6,
-      "l": 5,
-      "gb_div": "1.0",
-      "gb_wc": "0.5",
-      "pct": ".545",
-      "stk": "L1",
-      "rf": 42,
-      "ra": 52,
-      "rd": -10
-    },
-    "rnk": {
-      "lg": "9",
-      "cf": "9",
-      "dv": "3",
+      "lg": "4",
+      "cf": "4",
+      "dv": "1",
       "clinch": ""
     }
   },
@@ -117,20 +49,88 @@
       }
     },
     "stats": {
-      "gp": 11,
-      "w": 6,
+      "gp": 12,
+      "w": 7,
       "l": 5,
-      "gb_div": "1.0",
-      "gb_wc": "0.5",
-      "pct": ".545",
-      "stk": "L2",
-      "rf": 52,
-      "ra": 49,
-      "rd": 3
+      "gb_div": "0.5",
+      "gb_wc": "-",
+      "pct": ".583",
+      "stk": "W1",
+      "rf": 59,
+      "ra": 53,
+      "rd": 6
     },
     "rnk": {
-      "lg": "8",
-      "cf": "8",
+      "lg": "6",
+      "cf": "6",
+      "dv": "2",
+      "clinch": ""
+    }
+  },
+  {
+    "team": {
+      "id": "NYM",
+      "city": "New York",
+      "nick": "Mets",
+      "full": "New York Mets",
+      "div": {
+        "id": "national-league-east",
+        "name": "National League East"
+      },
+      "conf": {
+        "id": "national-league",
+        "name": "National League"
+      }
+    },
+    "stats": {
+      "gp": 12,
+      "w": 7,
+      "l": 5,
+      "gb_div": "0.5",
+      "gb_wc": "-",
+      "pct": ".583",
+      "stk": "L1",
+      "rf": 55,
+      "ra": 42,
+      "rd": 13
+    },
+    "rnk": {
+      "lg": "7",
+      "cf": "7",
+      "dv": "3",
+      "clinch": ""
+    }
+  },
+  {
+    "team": {
+      "id": "PHI",
+      "city": "Philadelphia",
+      "nick": "Phillies",
+      "full": "Philadelphia Phillies",
+      "div": {
+        "id": "national-league-east",
+        "name": "National League East"
+      },
+      "conf": {
+        "id": "national-league",
+        "name": "National League"
+      }
+    },
+    "stats": {
+      "gp": 12,
+      "w": 6,
+      "l": 6,
+      "gb_div": "1.5",
+      "gb_wc": "1.0",
+      "pct": ".500",
+      "stk": "L2",
+      "rf": 42,
+      "ra": 57,
+      "rd": -15
+    },
+    "rnk": {
+      "lg": "12",
+      "cf": "12",
       "dv": "4",
       "clinch": ""
     }
@@ -151,20 +151,20 @@
       }
     },
     "stats": {
-      "gp": 11,
+      "gp": 12,
       "w": 4,
-      "l": 7,
-      "gb_div": "3.0",
-      "gb_wc": "2.5",
-      "pct": ".364",
-      "stk": "L1",
-      "rf": 70,
-      "ra": 72,
-      "rd": -2
+      "l": 8,
+      "gb_div": "3.5",
+      "gb_wc": "3.0",
+      "pct": ".333",
+      "stk": "L2",
+      "rf": 71,
+      "ra": 78,
+      "rd": -7
     },
     "rnk": {
-      "lg": "14",
-      "cf": "14",
+      "lg": "15",
+      "cf": "15",
       "dv": "5",
       "clinch": ""
     }
