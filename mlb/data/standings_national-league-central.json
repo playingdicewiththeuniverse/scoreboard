@@ -1,40 +1,6 @@
 [
   {
     "team": {
-      "id": "CIN",
-      "city": "Cincinnati",
-      "nick": "Reds",
-      "full": "Cincinnati Reds",
-      "div": {
-        "id": "national-league-central",
-        "name": "National League Central"
-      },
-      "conf": {
-        "id": "national-league",
-        "name": "National League"
-      }
-    },
-    "stats": {
-      "gp": 12,
-      "w": 8,
-      "l": 4,
-      "gb_div": "-",
-      "gb_wc": "-",
-      "pct": ".667",
-      "stk": "L1",
-      "rf": 38,
-      "ra": 40,
-      "rd": -2
-    },
-    "rnk": {
-      "lg": "3",
-      "cf": "3",
-      "dv": "1",
-      "clinch": ""
-    }
-  },
-  {
-    "team": {
       "id": "MIL",
       "city": "Milwaukee",
       "nick": "Brewers",
@@ -53,7 +19,7 @@
       "w": 8,
       "l": 4,
       "gb_div": "-",
-      "gb_wc": "+1.0",
+      "gb_wc": "-",
       "pct": ".667",
       "stk": "L2",
       "rf": 70,
@@ -63,6 +29,40 @@
     "rnk": {
       "lg": "2",
       "cf": "2",
+      "dv": "1",
+      "clinch": ""
+    }
+  },
+  {
+    "team": {
+      "id": "CIN",
+      "city": "Cincinnati",
+      "nick": "Reds",
+      "full": "Cincinnati Reds",
+      "div": {
+        "id": "national-league-central",
+        "name": "National League Central"
+      },
+      "conf": {
+        "id": "national-league",
+        "name": "National League"
+      }
+    },
+    "stats": {
+      "gp": 13,
+      "w": 8,
+      "l": 5,
+      "gb_div": "0.5",
+      "gb_wc": "+0.5",
+      "pct": ".615",
+      "stk": "L2",
+      "rf": 39,
+      "ra": 48,
+      "rd": -9
+    },
+    "rnk": {
+      "lg": "5",
+      "cf": "5",
       "dv": "2",
       "clinch": ""
     }
@@ -95,8 +95,8 @@
       "rd": 6
     },
     "rnk": {
-      "lg": "8",
-      "cf": "8",
+      "lg": "7",
+      "cf": "7",
       "dv": "3",
       "clinch": ""
     }
@@ -129,8 +129,8 @@
       "rd": -3
     },
     "rnk": {
-      "lg": "5",
-      "cf": "5",
+      "lg": "6",
+      "cf": "6",
       "dv": "4",
       "clinch": ""
     }
@@ -163,8 +163,8 @@
       "rd": 12
     },
     "rnk": {
-      "lg": "9",
-      "cf": "9",
+      "lg": "11",
+      "cf": "11",
       "dv": "5",
       "clinch": ""
     }

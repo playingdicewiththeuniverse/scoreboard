@@ -18,7 +18,7 @@
     "w": 8,
     "l": 4,
     "gb_div": "-",
-    "gb_wc": "+1.0",
+    "gb_wc": "-",
     "pct": ".667",
     "stk": "L2",
     "rf": 70,
@@ -28,7 +28,7 @@
   "rnk": {
     "lg": "2",
     "cf": "2",
-    "dv": "2",
+    "dv": "1",
     "clinch": ""
   },
   "games": {
@@ -51,7 +51,7 @@
             "gp": 12,
             "w": 4,
             "l": 8,
-            "gb_div": "4.5",
+            "gb_div": "4.0",
             "gb_wc": "1.5",
             "pct": ".333",
             "stk": "W2",
@@ -79,7 +79,7 @@
             "gp": 12,
             "w": 4,
             "l": 8,
-            "gb_div": "4.5",
+            "gb_div": "4.0",
             "gb_wc": "1.5",
             "pct": ".333",
             "stk": "W2",
@@ -107,7 +107,7 @@
             "gp": 12,
             "w": 4,
             "l": 8,
-            "gb_div": "4.5",
+            "gb_div": "4.0",
             "gb_wc": "1.5",
             "pct": ".333",
             "stk": "W2",
@@ -221,7 +221,7 @@
             "gp": 12,
             "w": 5,
             "l": 7,
-            "gb_div": "3.5",
+            "gb_div": "3.0",
             "gb_wc": "0.5",
             "pct": ".417",
             "stk": "W1",
@@ -235,40 +235,6 @@
   },
   "standings": {
     "division": [
-      {
-        "team": {
-          "id": "CIN",
-          "city": "Cincinnati",
-          "nick": "Reds",
-          "full": "Cincinnati Reds",
-          "div": {
-            "id": "national-league-central",
-            "name": "National League Central"
-          },
-          "conf": {
-            "id": "national-league",
-            "name": "National League"
-          }
-        },
-        "stats": {
-          "gp": 12,
-          "w": 8,
-          "l": 4,
-          "gb_div": "-",
-          "gb_wc": "-",
-          "pct": ".667",
-          "stk": "L1",
-          "rf": 38,
-          "ra": 40,
-          "rd": -2
-        },
-        "rnk": {
-          "lg": "3",
-          "cf": "3",
-          "dv": "1",
-          "clinch": ""
-        }
-      },
       {
         "team": {
           "id": "MIL",
@@ -289,7 +255,7 @@
           "w": 8,
           "l": 4,
           "gb_div": "-",
-          "gb_wc": "+1.0",
+          "gb_wc": "-",
           "pct": ".667",
           "stk": "L2",
           "rf": 70,
@@ -299,6 +265,40 @@
         "rnk": {
           "lg": "2",
           "cf": "2",
+          "dv": "1",
+          "clinch": ""
+        }
+      },
+      {
+        "team": {
+          "id": "CIN",
+          "city": "Cincinnati",
+          "nick": "Reds",
+          "full": "Cincinnati Reds",
+          "div": {
+            "id": "national-league-central",
+            "name": "National League Central"
+          },
+          "conf": {
+            "id": "national-league",
+            "name": "National League"
+          }
+        },
+        "stats": {
+          "gp": 13,
+          "w": 8,
+          "l": 5,
+          "gb_div": "0.5",
+          "gb_wc": "+0.5",
+          "pct": ".615",
+          "stk": "L2",
+          "rf": 39,
+          "ra": 48,
+          "rd": -9
+        },
+        "rnk": {
+          "lg": "5",
+          "cf": "5",
           "dv": "2",
           "clinch": ""
         }
@@ -331,8 +331,8 @@
           "rd": 6
         },
         "rnk": {
-          "lg": "8",
-          "cf": "8",
+          "lg": "7",
+          "cf": "7",
           "dv": "3",
           "clinch": ""
         }
@@ -365,8 +365,8 @@
           "rd": -3
         },
         "rnk": {
-          "lg": "5",
-          "cf": "5",
+          "lg": "6",
+          "cf": "6",
           "dv": "4",
           "clinch": ""
         }
@@ -399,14 +399,48 @@
           "rd": 12
         },
         "rnk": {
-          "lg": "9",
-          "cf": "9",
+          "lg": "11",
+          "cf": "11",
           "dv": "5",
           "clinch": ""
         }
       }
     ],
     "conference": [
+      {
+        "team": {
+          "id": "MIA",
+          "city": "Miami",
+          "nick": "Marlins",
+          "full": "Miami Marlins",
+          "div": {
+            "id": "national-league-east",
+            "name": "National League East"
+          },
+          "conf": {
+            "id": "national-league",
+            "name": "National League"
+          }
+        },
+        "stats": {
+          "gp": 13,
+          "w": 8,
+          "l": 5,
+          "gb_div": "-",
+          "gb_wc": "-",
+          "pct": ".615",
+          "stk": "W2",
+          "rf": 67,
+          "ra": 54,
+          "rd": 13
+        },
+        "rnk": {
+          "lg": "4",
+          "cf": "4",
+          "dv": "1",
+          "clinch": ""
+        }
+      },
       {
         "team": {
           "id": "ATL",
@@ -427,7 +461,7 @@
           "w": 8,
           "l": 5,
           "gb_div": "-",
-          "gb_wc": "-",
+          "gb_wc": "+0.5",
           "pct": ".615",
           "stk": "W2",
           "rf": 66,
@@ -435,42 +469,8 @@
           "rd": 34
         },
         "rnk": {
-          "lg": "4",
-          "cf": "4",
-          "dv": "1",
-          "clinch": ""
-        }
-      },
-      {
-        "team": {
-          "id": "MIA",
-          "city": "Miami",
-          "nick": "Marlins",
-          "full": "Miami Marlins",
-          "div": {
-            "id": "national-league-east",
-            "name": "National League East"
-          },
-          "conf": {
-            "id": "national-league",
-            "name": "National League"
-          }
-        },
-        "stats": {
-          "gp": 12,
-          "w": 7,
-          "l": 5,
-          "gb_div": "0.5",
-          "gb_wc": "-",
-          "pct": ".583",
-          "stk": "W1",
-          "rf": 59,
-          "ra": 53,
-          "rd": 6
-        },
-        "rnk": {
-          "lg": "6",
-          "cf": "6",
+          "lg": "3",
+          "cf": "3",
           "dv": "2",
           "clinch": ""
         }
@@ -491,20 +491,20 @@
           }
         },
         "stats": {
-          "gp": 12,
+          "gp": 13,
           "w": 7,
-          "l": 5,
-          "gb_div": "0.5",
-          "gb_wc": "-",
-          "pct": ".583",
-          "stk": "L1",
-          "rf": 55,
-          "ra": 42,
-          "rd": 13
+          "l": 6,
+          "gb_div": "1.0",
+          "gb_wc": "0.5",
+          "pct": ".538",
+          "stk": "L2",
+          "rf": 56,
+          "ra": 49,
+          "rd": 7
         },
         "rnk": {
-          "lg": "7",
-          "cf": "7",
+          "lg": "9",
+          "cf": "9",
           "dv": "3",
           "clinch": ""
         }
@@ -579,40 +579,6 @@
       },
       {
         "team": {
-          "id": "CIN",
-          "city": "Cincinnati",
-          "nick": "Reds",
-          "full": "Cincinnati Reds",
-          "div": {
-            "id": "national-league-central",
-            "name": "National League Central"
-          },
-          "conf": {
-            "id": "national-league",
-            "name": "National League"
-          }
-        },
-        "stats": {
-          "gp": 12,
-          "w": 8,
-          "l": 4,
-          "gb_div": "-",
-          "gb_wc": "-",
-          "pct": ".667",
-          "stk": "L1",
-          "rf": 38,
-          "ra": 40,
-          "rd": -2
-        },
-        "rnk": {
-          "lg": "3",
-          "cf": "3",
-          "dv": "1",
-          "clinch": ""
-        }
-      },
-      {
-        "team": {
           "id": "MIL",
           "city": "Milwaukee",
           "nick": "Brewers",
@@ -631,7 +597,7 @@
           "w": 8,
           "l": 4,
           "gb_div": "-",
-          "gb_wc": "+1.0",
+          "gb_wc": "-",
           "pct": ".667",
           "stk": "L2",
           "rf": 70,
@@ -641,6 +607,40 @@
         "rnk": {
           "lg": "2",
           "cf": "2",
+          "dv": "1",
+          "clinch": ""
+        }
+      },
+      {
+        "team": {
+          "id": "CIN",
+          "city": "Cincinnati",
+          "nick": "Reds",
+          "full": "Cincinnati Reds",
+          "div": {
+            "id": "national-league-central",
+            "name": "National League Central"
+          },
+          "conf": {
+            "id": "national-league",
+            "name": "National League"
+          }
+        },
+        "stats": {
+          "gp": 13,
+          "w": 8,
+          "l": 5,
+          "gb_div": "0.5",
+          "gb_wc": "+0.5",
+          "pct": ".615",
+          "stk": "L2",
+          "rf": 39,
+          "ra": 48,
+          "rd": -9
+        },
+        "rnk": {
+          "lg": "5",
+          "cf": "5",
           "dv": "2",
           "clinch": ""
         }
@@ -673,8 +673,8 @@
           "rd": 6
         },
         "rnk": {
-          "lg": "8",
-          "cf": "8",
+          "lg": "7",
+          "cf": "7",
           "dv": "3",
           "clinch": ""
         }
@@ -707,8 +707,8 @@
           "rd": -3
         },
         "rnk": {
-          "lg": "5",
-          "cf": "5",
+          "lg": "6",
+          "cf": "6",
           "dv": "4",
           "clinch": ""
         }
@@ -741,8 +741,8 @@
           "rd": 12
         },
         "rnk": {
-          "lg": "9",
-          "cf": "9",
+          "lg": "11",
+          "cf": "11",
           "dv": "5",
           "clinch": ""
         }
@@ -797,20 +797,20 @@
           }
         },
         "stats": {
-          "gp": 12,
-          "w": 6,
+          "gp": 13,
+          "w": 7,
           "l": 6,
-          "gb_div": "3.0",
-          "gb_wc": "1.0",
-          "pct": ".500",
-          "stk": "W1",
-          "rf": 46,
-          "ra": 48,
-          "rd": -2
+          "gb_div": "2.5",
+          "gb_wc": "0.5",
+          "pct": ".538",
+          "stk": "W2",
+          "rf": 53,
+          "ra": 51,
+          "rd": 2
         },
         "rnk": {
-          "lg": "11",
-          "cf": "11",
+          "lg": "10",
+          "cf": "10",
           "dv": "2",
           "clinch": ""
         }
@@ -831,20 +831,20 @@
           }
         },
         "stats": {
-          "gp": 12,
-          "w": 6,
+          "gp": 13,
+          "w": 7,
           "l": 6,
-          "gb_div": "3.0",
-          "gb_wc": "1.0",
-          "pct": ".500",
-          "stk": "W1",
-          "rf": 45,
-          "ra": 58,
-          "rd": -13
+          "gb_div": "2.5",
+          "gb_wc": "0.5",
+          "pct": ".538",
+          "stk": "W2",
+          "rf": 52,
+          "ra": 59,
+          "rd": -7
         },
         "rnk": {
-          "lg": "10",
-          "cf": "10",
+          "lg": "8",
+          "cf": "8",
           "dv": "3",
           "clinch": ""
         }
@@ -865,16 +865,16 @@
           }
         },
         "stats": {
-          "gp": 12,
+          "gp": 13,
           "w": 6,
-          "l": 6,
-          "gb_div": "3.0",
-          "gb_wc": "1.0",
-          "pct": ".500",
-          "stk": "W4",
-          "rf": 53,
-          "ra": 43,
-          "rd": 10
+          "l": 7,
+          "gb_div": "3.5",
+          "gb_wc": "1.5",
+          "pct": ".462",
+          "stk": "L1",
+          "rf": 56,
+          "ra": 50,
+          "rd": 6
         },
         "rnk": {
           "lg": "13",

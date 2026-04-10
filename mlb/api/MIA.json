@@ -14,53 +14,25 @@
     }
   },
   "stats": {
-    "gp": 12,
-    "w": 7,
+    "gp": 13,
+    "w": 8,
     "l": 5,
-    "gb_div": "0.5",
+    "gb_div": "-",
     "gb_wc": "-",
-    "pct": ".583",
-    "stk": "W1",
-    "rf": 59,
-    "ra": 53,
-    "rd": 6
+    "pct": ".615",
+    "stk": "W2",
+    "rf": 67,
+    "ra": 54,
+    "rd": 13
   },
   "rnk": {
-    "lg": "6",
-    "cf": "6",
-    "dv": "2",
+    "lg": "4",
+    "cf": "4",
+    "dv": "1",
     "clinch": ""
   },
   "games": {
     "past": [
-      {
-        "game_id": "20260406-MIA-CIN-1",
-        "game_time_utc": "2026-04-06 22:40:00+00:00",
-        "game_date": "2026-04-06",
-        "final": "Final",
-        "outcome": "loss",
-        "location": "Home",
-        "score": [
-          0,
-          2
-        ],
-        "opponent": {
-          "id": "CIN",
-          "name": "Cincinnati Reds",
-          "stats": {
-            "gp": 12,
-            "w": 8,
-            "l": 4,
-            "gb_div": "-",
-            "gb_wc": "-",
-            "pct": ".667",
-            "stk": "L1",
-            "rf": 38,
-            "ra": 40,
-            "rd": -2
-          }
-        }
-      },
       {
         "game_id": "20260407-MIA-CIN-1",
         "game_time_utc": "2026-04-07 22:40:00+00:00",
@@ -76,16 +48,16 @@
           "id": "CIN",
           "name": "Cincinnati Reds",
           "stats": {
-            "gp": 12,
+            "gp": 13,
             "w": 8,
-            "l": 4,
-            "gb_div": "-",
-            "gb_wc": "-",
-            "pct": ".667",
-            "stk": "L1",
-            "rf": 38,
-            "ra": 40,
-            "rd": -2
+            "l": 5,
+            "gb_div": "0.5",
+            "gb_wc": "+0.5",
+            "pct": ".615",
+            "stk": "L2",
+            "rf": 39,
+            "ra": 48,
+            "rd": -9
           }
         }
       },
@@ -104,49 +76,49 @@
           "id": "CIN",
           "name": "Cincinnati Reds",
           "stats": {
-            "gp": 12,
+            "gp": 13,
             "w": 8,
-            "l": 4,
-            "gb_div": "-",
-            "gb_wc": "-",
-            "pct": ".667",
-            "stk": "L1",
-            "rf": 38,
-            "ra": 40,
-            "rd": -2
+            "l": 5,
+            "gb_div": "0.5",
+            "gb_wc": "+0.5",
+            "pct": ".615",
+            "stk": "L2",
+            "rf": 39,
+            "ra": 48,
+            "rd": -9
           }
         }
-      }
-    ],
-    "upcoming": [
+      },
       {
         "game_id": "20260409-MIA-CIN-1",
         "game_time_utc": "2026-04-09 16:10:00+00:00",
         "game_date": "2026-04-09",
-        "final": "",
-        "outcome": "upcoming",
+        "final": "Final",
+        "outcome": "win",
         "location": "Home",
         "score": [
-          null,
-          null
+          8,
+          1
         ],
         "opponent": {
           "id": "CIN",
           "name": "Cincinnati Reds",
           "stats": {
-            "gp": 12,
+            "gp": 13,
             "w": 8,
-            "l": 4,
-            "gb_div": "-",
-            "gb_wc": "-",
-            "pct": ".667",
-            "stk": "L1",
-            "rf": 38,
-            "ra": 40,
-            "rd": -2
+            "l": 5,
+            "gb_div": "0.5",
+            "gb_wc": "+0.5",
+            "pct": ".615",
+            "stk": "L2",
+            "rf": 39,
+            "ra": 48,
+            "rd": -9
           }
         }
-      },
+      }
+    ],
+    "upcoming": [
       {
         "game_id": "20260410-DET-MIA-1",
         "game_time_utc": "2026-04-10 22:40:00+00:00",
@@ -162,16 +134,16 @@
           "id": "DET",
           "name": "Detroit Tigers",
           "stats": {
-            "gp": 12,
+            "gp": 13,
             "w": 4,
-            "l": 8,
-            "gb_div": "3.5",
-            "gb_wc": "1.5",
-            "pct": ".333",
-            "stk": "L4",
-            "rf": 53,
-            "ra": 54,
-            "rd": -1
+            "l": 9,
+            "gb_div": "4.0",
+            "gb_wc": "2.0",
+            "pct": ".308",
+            "stk": "L5",
+            "rf": 54,
+            "ra": 57,
+            "rd": -3
           }
         }
       },
@@ -190,16 +162,16 @@
           "id": "DET",
           "name": "Detroit Tigers",
           "stats": {
-            "gp": 12,
+            "gp": 13,
             "w": 4,
-            "l": 8,
-            "gb_div": "3.5",
-            "gb_wc": "1.5",
-            "pct": ".333",
-            "stk": "L4",
-            "rf": 53,
-            "ra": 54,
-            "rd": -1
+            "l": 9,
+            "gb_div": "4.0",
+            "gb_wc": "2.0",
+            "pct": ".308",
+            "stk": "L5",
+            "rf": 54,
+            "ra": 57,
+            "rd": -3
           }
         }
       },
@@ -218,16 +190,44 @@
           "id": "DET",
           "name": "Detroit Tigers",
           "stats": {
-            "gp": 12,
+            "gp": 13,
             "w": 4,
-            "l": 8,
-            "gb_div": "3.5",
-            "gb_wc": "1.5",
-            "pct": ".333",
-            "stk": "L4",
-            "rf": 53,
-            "ra": 54,
-            "rd": -1
+            "l": 9,
+            "gb_div": "4.0",
+            "gb_wc": "2.0",
+            "pct": ".308",
+            "stk": "L5",
+            "rf": 54,
+            "ra": 57,
+            "rd": -3
+          }
+        }
+      },
+      {
+        "game_id": "20260413-ATL-MIA-1",
+        "game_time_utc": "2026-04-13 23:15:00+00:00",
+        "game_date": "2026-04-13",
+        "final": "",
+        "location": "Away",
+        "outcome": "upcoming",
+        "score": [
+          null,
+          null
+        ],
+        "opponent": {
+          "id": "ATL",
+          "name": "Atlanta Braves",
+          "stats": {
+            "gp": 13,
+            "w": 8,
+            "l": 5,
+            "gb_div": "-",
+            "gb_wc": "+0.5",
+            "pct": ".615",
+            "stk": "W2",
+            "rf": 66,
+            "ra": 32,
+            "rd": 34
           }
         }
       }
@@ -235,6 +235,40 @@
   },
   "standings": {
     "division": [
+      {
+        "team": {
+          "id": "MIA",
+          "city": "Miami",
+          "nick": "Marlins",
+          "full": "Miami Marlins",
+          "div": {
+            "id": "national-league-east",
+            "name": "National League East"
+          },
+          "conf": {
+            "id": "national-league",
+            "name": "National League"
+          }
+        },
+        "stats": {
+          "gp": 13,
+          "w": 8,
+          "l": 5,
+          "gb_div": "-",
+          "gb_wc": "-",
+          "pct": ".615",
+          "stk": "W2",
+          "rf": 67,
+          "ra": 54,
+          "rd": 13
+        },
+        "rnk": {
+          "lg": "4",
+          "cf": "4",
+          "dv": "1",
+          "clinch": ""
+        }
+      },
       {
         "team": {
           "id": "ATL",
@@ -255,7 +289,7 @@
           "w": 8,
           "l": 5,
           "gb_div": "-",
-          "gb_wc": "-",
+          "gb_wc": "+0.5",
           "pct": ".615",
           "stk": "W2",
           "rf": 66,
@@ -263,42 +297,8 @@
           "rd": 34
         },
         "rnk": {
-          "lg": "4",
-          "cf": "4",
-          "dv": "1",
-          "clinch": ""
-        }
-      },
-      {
-        "team": {
-          "id": "MIA",
-          "city": "Miami",
-          "nick": "Marlins",
-          "full": "Miami Marlins",
-          "div": {
-            "id": "national-league-east",
-            "name": "National League East"
-          },
-          "conf": {
-            "id": "national-league",
-            "name": "National League"
-          }
-        },
-        "stats": {
-          "gp": 12,
-          "w": 7,
-          "l": 5,
-          "gb_div": "0.5",
-          "gb_wc": "-",
-          "pct": ".583",
-          "stk": "W1",
-          "rf": 59,
-          "ra": 53,
-          "rd": 6
-        },
-        "rnk": {
-          "lg": "6",
-          "cf": "6",
+          "lg": "3",
+          "cf": "3",
           "dv": "2",
           "clinch": ""
         }
@@ -319,20 +319,20 @@
           }
         },
         "stats": {
-          "gp": 12,
+          "gp": 13,
           "w": 7,
-          "l": 5,
-          "gb_div": "0.5",
-          "gb_wc": "-",
-          "pct": ".583",
-          "stk": "L1",
-          "rf": 55,
-          "ra": 42,
-          "rd": 13
+          "l": 6,
+          "gb_div": "1.0",
+          "gb_wc": "0.5",
+          "pct": ".538",
+          "stk": "L2",
+          "rf": 56,
+          "ra": 49,
+          "rd": 7
         },
         "rnk": {
-          "lg": "7",
-          "cf": "7",
+          "lg": "9",
+          "cf": "9",
           "dv": "3",
           "clinch": ""
         }
@@ -409,6 +409,40 @@
     "conference": [
       {
         "team": {
+          "id": "MIA",
+          "city": "Miami",
+          "nick": "Marlins",
+          "full": "Miami Marlins",
+          "div": {
+            "id": "national-league-east",
+            "name": "National League East"
+          },
+          "conf": {
+            "id": "national-league",
+            "name": "National League"
+          }
+        },
+        "stats": {
+          "gp": 13,
+          "w": 8,
+          "l": 5,
+          "gb_div": "-",
+          "gb_wc": "-",
+          "pct": ".615",
+          "stk": "W2",
+          "rf": 67,
+          "ra": 54,
+          "rd": 13
+        },
+        "rnk": {
+          "lg": "4",
+          "cf": "4",
+          "dv": "1",
+          "clinch": ""
+        }
+      },
+      {
+        "team": {
           "id": "ATL",
           "city": "Atlanta",
           "nick": "Braves",
@@ -427,7 +461,7 @@
           "w": 8,
           "l": 5,
           "gb_div": "-",
-          "gb_wc": "-",
+          "gb_wc": "+0.5",
           "pct": ".615",
           "stk": "W2",
           "rf": 66,
@@ -435,42 +469,8 @@
           "rd": 34
         },
         "rnk": {
-          "lg": "4",
-          "cf": "4",
-          "dv": "1",
-          "clinch": ""
-        }
-      },
-      {
-        "team": {
-          "id": "MIA",
-          "city": "Miami",
-          "nick": "Marlins",
-          "full": "Miami Marlins",
-          "div": {
-            "id": "national-league-east",
-            "name": "National League East"
-          },
-          "conf": {
-            "id": "national-league",
-            "name": "National League"
-          }
-        },
-        "stats": {
-          "gp": 12,
-          "w": 7,
-          "l": 5,
-          "gb_div": "0.5",
-          "gb_wc": "-",
-          "pct": ".583",
-          "stk": "W1",
-          "rf": 59,
-          "ra": 53,
-          "rd": 6
-        },
-        "rnk": {
-          "lg": "6",
-          "cf": "6",
+          "lg": "3",
+          "cf": "3",
           "dv": "2",
           "clinch": ""
         }
@@ -491,20 +491,20 @@
           }
         },
         "stats": {
-          "gp": 12,
+          "gp": 13,
           "w": 7,
-          "l": 5,
-          "gb_div": "0.5",
-          "gb_wc": "-",
-          "pct": ".583",
-          "stk": "L1",
-          "rf": 55,
-          "ra": 42,
-          "rd": 13
+          "l": 6,
+          "gb_div": "1.0",
+          "gb_wc": "0.5",
+          "pct": ".538",
+          "stk": "L2",
+          "rf": 56,
+          "ra": 49,
+          "rd": 7
         },
         "rnk": {
-          "lg": "7",
-          "cf": "7",
+          "lg": "9",
+          "cf": "9",
           "dv": "3",
           "clinch": ""
         }
@@ -579,40 +579,6 @@
       },
       {
         "team": {
-          "id": "CIN",
-          "city": "Cincinnati",
-          "nick": "Reds",
-          "full": "Cincinnati Reds",
-          "div": {
-            "id": "national-league-central",
-            "name": "National League Central"
-          },
-          "conf": {
-            "id": "national-league",
-            "name": "National League"
-          }
-        },
-        "stats": {
-          "gp": 12,
-          "w": 8,
-          "l": 4,
-          "gb_div": "-",
-          "gb_wc": "-",
-          "pct": ".667",
-          "stk": "L1",
-          "rf": 38,
-          "ra": 40,
-          "rd": -2
-        },
-        "rnk": {
-          "lg": "3",
-          "cf": "3",
-          "dv": "1",
-          "clinch": ""
-        }
-      },
-      {
-        "team": {
           "id": "MIL",
           "city": "Milwaukee",
           "nick": "Brewers",
@@ -631,7 +597,7 @@
           "w": 8,
           "l": 4,
           "gb_div": "-",
-          "gb_wc": "+1.0",
+          "gb_wc": "-",
           "pct": ".667",
           "stk": "L2",
           "rf": 70,
@@ -641,6 +607,40 @@
         "rnk": {
           "lg": "2",
           "cf": "2",
+          "dv": "1",
+          "clinch": ""
+        }
+      },
+      {
+        "team": {
+          "id": "CIN",
+          "city": "Cincinnati",
+          "nick": "Reds",
+          "full": "Cincinnati Reds",
+          "div": {
+            "id": "national-league-central",
+            "name": "National League Central"
+          },
+          "conf": {
+            "id": "national-league",
+            "name": "National League"
+          }
+        },
+        "stats": {
+          "gp": 13,
+          "w": 8,
+          "l": 5,
+          "gb_div": "0.5",
+          "gb_wc": "+0.5",
+          "pct": ".615",
+          "stk": "L2",
+          "rf": 39,
+          "ra": 48,
+          "rd": -9
+        },
+        "rnk": {
+          "lg": "5",
+          "cf": "5",
           "dv": "2",
           "clinch": ""
         }
@@ -673,8 +673,8 @@
           "rd": 6
         },
         "rnk": {
-          "lg": "8",
-          "cf": "8",
+          "lg": "7",
+          "cf": "7",
           "dv": "3",
           "clinch": ""
         }
@@ -707,8 +707,8 @@
           "rd": -3
         },
         "rnk": {
-          "lg": "5",
-          "cf": "5",
+          "lg": "6",
+          "cf": "6",
           "dv": "4",
           "clinch": ""
         }
@@ -741,8 +741,8 @@
           "rd": 12
         },
         "rnk": {
-          "lg": "9",
-          "cf": "9",
+          "lg": "11",
+          "cf": "11",
           "dv": "5",
           "clinch": ""
         }
@@ -797,20 +797,20 @@
           }
         },
         "stats": {
-          "gp": 12,
-          "w": 6,
+          "gp": 13,
+          "w": 7,
           "l": 6,
-          "gb_div": "3.0",
-          "gb_wc": "1.0",
-          "pct": ".500",
-          "stk": "W1",
-          "rf": 46,
-          "ra": 48,
-          "rd": -2
+          "gb_div": "2.5",
+          "gb_wc": "0.5",
+          "pct": ".538",
+          "stk": "W2",
+          "rf": 53,
+          "ra": 51,
+          "rd": 2
         },
         "rnk": {
-          "lg": "11",
-          "cf": "11",
+          "lg": "10",
+          "cf": "10",
           "dv": "2",
           "clinch": ""
         }
@@ -831,20 +831,20 @@
           }
         },
         "stats": {
-          "gp": 12,
-          "w": 6,
+          "gp": 13,
+          "w": 7,
           "l": 6,
-          "gb_div": "3.0",
-          "gb_wc": "1.0",
-          "pct": ".500",
-          "stk": "W1",
-          "rf": 45,
-          "ra": 58,
-          "rd": -13
+          "gb_div": "2.5",
+          "gb_wc": "0.5",
+          "pct": ".538",
+          "stk": "W2",
+          "rf": 52,
+          "ra": 59,
+          "rd": -7
         },
         "rnk": {
-          "lg": "10",
-          "cf": "10",
+          "lg": "8",
+          "cf": "8",
           "dv": "3",
           "clinch": ""
         }
@@ -865,16 +865,16 @@
           }
         },
         "stats": {
-          "gp": 12,
+          "gp": 13,
           "w": 6,
-          "l": 6,
-          "gb_div": "3.0",
-          "gb_wc": "1.0",
-          "pct": ".500",
-          "stk": "W4",
-          "rf": 53,
-          "ra": 43,
-          "rd": 10
+          "l": 7,
+          "gb_div": "3.5",
+          "gb_wc": "1.5",
+          "pct": ".462",
+          "stk": "L1",
+          "rf": 56,
+          "ra": 50,
+          "rd": 6
         },
         "rnk": {
           "lg": "13",
